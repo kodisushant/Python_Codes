@@ -1,0 +1,57 @@
+ List Comprehensions & Transformation
+
+1.Given nums = [1,2,3,4,5,6,7,8,9,10], use a single comprehension to produce a list where even numbers are squared and odd numbers are cubed.
+
+Expected: [1, 4, 27, 16, 125, 36, 343, 64, 729, 100]
+Given matrix = [[1,2,3],[4,5,6],[7,8,9]], flatten it into a 1D list, then reshape it back into a 3×3 matrix — both using comprehensions.
+
+2.Given words = ['hello', 'world', 'python', 'list'], create a list of tuples (word, length, reversed_word) for each word.
+
+Expected: [('hello',5,'olleh'), ('world',5,'dlrow'), ...]
+
+ Filtering & Partitioning
+
+3.Given nums = [10, 25, 3, 47, 8, 16, 55, 2, 34], partition into two lists — one with numbers divisible by 5, one without — using a single pass (no filter()).
+Given data = [1, 'apple', 3.5, 'banana', 2, 4.1, 'cherry', 7], separate into three lists by type: integers, floats, strings — using isinstance().
+Given pairs = [(1,5),(3,2),(4,4),(7,1),(2,6)], split into two lists: wins where first > second, and draws where first == second.
+
+Expected: wins=[(3,2),(7,1)], draws=[(4,4)]
+
+Aggregation & Statistics
+
+4. Given nums = [4, 7, 2, 9, 1, 5, 8, 3, 6], find: (a) second largest, (b) second smallest — without sorting.
+
+Expected: 8, 2
+Given scores = [85, 92, 78, 95, 88, 72, 91], compute mean, median, and mode using only list operations (no statistics module).
+
+5.Given data = [3, 1, 4, 1, 5, 9, 2, 6, 5, 3, 5], find the frequency of each element and return a sorted list of (element, count) tuples ordered by count descending.
+
+Expected: [(5,3),(1,2),(3,2),(2,1),(4,1),(6,1),(9,1)]
+
+ List Restructuring
+
+6.Given flat = [1,2,3,4,5,6,7,8,9] and n = 3, write a function chunk(lst, n) that splits the list into sublists of size n.
+
+Expected: [[1,2,3],[4,5,6],[7,8,9]]
+
+7.Given lst = [1, 2, 3, 4, 5], generate all contiguous sublists (subarrays).
+
+Expected: [1],[2],[3],[4],[5],[1,2],[2,3],...,[1,2,3,4,5]
+
+8.Given two lists a = [1,3,5,7] and b = [2,4,6,8], merge them in alternating order without using zip.
+
+Expected: [1,2,3,4,5,6,7,8]
+
+ Rotation & Rearrangement
+
+9.Given lst = [1,2,3,4,5] and k = 2, rotate the list to the right by k positions without using slicing tricks — use a loop.
+
+Expected: [4,5,1,2,3]
+
+10.Given lst = [1,2,3,4,5,6], rearrange it so all even numbers come first (in original order), then all odd numbers (in original order).
+
+Expected: [2,4,6,1,3,5]
+
+11.Given lst = [1,2,3,4,5,6,7,8], interleave the first half and second half of the list.
+
+Expected: [1,5,2,6,3,7,4,8]

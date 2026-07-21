@@ -1,0 +1,4 @@
+Total Scores        :7
+Minimum             :54
+Maximum             :99
+Average             :78.57

@@ -1,0 +1,8 @@
+Artificial Intelligence is transforming the world.
+Machine Learning is a subset of AI.
+Deep Learning uses neural networks.
+Python is the most popular language for AI.
+NumPy and Pandas are essential libraries.
+TensorFlow and PyTorch are used for deep learning.
+Data preprocessing is a crucial step.
+Always split your data into train and test sets.
