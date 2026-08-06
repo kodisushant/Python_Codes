@@ -1,0 +1,94 @@
+import os
+def view_theatres(): 
+    contents = os.listdir('C:/Users/susha/Downloads/my python codes/theatre/operation')
+    for i in range(len(contents)): 
+        print(f"{i+1} {contents[i]}")
+    print("3 None")
+    print("Select any theatre by pressing its serial no:")
+    tht_select = int(input())
+    match(tht_select): 
+        case 1:
+            screen_selector(contents[tht_select-1])
+        case 2:
+            screen_selector(contents[tht_select-1])
+        case 3:
+            print("you are exiting,thank you")
+            return None 
+        case _:
+            print("Invalid")
+
+def screen_selector(scr): 
+    screens = os.listdir('C:/Users/susha/Downloads/my python codes/theatre/operation/'+scr)
+    print() 
+    for i in range(len(screens)): 
+        print(f"{screens[i]}")
+    print("None 3")
+    print("Select screen by entering its number:")
+    scr_select = int(input())
+    match(scr_select): 
+        case 1: 
+            show_selector(screens[scr_select-1],scr)
+        case 2: 
+            show_selector(screens[scr_select-1],scr)
+        case 3:
+            print("you are exiting,thank you")
+            return None
+        case _:
+            print("Invalid")
+
+def show_selector(shw,scr): 
+    print()
+    shows = os.listdir('C:/Users/susha/Downloads/my python codes/theatre/operation/'+scr+"/"+shw)
+    for i in range(len(shows)): 
+        print(f"{i+1} {shows[i]}")
+    print("4 NONE")
+    print("Select any show by entering its number:")
+    show_select = int(input())
+    match(show_select): 
+        case 1: 
+            book_seat(shows[show_select-1],shw,scr)
+        case 2: 
+            book_seat(shows[show_select-1],shw,scr)
+        case 3: 
+            book_seat(shows[show_select-1],shw,scr)
+        case 4:
+            print("you are exiting,thank you")
+            return None
+        case _:
+            print("Invalid")
+
+def book_seat(st,shw,scr):
+    os.chdir('C:\\Users\\susha\\Downloads\\my python codes\\theatre\\operation\\'+scr+"\\"+shw+"\\"+st)
+    # print(os.getcwd())
+    print("\n")
+    key = 1
+    count = 0
+    while key:
+        print("The available seats are:")
+        with open("seats.txt","r") as p: 
+            seats = p.read()
+        print(seats)
+        print("\n0=available , X=booked")
+
+        
+        row = int(input("Enter the row number:"))
+        col = int(input("Enter the col number:"))
+        if row <= 0 or row >5 or col<=0 or col>10: 
+            key = 1 
+            continue
+        mat = []
+        rows = seats.strip().split("\n")
+        mat = [r.split() for r in rows]
+
+        if mat[row-1][col-1] == "0":
+            mat[row-1][col-1]="X"
+            count+=1
+        else: 
+            print("sorry the seat is already booked")
+        
+        with open("seats.txt", "w") as p:
+            for r in mat:
+                p.write(" ".join(r) + "\n")
+        key = int(input("Press (any number) to book more seats else Press 0:"))
+    return count
+view_theatres()

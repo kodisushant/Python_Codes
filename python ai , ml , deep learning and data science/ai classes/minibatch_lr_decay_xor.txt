@@ -1,0 +1,274 @@
+
+from math import exp
+from random import random, seed, shuffle
+
+# ----------------------------------------------------
+# Network initialization
+# ----------------------------------------------------
+
+def initialize_network(n_inputs, n_hidden, n_outputs):
+    """
+    Create a simple 2-layer neural network:
+      - hidden layer with n_hidden neurons
+      - output layer with n_outputs neurons
+
+    Each neuron is a dict with:
+      'weights': list of weights (last one is bias)
+    """
+    network = []
+
+    # Hidden layer
+    hidden_layer = []
+    for _ in range(n_hidden):
+        # n_inputs weights + 1 bias
+        weights = [random() for _ in range(n_inputs + 1)]
+        neuron = {'weights': weights}
+        hidden_layer.append(neuron)
+    network.append(hidden_layer)
+
+    # Output layer
+    output_layer = []
+    for _ in range(n_outputs):
+        # n_hidden weights + 1 bias
+        weights = [random() for _ in range(n_hidden + 1)]
+        neuron = {'weights': weights}
+        output_layer.append(neuron)
+    network.append(output_layer)
+
+    return network
+
+# ----------------------------------------------------
+# Forward pass
+# ----------------------------------------------------
+
+def activate(weights, inputs):
+    """Compute weighted sum of inputs + bias."""
+    activation = weights[-1]  # bias
+    for i in range(len(weights) - 1):
+        activation += weights[i] * inputs[i]
+    return activation
+
+def transfer(activation):
+    """Sigmoid activation function."""
+    return 1.0 / (1.0 + exp(-activation))
+
+def forward_propagate(network, row):
+    """
+    Forward propagate the inputs (features only) through the network.
+    Each neuron's output is stored in neuron['output'].
+    """
+    inputs = row
+    for layer in network:
+        new_inputs = []
+        for neuron in layer:
+            activation = activate(neuron['weights'], inputs)
+            neuron['output'] = transfer(activation)
+            new_inputs.append(neuron['output'])
+        inputs = new_inputs
+    return inputs  # outputs from the final layer
+
+# ----------------------------------------------------
+# Backward pass (backpropagation)
+# ----------------------------------------------------
+
+def transfer_derivative(output):
+    """Derivative of sigmoid wrt its output."""
+    return output * (1.0 - output)
+
+def backward_propagate_error(network, expected):
+    """
+    Compute delta for each neuron, starting from the output layer
+    and working backwards to the first hidden layer.
+    """
+    # Traverse layers in reverse (output -> hidden)
+    for i in reversed(range(len(network))):
+        layer = network[i]
+        errors = []
+
+        if i != len(network) - 1:
+            # Hidden layer error: sum over weights * delta from next layer
+            for j in range(len(layer)):
+                error = 0.0
+                for neuron in network[i + 1]:
+                    error += neuron['weights'][j] * neuron['delta']
+                errors.append(error)
+        else:
+            # Output layer error: (output - expected)
+            for j, neuron in enumerate(layer):
+                errors.append(neuron['output'] - expected[j])
+
+        # Compute delta for each neuron in this layer
+        for j, neuron in enumerate(layer):
+            neuron['delta'] = errors[j] * transfer_derivative(neuron['output'])
+
+# ----------------------------------------------------
+# Mini-batch gradient helpers
+# ----------------------------------------------------
+
+def zero_gradients(network):
+    """
+    Create a gradient buffer with the same shape as network weights.
+    grads[i][j][k] corresponds to gradient of weight k in neuron j of layer i.
+    """
+    grads = []
+    for layer in network:
+        layer_grads = []
+        for neuron in layer:
+            layer_grads.append([0.0 for _ in neuron['weights']])
+        grads.append(layer_grads)
+    return grads
+
+def accumulate_gradients(network, row, grads):
+    """
+    After backprop is done for a sample, accumulate the gradients
+    for that sample into the grads buffer.
+    """
+    for i in range(len(network)):
+        # Inputs to this layer
+        if i == 0:
+            # First layer gets original features (exclude label)
+            inputs = row[:-1]
+        else:
+            # Deeper layers get previous layer's outputs
+            inputs = [neuron['output'] for neuron in network[i - 1]]
+
+        layer = network[i]
+        layer_grads = grads[i]
+
+        for n_idx, neuron in enumerate(layer):
+            # For each weight except bias
+            for j in range(len(inputs)):
+                layer_grads[n_idx][j] += neuron['delta'] * inputs[j]
+            # For bias weight, input is treated as 1
+            layer_grads[n_idx][-1] += neuron['delta']
+
+def apply_gradients(network, grads, l_rate, batch_size):
+    """
+    Apply gradient descent update using average gradient per batch:
+      w_ij <- w_ij - l_rate * (grad_ij / batch_size)
+    """
+    for i, layer in enumerate(network):
+        for n_idx, neuron in enumerate(layer):
+            for j in range(len(neuron['weights'])):
+                grad_ij = grads[i][n_idx][j] / float(batch_size)
+                neuron['weights'][j] -= l_rate * grad_ij
+
+# ----------------------------------------------------
+# Training with Mini-Batch + Learning-Rate Decay
+# ----------------------------------------------------
+
+def train_network_minibatch_lr_decay(network, train,
+                                     initial_l_rate, n_epoch,
+                                     n_outputs, batch_size,
+                                     decay):
+    """
+    Train the network with:
+      - Mini-batch gradient descent
+      - Time-based learning rate decay:
+
+        lr_epoch = initial_l_rate / (1 + decay * epoch)
+    """
+    for epoch in range(n_epoch):
+        # Compute decayed learning rate for this epoch
+        current_l_rate = initial_l_rate / (1.0 + decay * epoch)
+
+        sum_error = 0.0
+
+        # Shuffle data each epoch
+        data = list(train)
+        shuffle(data)
+
+        # Process each mini-batch
+        for start in range(0, len(data), batch_size):
+            batch = data[start:start + batch_size]
+            current_batch_size = len(batch)
+
+            # Initialize gradients for this batch
+            grads = zero_gradients(network)
+
+            # Accumulate gradients over all samples in this batch
+            for row in batch:
+                inputs = row[:-1]
+                outputs = forward_propagate(network, inputs)
+
+                # One-hot target
+                expected = [0 for _ in range(n_outputs)]
+                expected[int(row[-1])] = 1
+
+                # Sum error for reporting
+                sum_error += sum(
+                    (expected[i] - outputs[i]) ** 2
+                    for i in range(n_outputs)
+                )
+
+                # Backpropagation to compute deltas
+                backward_propagate_error(network, expected)
+
+                # Accumulate gradients for this sample
+                accumulate_gradients(network, row, grads)
+
+            # After the batch, update weights using decayed learning rate
+            apply_gradients(network, grads,
+                            l_rate=current_l_rate,
+                            batch_size=current_batch_size)
+
+        # Print info every N epochs (here: every 500 epochs)
+        if epoch % 500 == 0:
+            print(f"> epoch={epoch}, lr={current_l_rate:.5f}, error={sum_error:.6f}")
+
+# ----------------------------------------------------
+# Prediction helper
+# ----------------------------------------------------
+
+def predict(network, row):
+    """
+    Predict the class index (0 or 1) for a given input row (features only).
+    """
+    outputs = forward_propagate(network, row)
+    return outputs.index(max(outputs))
+
+# ----------------------------------------------------
+# Demo: Learn XOR with Mini-Batch + LR Decay
+# ----------------------------------------------------
+
+if __name__ == "__main__":
+    seed(1)
+
+    # XOR dataset: [x1, x2, label]
+    dataset = [
+        [0, 0, 0],
+        [0, 1, 1],
+        [1, 0, 1],
+        [1, 1, 0],
+    ]
+
+    n_inputs = 2
+    n_hidden = 2
+    n_outputs = 2
+
+    # Initialize network
+    network = initialize_network(n_inputs, n_hidden, n_outputs)
+
+    # Hyperparameters
+    initial_l_rate = 0.5
+    n_epoch = 5000
+    batch_size = 2
+    decay = 0.001   # controls how fast learning rate decays
+
+    # Train using mini-batch + learning-rate decay
+    train_network_minibatch_lr_decay(
+        network,
+        train=dataset,
+        initial_l_rate=initial_l_rate,
+        n_epoch=n_epoch,
+        n_outputs=n_outputs,
+        batch_size=batch_size,
+        decay=decay
+    )
+
+    print("\nPredictions after training (Mini-Batch + LR Decay):")
+    for row in dataset:
+        x = row[:-1]
+        y_true = int(row[-1])
+        y_pred = predict(network, x)
+        print(f"Input={x}, True={y_true}, Predicted={y_pred}")

@@ -1,0 +1,540 @@
+,Employee ID,Name,Email Address,Phone No.,Gender,City,Department,Joining Date,Last Review Date,Salary (INR),Monthly Revenue,Is Active?,Performance Rating,Product Sold,Units_Sold,Discount %
+0,EMP6534,Pooja Shah,pooja.shah@company.in,9228777251,Female,Kolkata,HR,2020-04-03,2023-08-15,112994.22453222453,39909.86,Inactive,1.0,Laptop,268.0,30.0
+1,EMP6694,Rohit Chopra,rohit.chopra@company.in,0450063553,Male,Lucknow,Marketing,2021-01-16,2020-08-13,124655.0,10691.49,Inactive,3.0,Tablet,237.0,13.0
+2,EMP2241,Divya Mishra,divya.mishra@yahoo.com,5326949684,Male,Jaipur,Sales,2023-10-31,2020-11-26,154478.0,36779.25,Inactive,4.0,Tablet,46.0,49.0
+3,EMP5407,Vikram Rao,vikram.rao@hotmail.com,7082139865,Male,Delhi,Engineering,2024-01-28,2024-02-29,119182.0,573.76,Active,5.0,Headphones,381.0,25.0
+4,EMP5436,"Nair, Kavya",nair.kavya@company.in,5353896298,Female,Kolkata,Marketing,2020-11-04,2022-08-30,144974.0,35043.19,Active,2.0,Headphones,147.0,21.0
+5,EMP1152,  Kiran Mishra  ,kiran.mishra@gmail.com,1627136111,Other,Delhi,Operations,2020-05-20,2020-12-02,80851.0,7993.02,Inactive,1.0,Mobile,197.0,27.0
+7,EMP1519,Meera Reddy,meera.reddy@gmail.com,,Female,Hyderabad,Engineering,2023-11-18,2020-06-01,172720.0,9378.05,Active,4.0,Smartwatch,124.0,54.0
+8,EMP4361,Suresh Singh,suresh.singh@hotmail.com,5525782841,Male,Ahmedabad,HR,2020-09-01,2021-08-28,175399.0,40079.02,Active,4.0,Tablet,60.0,25.0
+9,EMP3928,Lakshmi Reddy,lakshmi.reddy@hotmail.com,7852282305,Female,Hyderabad,Marketing,2020-08-12,2020-09-27,112994.22453222453,14324.21,Active,3.0,Laptop,0.0,18.0
+10,EMP3376,Rajesh,rajesh@hotmail.com,2766372395,Male,Ahmedabad,Marketing,2021-09-09,2024-03-20,127254.0,7684.92,Active,3.0,Laptop,273.0,54.0
+11,,Lakshmi Sharma,lakshmi.sharma@company.in,7660465586,Male,Jaipur,Engineering,2021-07-30,2022-07-10,108522.0,44843.05,Active,1.0,Mobile,411.0,5.0
+12,EMP4059,Neha Gupta,neha.gupta@gmail.com,7461917798,Female,Delhi,Engineering,2022-11-23,2024-03-15,164497.0,26457.14,Active,3.0,Smartwatch,340.0,23.0
+13,EMP5221,Siddharth Patel,siddharth.patel@gmail.com,8333721885,Male,Bangalore,Engineering,2022-09-12,2020-04-26,138290.0,23922.12,Active,4.0,Monitor,203.0,25.0
+14,EMP1924,Arjun Pandey,arjun.pandey@gmail.com,7631774954,Other,Chennai,Operations,2023-03-05,2021-12-01,72398.0,4262.67,Inactive,3.0,Smartwatch,78.0,32.0
+15,EMP4304,Vikram Bose,vikram.bose@gmail.com,7169385977,Male,Ahmedabad,HR,2023-12-28,2020-12-24,186935.0,23162.49,Active,1.0,Tablet,322.0,42.0
+16,EMP9653,Divya,divya@company.in,3978559821,Female,Delhi,Finance,2020-07-25,,90898.0,18216.31,Active,5.0,Smartwatch,30.0,57.0
+17,EMP4748,Meera Mehta,meera.mehta@outlook.com,,Male,Ahmedabad,Sales,2023-10-18,2022-11-20,186555.0,41654.17,Active,3.0,Laptop,494.0,59.0
+18,EMP2306,"Mehta, Meera",mehta.meera@hotmail.com,7906477159,Male,Pune,Operations,2021-04-08,2024-01-22,165917.0,46738.46,Active,1.0,Mobile,353.0,51.0
+19,EMP9243,Ananya Chopra,ananya.chopra@outlook.com,1848947697,Female,Lucknow,Sales,2020-08-26,2023-07-21,85274.0,25109.35951219512,Inactive,2.0,Speaker,421.0,35.0
+20,EMP1474,Sneha Malhotra,sneha.malhotra@gmail.com,0455623869,Male,Kolkata,Finance,2022-10-16,2023-07-30,199808.0,40329.34,Inactive,3.0,Smartwatch,218.0,29.0
+21,EMP4620,Neha Kumar,neha.kumar@yahoo.com,2234103469,Female,Mumbai,Sales,2023-12-30,2024-02-22,124657.0,38370.26,Inactive,3.0,Monitor,199.0,38.0
+22,EMP9868,"Mehta, Priya",mehta.priya@gmail.com,8984841604,Male,Hyderabad,Engineering,2020-12-07,2022-03-09,119667.0,5791.1,Active,2.0,Mobile,9.0,46.0
+23,,Neha Das,neha.das@yahoo.com,4931214639,Female,Pune,Operations,2020-10-22,2023-12-09,131288.0,40889.26,Active,5.0,Smartwatch,0.0,16.0
+24,EMP8645,Rajesh Mehta,rajesh.mehta@hotmail.com,5011375358,Male,Jaipur,Finance,2022-06-12,2024-05-15,39742.0,23663.44,Active,5.0,Monitor,80.0,12.0
+25,EMP6886,Meera Pillai,meera.pillai@company.in,7320309376,Female,Ahmedabad,Sales,2021-11-25,2024-01-16,80490.0,33532.16,Inactive,5.0,Mobile,247.0,1.0
+26,EMP4137,Aarav Mehta,aarav.mehta@gmail.com,4337504793,Unknown,Chennai,Finance,2022-10-08,2023-09-13,58619.0,6807.83,Inactive,3.0,Laptop,355.0,39.0
+27,EMP6631,Siddharth Mehta,siddharth.mehta@hotmail.com,0164928150,Male,Hyderabad,Finance,2022-04-24,2020-04-08,112994.22453222453,26120.28,Active,4.0,Tablet,213.0,41.0
+28,EMP8007,Arjun Das,,3231829716,Female,Chennai,HR,2020-08-03,2024-06-05,32955.0,8663.73,Inactive,2.0,Mobile,458.0,23.0
+29,EMP2446,Aarav Nair,aarav.nair@outlook.com,2874527193,Female,Chennai,Marketing,2023-05-24,2020-12-06,155892.0,48545.98,Active,3.0,Tablet,146.0,4.0
+30,EMP2483,Siddharth Rao,siddharth.rao@yahoo.com,9022784699,Male,Chennai,Marketing,2020-01-07,2022-11-11,102118.0,45103.25,Active,3.0,Smartwatch,121.0,37.0
+31,EMP5827,Neha Mishra,neha.mishra@outlook.com,,Male,Mumbai,Engineering,2020-06-06,2023-06-15,92359.0,6021.7,Inactive,3.0,Smartwatch,121.0,51.0
+32,EMP7192,  Deepa Reddy  ,deepa.reddy@gmail.com,7493251149,Female,Delhi,Operations,2021-08-15,2021-08-07,195559.0,5190.55,Inactive,1.0,Monitor,44.0,37.0
+33,EMP1859,Priya,priya@gmail.com,5962630136,Female,Kolkata,Operations,2024-05-11,2023-08-24,196231.0,1074.32,Active,5.0,Monitor,382.0,37.0
+34,,Aditya Iyer,aditya.iyer@yahoo.com,4621276025,Male,Delhi,Engineering,2020-11-10,2021-04-14,161383.0,44249.52,Active,5.0,Monitor,305.0,36.0
+35,EMP2570,Meera Mehta,meera.mehta@hotmail.com,2028457652,Male,Jaipur,Finance,2022-12-25,2020-06-05,29555.0,25109.35951219512,Inactive,3.0,Smartwatch,247.0,54.0
+36,EMP1266,  Meera Rao  ,meera.rao@hotmail.com,8965583445,Male,Pune,Engineering,2022-10-07,2023-12-03,86534.0,20715.25,Inactive,1.0,Smartwatch,328.0,26.0
+37,EMP5424,Aarav Iyer,aarav.iyer@yahoo.com,7518878179,Male,Kolkata,Engineering,2021-05-27,2023-06-24,67543.0,8436.82,Inactive,3.0,Tablet,406.0,6.0
+38,EMP9175,Arjun Verma,arjun.verma@yahoo.com,2646091785,Female,Pune,Marketing,2020-03-01,2020-07-12,133892.0,1658.71,Inactive,4.0,Tablet,486.0,6.0
+39,EMP7387,"Pillai, Priya",pillai.priya@yahoo.com,5402635582,Unknown,,Marketing,2021-09-22,2021-08-18,53564.0,28026.47,Active,2.0,Laptop,175.0,30.0
+40,EMP9009,Ananya Nair,ananya.nair@yahoo.com,2973239644,Female,Delhi,Marketing,2022-02-09,2022-06-18,188040.0,8392.96,Inactive,2.0,Tablet,247.0,0.0
+41,,  Vikram Patel  ,vikram.patel@company.in,2121461476,Female,Hyderabad,Sales,2021-12-01,2021-12-16,165379.0,8454.11,Active,1.0,Headphones,247.0,52.0
+42,EMP2941,Suresh Reddy,suresh.reddy@company.in,8056856670,Female,Jaipur,Marketing,2022-10-01,2021-08-10,34483.0,21858.52,Inactive,3.0,Camera,0.0,12.0
+43,EMP5379,Ananya Pillai,ananya.pillai@hotmail.com,,Female,Bangalore,Operations,2020-03-06,2023-09-23,143622.0,25689.36,Inactive,2.0,Smartwatch,108.0,9.0
+44,EMP1183,Sneha Das,sneha.das@outlook.com,5230837081,Male,Hyderabad,Marketing,2021-05-26,,28816.0,10011.52,Active,3.0,Laptop,56.0,20.0
+45,EMP3248,Suresh Das,suresh.das@company.in,,Male,Lucknow,Engineering,2021-09-19,2022-11-26,181699.0,33126.0,Active,3.0,Camera,284.0,51.0
+46,EMP2422,Meera Rao,,5743842150,Other,Ahmedabad,Finance,2021-01-24,2024-02-09,62563.0,5363.45,Inactive,1.0,Mobile,247.0,38.0
+48,EMP3138,Neha Pandey,neha.pandey@gmail.com,0417929111,Female,Bangalore,Marketing,2024-02-20,2023-11-02,80897.0,25109.35951219512,Active,3.0,Tablet,474.0,8.0
+49,EMP9580,Lakshmi Bose,lakshmi.bose@company.in,,Female,Delhi,HR,2024-05-07,2021-10-26,112994.22453222453,14337.14,Active,3.0,Smartwatch,174.0,27.0
+50,EMP9849,Divya Shah,divya.shah@company.in,6422405920,Male,,Marketing,2023-05-31,2021-06-18,173998.0,41450.53,Active,3.0,Tablet,44.0,23.0
+51,EMP9209,Priya Pillai,priya.pillai@company.in,6188924141,Male,Kolkata,Finance,2021-09-27,2021-03-05,138897.0,30808.69,Inactive,3.0,Tablet,6.0,60.0
+52,EMP1511,Deepa Reddy,deepa.reddy@hotmail.com,0404769210,Female,Pune,Sales,2022-05-05,2020-03-12,93871.0,46646.16,Active,1.0,Monitor,58.0,15.0
+53,EMP2030,Siddharth Sharma,siddharth.sharma@outlook.com,0153017316,Male,Jaipur,Marketing,2020-06-05,2021-06-07,112994.22453222453,15725.74,Active,3.0,Camera,470.0,3.0
+54,EMP5408,"Shah, Ananya",shah.ananya@yahoo.com,3733343333,Male,Mumbai,Operations,2023-11-06,2023-01-13,122306.0,24870.85,Active,5.0,Headphones,66.0,30.0
+55,EMP3385,Meera Bose,meera.bose@yahoo.com,4340466821,Male,Lucknow,Operations,2020-01-12,2020-12-18,197995.0,40150.98,Active,5.0,Headphones,42.0,29.0
+56,EMP4047,Ananya Singh,ananya.singh@hotmail.com,2269920666,Male,Pune,Marketing,2023-04-23,2024-02-18,169925.0,43325.49,Inactive,5.0,Speaker,247.0,33.0
+57,EMP2646,Deepa Sharma,deepa.sharma@hotmail.com,5724043474,Male,Bangalore,Marketing,2021-10-08,2020-04-16,76498.0,4127.09,Active,5.0,Tablet,76.0,53.0
+58,EMP1451,  Rahul Mishra  ,rahul.mishra@hotmail.com,2637484539,Female,Jaipur,Operations,2021-06-10,2020-04-18,43615.0,26723.71,Inactive,2.0,Laptop,254.0,21.0
+59,EMP9350,Kiran Nair,kiran.nair@yahoo.com,0849378306,Female,Chennai,HR,2022-04-08,2021-08-12,57675.0,13122.46,Active,2.0,Tablet,417.0,7.0
+60,EMP2144,  Arjun Nair  ,arjun.nair@gmail.com,,Female,Hyderabad,HR,2024-01-25,2024-01-07,57520.0,42429.98,Inactive,2.0,Camera,125.0,13.0
+61,EMP8182,Kavya,kavya@hotmail.com,4171594973,Female,,Marketing,2022-12-30,2020-09-12,42995.0,12362.47,Active,1.0,Tablet,286.0,50.0
+62,EMP3487,Ananya Reddy,ananya.reddy@gmail.com,,Female,Hyderabad,Sales,2020-12-08,2023-05-01,105109.0,41940.0,Active,5.0,Monitor,269.0,53.0
+63,EMP9540,Deepa Joshi,deepa.joshi@yahoo.com,4089268705,Female,Kolkata,Engineering,2022-02-09,2022-08-27,103836.0,7645.41,Active,5.0,Speaker,105.0,5.0
+64,EMP9691,  Kavya Joshi  ,kavya.joshi@company.in,0157399305,Female,Jaipur,Operations,2020-02-20,2022-11-07,102708.0,10029.36,Active,5.0,Mobile,323.0,55.0
+65,EMP4770,"Reddy, Kavya",reddy.kavya@yahoo.com,2643350271,Male,Bangalore,Marketing,2022-07-04,2021-02-25,57676.0,9167.29,Inactive,2.0,Monitor,184.0,20.0
+66,EMP4706,Arjun Verma,arjun.verma@outlook.com,0369888439,Female,Chennai,Engineering,2020-11-30,2023-05-01,166129.0,11909.33,Active,3.0,Laptop,171.0,25.0
+67,EMP1653,Lakshmi Chopra,lakshmi.chopra@outlook.com,7798066039,Female,Kolkata,Sales,2022-07-24,2023-10-30,90195.0,25109.35951219512,Inactive,2.0,Camera,386.0,52.0
+68,EMP3492,Siddharth Pillai,siddharth.pillai@company.in,2895171870,Male,Chennai,HR,2023-11-19,2021-11-03,189311.0,38090.39,Active,3.0,Mobile,51.0,45.0
+69,EMP8225,Priya Pandey,priya.pandey@outlook.com,9435353751,Male,Pune,Finance,2020-05-06,2023-05-24,134799.0,41477.14,Active,3.0,Tablet,408.0,20.0
+70,EMP2167,Kavya Pillai,,,Male,Kolkata,Operations,2021-05-11,2022-10-01,194170.0,30469.06,Active,2.0,Tablet,330.0,24.0
+71,EMP8568,Kavya Verma,,9207115238,Male,Lucknow,Operations,2020-05-18,2022-12-10,153144.0,34476.57,Active,4.0,Camera,282.0,37.0
+72,EMP7776,Rajesh Reddy,rajesh.reddy@company.in,9719670683,Male,,Sales,2021-12-17,2024-05-08,96331.0,2177.42,Active,3.0,Speaker,337.0,43.0
+73,EMP5471,Divya Pandey,divya.pandey@company.in,,Female,Delhi,Marketing,2020-04-12,2021-03-09,124385.0,47584.6,Inactive,5.0,Camera,36.0,41.0
+74,EMP7747,Aarav Sharma,aarav.sharma@company.in,0417282076,Female,Delhi,Engineering,2020-10-19,2023-02-12,165522.0,16673.74,Active,3.0,Tablet,20.0,35.0
+75,EMP4565,Siddharth Bose,siddharth.bose@gmail.com,8568119397,Male,Hyderabad,Operations,2023-09-06,2022-06-30,122099.0,28233.56,Active,3.0,Camera,276.0,48.0
+76,EMP7864,Aditya Bose,,3845720266,Unknown,Delhi,Finance,2023-03-23,2022-07-06,112994.22453222453,44609.9,Active,4.0,Laptop,378.0,8.0
+77,EMP1312,Rajesh Pillai,rajesh.pillai@yahoo.com,4760220695,Male,Mumbai,Operations,2020-01-02,2021-01-08,173344.0,48117.96,Inactive,4.0,Mobile,442.0,11.0
+78,EMP2785,Rahul Iyer,rahul.iyer@yahoo.com,7756185374,Female,Chennai,Operations,2020-03-23,2021-11-02,90069.0,20114.1,Active,4.0,Headphones,53.0,8.0
+79,EMP6409,Lakshmi Mehta,lakshmi.mehta@yahoo.com,7056227104,Male,Pune,Sales,2023-07-03,2020-05-16,84252.0,1199.41,Active,3.0,Speaker,288.0,42.0
+80,EMP1805,Arjun Patel,arjun.patel@company.in,6343629489,Male,Mumbai,Engineering,2020-04-18,2021-05-03,97210.0,31200.93,Active,3.0,Tablet,178.0,45.0
+81,EMP9592,Aditya Bose,aditya.bose@gmail.com,2300915618,Female,Kolkata,HR,2023-07-28,2021-08-03,133923.0,44172.92,Active,3.0,Mobile,37.0,55.0
+82,EMP9551,Siddharth Nair,,,Female,Ahmedabad,HR,2020-01-19,2021-06-29,40413.0,19147.77,Active,4.0,Smartwatch,247.0,48.0
+83,EMP8130,  Pooja Kumar  ,pooja.kumar@gmail.com,,Female,Kolkata,Marketing,2023-07-14,2020-02-04,165203.0,36154.14,Inactive,3.0,Mobile,352.0,5.0
+84,EMP1294,Rajesh Kumar,rajesh.kumar@gmail.com,0835669106,Male,Bangalore,Sales,2024-04-21,2021-11-28,112994.22453222453,9578.49,Inactive,5.0,Tablet,269.0,18.0
+85,EMP3216,Priya Iyer,priya.iyer@gmail.com,5237597953,Female,Hyderabad,Sales,2024-01-07,2022-07-08,154236.0,33248.52,Active,2.0,Tablet,286.0,18.0
+86,EMP3793,Suresh Iyer,suresh.iyer@hotmail.com,9623091307,Male,Lucknow,Marketing,2023-12-16,2023-02-22,112994.22453222453,16030.75,Active,3.0,Headphones,143.0,14.0
+87,EMP4504,"Bose, Meera",bose.meera@yahoo.com,,Male,Pune,Operations,2021-03-13,2021-01-01,112994.22453222453,25109.35951219512,Active,5.0,Smartwatch,247.0,25.0
+88,,"Singh, Rahul",singh.rahul@yahoo.com,7807740649,Male,Jaipur,Marketing,2021-05-26,2023-08-15,82826.0,21400.85,Inactive,3.0,Smartwatch,437.0,8.0
+89,EMP3418,Pooja,pooja@company.in,8297514743,Male,Pune,Sales,2020-04-17,2022-01-25,112994.22453222453,31630.07,Active,1.0,Camera,292.0,30.0
+90,EMP5831,  Arjun Iyer  ,arjun.iyer@company.in,,Female,Bangalore,Finance,2021-02-10,2020-06-16,116146.0,8728.1,Active,2.0,Tablet,477.0,59.0
+91,EMP7914,Neha Iyer,neha.iyer@hotmail.com,1467179576,Male,Ahmedabad,Engineering,2021-03-25,2024-01-04,101911.0,19823.38,Active,3.0,Tablet,145.0,5.0
+92,EMP9220,Aarav Mishra,aarav.mishra@outlook.com,8950097519,Female,Jaipur,HR,2022-11-24,2023-06-03,190324.0,48040.35,Inactive,5.0,Camera,6.0,32.0
+93,EMP5576,"Mehta, Aarav",mehta.aarav@company.in,7192817074,Male,Chennai,HR,2021-11-01,,72470.0,29591.8,Active,1.0,Smartwatch,229.0,30.0
+94,EMP5555,Lakshmi Gupta,lakshmi.gupta@hotmail.com,1966553307,Unknown,Ahmedabad,Engineering,2021-10-31,,26218.0,14576.11,Active,1.0,Laptop,247.0,26.0
+95,EMP4678,Siddharth Kumar,siddharth.kumar@gmail.com,4519515109,Male,Kolkata,Engineering,2023-11-08,2021-10-08,96065.0,33255.72,Inactive,3.0,Tablet,76.0,24.0
+96,EMP7843,Arjun Gupta,arjun.gupta@yahoo.com,8052924075,Male,Jaipur,HR,2023-04-17,2020-03-06,112994.22453222453,40057.72,Inactive,2.0,Mobile,97.0,21.0
+97,,Rahul Das,rahul.das@company.in,0566418775,Male,Kolkata,Finance,2021-09-10,2021-11-16,31651.0,11668.59,Active,3.0,Mobile,0.0,37.0
+98,EMP8045,Meera Reddy,meera.reddy@hotmail.com,8976098731,Female,Lucknow,Engineering,2022-06-15,2020-02-27,176198.0,26970.88,Inactive,2.0,Smartwatch,309.0,49.0
+99,EMP9608,Meera Chopra,meera.chopra@hotmail.com,5299787729,Male,,Marketing,2024-02-19,2022-04-29,112994.22453222453,32056.43,Active,1.0,Camera,59.0,21.0
+100,EMP4625,Arjun,arjun@yahoo.com,,Male,Ahmedabad,Operations,2022-08-01,2021-12-22,168273.0,45886.52,Inactive,1.0,Laptop,212.0,40.0
+101,EMP4257,Suresh Verma,suresh.verma@company.in,8309309671,Female,Mumbai,Engineering,2020-04-09,2020-08-24,145676.0,37756.66,Active,3.0,Speaker,67.0,2.0
+102,EMP4737,Aarav Malhotra,aarav.malhotra@hotmail.com,5953828040,Unknown,Delhi,Operations,2023-06-03,2023-01-29,112994.22453222453,7757.31,Active,4.0,Mobile,111.0,30.0
+103,EMP7725,Meera Kumar,meera.kumar@yahoo.com,,Male,Delhi,Sales,2022-02-11,2021-06-14,169500.0,10129.32,Active,3.0,Tablet,437.0,45.0
+104,,Aditya Kumar,aditya.kumar@company.in,,Female,Kolkata,HR,2024-02-14,2021-11-05,128005.0,46637.32,Active,5.0,Tablet,483.0,28.0
+105,EMP1354,Aditya Pandey,aditya.pandey@yahoo.com,3288377441,Female,Mumbai,Marketing,,,33934.0,44714.44,Active,4.0,Monitor,82.0,54.0
+106,EMP4304,Priya Nair,priya.nair@hotmail.com,,Unknown,Kolkata,HR,2022-03-20,2022-11-26,42987.0,27704.84,Inactive,3.0,Headphones,207.0,16.0
+107,EMP7805,Rahul Reddy,rahul.reddy@gmail.com,8921963945,Female,Bangalore,Sales,2023-09-05,2022-05-29,112994.22453222453,24425.8,Inactive,4.0,Camera,366.0,14.0
+108,EMP1348,Neha Kumar,neha.kumar@company.in,8116403439,Female,Bangalore,Finance,2022-06-26,2021-03-31,99439.0,22750.6,Active,1.0,Mobile,179.0,52.0
+109,EMP4749,Rohit Rao,rohit.rao@company.in,6210781871,Female,Delhi,HR,2020-04-18,2023-08-27,137148.0,32999.01,Inactive,3.0,Headphones,247.0,30.0
+110,EMP8347,Rahul Das,rahul.das@gmail.com,1768802942,Unknown,Bangalore,Operations,2022-10-10,2024-03-17,127300.0,13938.96,Active,1.0,Monitor,369.0,19.0
+111,EMP2743,Rahul Bose,,8932528809,Male,Chennai,Engineering,2021-05-08,2022-09-22,164645.0,6855.38,Inactive,5.0,Headphones,387.0,12.0
+112,EMP8805,Deepa Patel,deepa.patel@hotmail.com,4967379457,Other,Pune,Engineering,2021-08-10,2022-03-06,121489.0,21870.96,Active,3.0,Speaker,321.0,60.0
+113,EMP5032,Kavya Joshi,kavya.joshi@outlook.com,1247601080,Female,,Operations,2023-02-08,2022-03-27,48587.0,21478.36,Active,3.0,Tablet,445.0,21.0
+114,EMP8059,Lakshmi Bose,,2125450809,Female,Pune,Engineering,2023-05-05,2022-01-30,142095.0,42745.7,Active,3.0,Mobile,198.0,52.0
+115,EMP8499,Ananya Singh,ananya.singh@yahoo.com,8813770285,Male,Pune,Finance,2020-03-23,2021-09-16,152382.0,7572.03,Active,2.0,Monitor,247.0,2.0
+116,EMP7766,Kiran,kiran@yahoo.com,8355054296,Female,Hyderabad,Marketing,2021-05-07,2023-06-11,29454.0,39041.38,Inactive,1.0,Laptop,444.0,53.0
+117,EMP7113,Arjun Kumar,arjun.kumar@yahoo.com,2866464911,Male,Kolkata,Sales,2024-03-15,2022-10-27,135268.0,38955.57,Active,3.0,Monitor,421.0,50.0
+118,EMP9021,Ananya Bose,ananya.bose@gmail.com,9484910256,Female,Delhi,HR,2023-11-07,2020-10-19,95089.0,36408.25,Inactive,4.0,Tablet,182.0,32.0
+119,EMP8308,Lakshmi Joshi,lakshmi.joshi@gmail.com,4262037087,Female,Kolkata,Sales,2023-09-15,2023-09-14,168064.0,40059.7,Inactive,5.0,Monitor,460.0,28.0
+121,EMP1745,Meera Sharma,meera.sharma@gmail.com,2710947775,Male,Mumbai,Marketing,2020-05-31,2023-02-26,90061.0,38339.95,Inactive,3.0,Monitor,302.0,19.0
+122,EMP5107,Aditya Das,aditya.das@gmail.com,9755231491,Male,Chennai,Operations,2020-08-11,,83071.0,32221.51,Active,3.0,Camera,250.0,11.0
+123,EMP6583,  Arjun Mehta  ,arjun.mehta@gmail.com,8319971791,Male,Mumbai,Engineering,2022-06-24,2023-07-06,112994.22453222453,15098.38,Active,5.0,Laptop,238.0,56.0
+124,EMP7021,Meera Kumar,meera.kumar@hotmail.com,2727956878,Female,Lucknow,Sales,2022-03-07,2023-03-01,168562.0,10506.76,Active,2.0,Monitor,262.0,3.0
+125,EMP8978,Sneha,sneha@gmail.com,2194672324,Male,Hyderabad,Finance,2024-01-08,2020-06-29,112994.22453222453,9999.19,Active,5.0,Monitor,338.0,3.0
+127,EMP4707,Sneha Nair,sneha.nair@yahoo.com,9634064686,Female,Chennai,Sales,2021-05-29,2024-02-11,132577.0,24306.14,Active,2.0,Speaker,128.0,4.0
+128,EMP7347,Rohit Kumar,rohit.kumar@company.in,7252145264,Male,Pune,Operations,2021-11-26,,40964.0,25109.35951219512,Active,3.0,Laptop,291.0,54.0
+129,EMP8631,Rohit Shah,rohit.shah@outlook.com,0435023850,Female,Pune,Engineering,2024-03-19,2024-03-23,112994.22453222453,8089.24,Active,4.0,Mobile,450.0,30.0
+130,EMP1494,Meera Joshi,meera.joshi@gmail.com,8895927411,Male,Kolkata,Sales,2022-08-25,2020-01-02,29389.0,6442.32,Inactive,4.0,Smartwatch,112.0,38.0
+131,EMP6567,  Kavya Mishra  ,kavya.mishra@gmail.com,0717327980,Female,Bangalore,Operations,2020-08-04,2021-08-12,28199.0,44914.49,Active,2.0,Smartwatch,247.0,58.0
+132,EMP3592,Aarav Singh,aarav.singh@hotmail.com,1367157787,Male,Kolkata,Marketing,2022-02-04,2021-12-02,149838.0,23001.64,Active,3.0,Speaker,247.0,30.0
+133,EMP6375,Neha Nair,neha.nair@outlook.com,1788224731,Male,Jaipur,HR,2022-09-13,2021-12-20,175565.0,550.77,Active,1.0,Speaker,451.0,30.0
+135,EMP5430,Rohit Nair,rohit.nair@yahoo.com,6882769704,Male,Mumbai,Finance,2020-08-18,2022-10-09,99479.0,40519.76,Active,1.0,Monitor,440.0,42.0
+136,EMP3286,Sneha Sharma,sneha.sharma@gmail.com,,Female,Lucknow,HR,2024-04-03,2021-11-27,113236.0,25109.35951219512,Active,3.0,Speaker,247.0,39.0
+137,EMP8259,Rahul Patel,rahul.patel@gmail.com,9063224815,Unknown,Hyderabad,Engineering,2023-12-25,,131309.0,28439.2,Active,3.0,Camera,347.0,22.0
+138,EMP1945,Aditya Singh,aditya.singh@hotmail.com,4064039106,Male,Mumbai,Marketing,2021-08-10,2020-10-04,125264.0,25109.35951219512,Active,2.0,Mobile,276.0,8.0
+139,EMP5263,Suresh Pillai,suresh.pillai@hotmail.com,,Female,Hyderabad,Operations,2022-07-18,2023-08-29,165356.0,36452.47,Active,3.0,Tablet,327.0,55.0
+140,EMP7292,Deepa Kumar,deepa.kumar@company.in,0941017590,Male,Lucknow,Finance,2021-02-04,2023-10-22,67490.0,26662.21,Active,1.0,Tablet,185.0,36.0
+141,EMP4845,Rahul,rahul@outlook.com,,Male,Jaipur,Engineering,2021-05-07,2022-06-15,41949.0,8981.39,Inactive,4.0,Tablet,247.0,46.0
+142,EMP6489,Aditya,aditya@hotmail.com,1268612059,Female,Ahmedabad,HR,2020-09-05,2020-12-04,113463.0,38458.27,Active,1.0,Smartwatch,306.0,46.0
+143,EMP5169,Rahul Patel,rahul.patel@outlook.com,4752311232,Unknown,Lucknow,Operations,2023-10-29,2024-05-03,88673.0,32430.71,Active,5.0,Tablet,460.0,45.0
+144,EMP2754,Sneha Kumar,sneha.kumar@yahoo.com,2117536170,Female,Kolkata,Marketing,2023-07-21,,112994.22453222453,30529.42,Active,5.0,Laptop,380.0,7.0
+145,EMP3292,"Das, Siddharth",das.siddharth@gmail.com,5016315999,Female,Ahmedabad,Marketing,2021-12-29,2023-10-24,187166.0,12699.26,Active,3.0,Camera,47.0,30.0
+146,EMP1459,Rohit Verma,rohit.verma@yahoo.com,,Male,Lucknow,Finance,2023-02-28,2021-10-06,27222.0,37708.13,Inactive,3.0,Mobile,460.0,6.0
+147,EMP9064,Sneha Shah,sneha.shah@company.in,3387220542,Male,Chennai,Finance,2021-01-28,2020-01-04,100994.0,22419.52,Active,5.0,Camera,0.0,30.0
+148,EMP3977,Kiran Bose,kiran.bose@company.in,2896660534,Male,Kolkata,Sales,2020-08-02,2021-10-24,191412.0,20774.94,Active,5.0,Tablet,110.0,30.0
+150,EMP5333,Kavya Reddy,kavya.reddy@hotmail.com,0766534460,Male,Ahmedabad,Marketing,2023-07-22,2020-02-21,112266.0,18614.57,Inactive,3.0,Tablet,180.0,26.0
+151,EMP6492,Priya Nair,,0522411420,Female,Chennai,HR,,2022-05-19,161133.0,7216.33,Active,5.0,Tablet,0.0,1.0
+152,EMP2639,Pooja Reddy,pooja.reddy@hotmail.com,0179993242,Male,Chennai,HR,2024-04-23,2021-04-07,112881.0,25298.67,Active,3.0,Smartwatch,190.0,24.0
+154,EMP3387,Pooja Kumar,pooja.kumar@yahoo.com,5951434682,Female,Chennai,Operations,2020-03-01,,112994.22453222453,45413.28,Active,5.0,Mobile,99.0,21.0
+155,EMP1081,Rajesh Kumar,rajesh.kumar@outlook.com,4287738363,Male,Mumbai,Engineering,2022-03-30,2022-12-04,66574.0,44032.58,Active,3.0,Mobile,399.0,29.0
+156,EMP3291,  Rajesh Shah  ,rajesh.shah@company.in,5896933539,Male,Kolkata,Sales,2023-07-20,2021-05-19,126144.0,12350.74,Active,3.0,Smartwatch,490.0,2.0
+157,,Aarav Joshi,aarav.joshi@yahoo.com,8569557988,Male,Chennai,Engineering,2021-04-09,2021-08-13,99549.0,8734.97,Inactive,2.0,Tablet,60.0,30.0
+158,EMP3626,Kavya Gupta,kavya.gupta@outlook.com,1193600608,Female,Chennai,Marketing,2023-11-04,2020-04-22,59026.0,11310.24,Active,3.0,Tablet,217.0,52.0
+160,EMP3345,"Pillai, Sneha",,8027148727,Female,Delhi,Operations,2020-08-04,2020-02-29,110590.0,38432.29,Active,1.0,Monitor,355.0,14.0
+161,EMP1526,Aarav Joshi,aarav.joshi@hotmail.com,8206678498,Male,Mumbai,Finance,2020-09-13,2020-04-24,112994.22453222453,4321.86,Active,4.0,Camera,100.0,6.0
+162,EMP7131,Vikram Chopra,vikram.chopra@gmail.com,5178637673,Male,Delhi,Marketing,2021-08-02,2022-12-29,178728.0,44336.61,Active,1.0,Speaker,331.0,31.0
+163,EMP9830,  Aditya Singh  ,aditya.singh@outlook.com,6965328710,Male,Kolkata,Finance,2022-02-27,2022-08-16,28009.0,6170.31,Inactive,1.0,Tablet,489.0,46.0
+164,EMP9821,Rohit Joshi,rohit.joshi@outlook.com,6986407905,Male,Mumbai,Operations,2021-11-19,2024-04-15,103517.0,22081.56,Inactive,5.0,Smartwatch,0.0,39.0
+165,EMP9011,Meera Joshi,meera.joshi@outlook.com,8441986652,Male,Ahmedabad,Operations,2024-03-10,2023-01-08,96203.0,30976.01,Active,2.0,Laptop,170.0,6.0
+166,EMP5225,Pooja Gupta,pooja.gupta@outlook.com,1168685487,Male,Delhi,Engineering,2023-04-19,2023-02-26,165413.0,43955.73,Inactive,1.0,Speaker,312.0,25.0
+167,EMP8007,Priya Sharma,,1034444299,Male,Kolkata,Finance,2022-02-05,2020-03-20,58042.0,45552.98,Active,4.0,Tablet,93.0,0.0
+168,EMP7584,Arjun Chopra,arjun.chopra@yahoo.com,8422717266,Female,Chennai,Marketing,2022-02-09,2020-06-18,196418.0,6005.96,Active,4.0,Smartwatch,0.0,6.0
+169,EMP5586,Kavya,kavya@yahoo.com,7483173066,Female,Jaipur,Sales,2023-01-12,2020-10-27,112994.22453222453,21008.81,Inactive,2.0,Tablet,243.0,39.0
+170,EMP3324,Siddharth Mehta,,6173009928,Male,Bangalore,Engineering,2020-08-04,2021-04-16,108308.0,10889.24,Active,2.0,Laptop,227.0,37.0
+172,EMP5673,Ananya Shah,ananya.shah@hotmail.com,5152174653,Female,Jaipur,Sales,2022-11-14,2023-11-05,98194.0,25079.92,Active,5.0,Mobile,115.0,25.0
+173,EMP5434,Rajesh Das,rajesh.das@yahoo.com,3691430753,Female,Mumbai,HR,2023-05-07,2022-11-06,61484.0,10375.58,Inactive,3.0,Monitor,193.0,53.0
+174,EMP6150,Divya Das,divya.das@yahoo.com,2189455906,Male,Chennai,Finance,2021-05-27,2022-02-09,96820.0,37157.72,Active,3.0,Smartwatch,420.0,19.0
+175,EMP5920,"Pandey, Arjun",pandey.arjun@hotmail.com,,Male,Bangalore,Marketing,2023-05-27,2022-06-24,69483.0,14547.43,Inactive,2.0,Headphones,76.0,30.0
+176,EMP7481,Siddharth Nair,siddharth.nair@gmail.com,,Female,Bangalore,Marketing,2021-06-21,2023-01-08,185250.0,25109.35951219512,Active,3.0,Mobile,161.0,19.0
+177,EMP2288,Sneha Iyer,,5352181883,Male,Delhi,HR,2020-12-21,2023-09-04,189613.0,37845.07,Active,5.0,Camera,35.0,40.0
+178,EMP8516,Ananya Patel,ananya.patel@hotmail.com,6142442607,Female,Bangalore,Marketing,2023-11-10,2022-03-10,82819.0,7107.59,Inactive,5.0,Tablet,370.0,16.0
+179,EMP4951,Rahul Pandey,rahul.pandey@gmail.com,4820736511,Male,Unknown,HR,2024-03-22,2020-02-12,112994.22453222453,33531.28,Inactive,3.0,Headphones,152.0,42.0
+180,EMP6082,Sneha Mehta,sneha.mehta@company.in,9134438998,Female,Hyderabad,HR,2024-04-25,2020-01-03,53433.0,36183.6,Inactive,4.0,Camera,242.0,56.0
+181,EMP4165,Lakshmi Mehta,lakshmi.mehta@outlook.com,,Female,Pune,Finance,2021-02-13,2023-05-08,40876.0,10149.68,Active,1.0,Headphones,13.0,30.0
+182,EMP3695,Kavya Bose,kavya.bose@outlook.com,7451712368,Female,Mumbai,Marketing,2023-10-09,2023-07-31,86295.0,31167.57,Active,1.0,Monitor,155.0,7.0
+183,EMP9314,Aarav Verma,aarav.verma@outlook.com,5377492663,Female,Chennai,Engineering,2022-10-16,2020-12-15,173698.0,21208.86,Active,5.0,Camera,475.0,37.0
+184,EMP7471,Aditya Bose,aditya.bose@hotmail.com,6878599648,Male,Hyderabad,Engineering,2023-05-13,2020-08-24,103516.0,16069.99,Active,3.0,Tablet,155.0,9.0
+185,EMP3805,Rajesh Mishra,rajesh.mishra@yahoo.com,9006548708,Female,Chennai,Sales,2022-06-30,2021-10-04,45288.0,43987.12,Inactive,2.0,Mobile,34.0,38.0
+186,EMP1538,Rajesh Iyer,rajesh.iyer@company.in,,Male,Delhi,Operations,2021-04-12,2023-06-01,48949.0,36800.19,Active,1.0,Headphones,298.0,6.0
+187,EMP9904,Aarav Bose,aarav.bose@gmail.com,0468611145,Female,Delhi,Sales,2020-11-27,2023-09-23,168109.0,13518.83,Inactive,1.0,Headphones,154.0,44.0
+188,EMP8590,Neha Iyer,neha.iyer@company.in,4883958558,Male,Pune,Engineering,2021-10-02,2022-10-25,186204.0,25109.35951219512,Active,3.0,Smartwatch,158.0,14.0
+189,EMP8707,Arjun Mishra,arjun.mishra@yahoo.com,1688005378,Female,Kolkata,Finance,2022-11-07,2022-11-08,106524.0,33039.15,Active,3.0,Tablet,110.0,34.0
+190,EMP3431,Sneha Reddy,sneha.reddy@hotmail.com,3270216487,Male,Hyderabad,Operations,2020-05-29,2022-12-20,117895.0,34997.97,Active,3.0,Mobile,24.0,58.0
+191,EMP7147,Sneha Verma,sneha.verma@outlook.com,9090100167,Female,Bangalore,Operations,2021-09-08,2023-09-18,60956.0,44981.79,Inactive,1.0,Headphones,426.0,12.0
+192,EMP2871,Suresh Shah,suresh.shah@outlook.com,5807836134,Male,Mumbai,Marketing,2024-05-07,2024-02-19,184976.0,8716.09,Active,3.0,Tablet,361.0,36.0
+193,EMP8256,Ananya Reddy,ananya.reddy@yahoo.com,9205222999,Male,Kolkata,HR,2023-04-13,2021-04-28,68663.0,18502.77,Inactive,5.0,Smartwatch,251.0,29.0
+194,EMP4496,Meera Pandey,meera.pandey@hotmail.com,4136852830,Male,Hyderabad,Sales,2024-03-14,2021-08-21,136791.0,8613.41,Active,5.0,Mobile,448.0,59.0
+195,EMP5299,Kavya Pandey,kavya.pandey@outlook.com,7574758339,Female,Ahmedabad,HR,2022-08-07,2020-10-17,31417.0,39519.13,Inactive,1.0,Tablet,485.0,6.0
+196,,  Rajesh Reddy  ,rajesh.reddy@gmail.com,9105302151,Female,Kolkata,Operations,2021-04-18,2023-01-31,110420.0,6365.33,Active,2.0,Speaker,63.0,15.0
+197,EMP2050,Suresh Chopra,suresh.chopra@yahoo.com,3900251213,Female,Jaipur,Operations,2022-03-13,2021-11-21,170588.0,48557.19,Inactive,3.0,Smartwatch,357.0,24.0
+198,EMP2007,Rajesh Sharma,rajesh.sharma@gmail.com,8241270493,Male,Jaipur,HR,2021-11-30,2023-11-27,146374.0,45941.55,Active,1.0,Laptop,192.0,56.0
+199,EMP9729,Pooja Mehta,pooja.mehta@company.in,4036488215,Female,Pune,HR,2022-03-30,2021-02-08,35076.0,40436.46,Inactive,5.0,Camera,291.0,58.0
+201,EMP4423,  Priya Joshi  ,priya.joshi@outlook.com,8495163211,Female,Mumbai,Finance,2023-05-27,2020-07-06,60312.0,16489.5,Active,3.0,Monitor,168.0,6.0
+202,EMP5719,Kavya Rao,kavya.rao@yahoo.com,4911650200,Female,Lucknow,Operations,2020-05-28,2020-08-25,43151.0,16536.84,Inactive,5.0,Mobile,146.0,33.0
+203,EMP7001,Aditya Patel,aditya.patel@outlook.com,9092755719,Male,Bangalore,Sales,2024-02-15,2022-03-03,93233.0,11121.24,Inactive,2.0,Monitor,366.0,5.0
+204,EMP3603,"Patel, Siddharth",patel.siddharth@yahoo.com,3970774544,Female,Delhi,Operations,2020-06-12,2021-08-15,112994.22453222453,36595.14,Active,4.0,Tablet,93.0,44.0
+205,EMP1498,  Priya Mehta  ,priya.mehta@company.in,7727810509,Male,Delhi,Sales,2020-01-09,2023-12-26,167628.0,42702.51,Inactive,3.0,Tablet,301.0,23.0
+206,EMP8741,Meera Verma,meera.verma@hotmail.com,5882556296,Unknown,Ahmedabad,Operations,2022-04-15,2020-06-26,112242.0,32450.47,Inactive,1.0,Tablet,277.0,47.0
+207,EMP8506,Deepa Pandey,deepa.pandey@gmail.com,,Male,Pune,Finance,,2023-06-23,128467.0,7045.79,Active,5.0,Camera,68.0,45.0
+208,EMP7078,Deepa Reddy,,4236220334,Male,Mumbai,Sales,2021-04-20,2022-05-01,166629.0,2117.14,Active,2.0,Smartwatch,299.0,9.0
+210,EMP3466,Vikram Singh,vikram.singh@yahoo.com,7733168066,Female,Ahmedabad,Sales,2023-02-17,2022-02-14,107101.0,25109.35951219512,Inactive,3.0,Smartwatch,68.0,17.0
+211,,Rahul Das,rahul.das@hotmail.com,6496322517,Female,Chennai,Operations,2020-12-19,2022-12-28,105079.0,21865.25,Active,5.0,Tablet,247.0,2.0
+212,EMP9438,Priya Sharma,priya.sharma@outlook.com,3611371181,Female,Pune,Finance,2024-04-03,2020-02-07,199255.0,25109.35951219512,Active,4.0,Smartwatch,456.0,55.0
+215,EMP3493,Rohit Chopra,rohit.chopra@outlook.com,,Male,Kolkata,Engineering,2021-01-04,2023-08-31,175585.0,44715.56,Inactive,3.0,Mobile,247.0,34.0
+216,EMP5247,Kavya Bose,kavya.bose@yahoo.com,,Female,Lucknow,Engineering,2020-11-18,2023-03-21,158385.0,43005.11,Active,2.0,Laptop,468.0,41.0
+217,EMP7485,Pooja Rao,pooja.rao@yahoo.com,0593777569,Female,Hyderabad,Operations,2023-05-10,2023-11-05,124121.0,2523.39,Inactive,1.0,Smartwatch,0.0,9.0
+218,EMP1014,Aditya Sharma,aditya.sharma@gmail.com,4256908776,Female,Hyderabad,Marketing,2020-05-09,2021-09-12,194626.0,26964.0,Active,3.0,Tablet,496.0,12.0
+219,,"Chopra, Kavya",chopra.kavya@company.in,7530011972,Female,Mumbai,HR,2021-04-18,2021-08-29,51164.0,43769.95,Active,1.0,Laptop,247.0,10.0
+220,EMP2102,Rohit Mishra,rohit.mishra@hotmail.com,7635148468,Male,Ahmedabad,Operations,2021-04-01,2022-11-23,80824.0,41283.45,Active,5.0,Speaker,373.0,33.0
+221,EMP8474,Meera Das,,,Male,Bangalore,Engineering,2020-08-09,2021-04-01,137689.0,28212.51,Active,5.0,Speaker,235.0,57.0
+222,EMP9973,Ananya Mehta,ananya.mehta@outlook.com,,Male,Delhi,Finance,2021-10-16,2024-02-14,180456.0,40076.67,Active,4.0,Headphones,247.0,41.0
+223,EMP4120,Aditya Verma,aditya.verma@gmail.com,9901398373,Male,Bangalore,Operations,2024-03-09,2023-11-25,112994.22453222453,38887.94,Inactive,3.0,Monitor,412.0,30.0
+224,EMP8259,Arjun Chopra,arjun.chopra@outlook.com,0974533890,Male,Kolkata,Marketing,2023-07-21,2021-11-20,128937.0,25109.35951219512,Active,4.0,Tablet,78.0,48.0
+225,EMP3823,Aditya Sharma,aditya.sharma@outlook.com,9269326573,Male,Lucknow,Finance,2023-10-16,,111902.0,16008.05,Active,3.0,Camera,162.0,53.0
+226,EMP9038,Lakshmi Pillai,lakshmi.pillai@yahoo.com,3677462025,Unknown,Pune,HR,2020-05-22,2020-12-20,74918.0,6751.62,Inactive,3.0,Laptop,5.0,33.0
+227,EMP2560,Rahul Bose,rahul.bose@yahoo.com,6042232536,Female,Kolkata,Marketing,2023-07-21,2024-03-15,121749.0,24658.2,Inactive,4.0,Camera,408.0,13.0
+228,,Pooja,pooja@hotmail.com,6843021166,Female,Pune,Marketing,2024-03-24,2023-03-04,180561.0,25109.35951219512,Active,2.0,Tablet,453.0,29.0
+229,EMP9385,Aditya Sharma,aditya.sharma@company.in,1061339439,Male,Bangalore,Finance,2021-03-20,2021-03-19,79094.0,36137.13,Active,2.0,Monitor,147.0,42.0
+230,EMP3870,Rohit Chopra,rohit.chopra@hotmail.com,2347199829,Female,Mumbai,HR,2023-11-14,2022-07-03,141015.0,28635.5,Active,1.0,Tablet,202.0,15.0
+231,EMP7304,Aarav Kumar,aarav.kumar@company.in,0371837645,Female,Chennai,Engineering,2020-04-16,2021-04-28,68872.0,29442.49,Active,4.0,Tablet,46.0,31.0
+232,EMP1969,Kiran Iyer,kiran.iyer@outlook.com,,Female,Hyderabad,Engineering,2023-07-22,2021-07-21,59393.0,25109.35951219512,Active,2.0,Laptop,389.0,5.0
+233,EMP2310,Aarav Gupta,aarav.gupta@company.in,0586509480,Female,Jaipur,Sales,2024-01-25,2021-01-23,112994.22453222453,47401.42,Inactive,5.0,Monitor,219.0,10.0
+235,EMP3346,Aditya Reddy,aditya.reddy@hotmail.com,4359892625,Male,Bangalore,Sales,2020-09-12,2022-04-13,48324.0,17009.11,Inactive,1.0,Headphones,54.0,7.0
+236,EMP5888,Rajesh Kumar,rajesh.kumar@company.in,2235697252,Female,Hyderabad,Sales,2021-07-14,2020-12-11,48079.0,21968.72,Active,1.0,Camera,457.0,53.0
+237,EMP7252,Suresh Pandey,suresh.pandey@hotmail.com,6334141115,Other,Lucknow,HR,2021-10-03,2020-01-04,165405.0,19713.2,Inactive,2.0,Headphones,5.0,29.0
+238,EMP5225,Sneha Rao,sneha.rao@company.in,1033993788,Male,Jaipur,Marketing,2022-09-18,2021-04-23,178661.0,12692.65,Inactive,4.0,Headphones,73.0,10.0
+239,EMP1723,Rajesh Chopra,rajesh.chopra@yahoo.com,4564494856,Male,Delhi,Finance,2020-04-18,2021-04-15,93216.0,23623.08,Active,3.0,Monitor,58.0,55.0
+240,EMP7694,Priya Malhotra,priya.malhotra@company.in,0735104584,Male,Bangalore,Sales,2023-03-03,2022-12-24,112994.22453222453,25060.62,Inactive,2.0,Tablet,471.0,59.0
+241,EMP5318,Priya Bose,priya.bose@company.in,3703175438,Male,Mumbai,HR,2021-10-26,2022-02-24,70287.0,38643.6,Inactive,2.0,Smartwatch,230.0,16.0
+242,EMP8882,Lakshmi Mishra,lakshmi.mishra@company.in,8375307681,Male,Jaipur,HR,,2021-06-10,60377.0,20065.44,Active,1.0,Speaker,391.0,22.0
+243,EMP4248,Lakshmi Mishra,lakshmi.mishra@hotmail.com,3703424447,Female,Hyderabad,Marketing,2022-05-01,2021-10-07,26346.0,25109.35951219512,Inactive,4.0,Camera,356.0,42.0
+244,EMP5549,Pooja Mishra,pooja.mishra@hotmail.com,1283180036,Male,Hyderabad,Sales,2021-02-06,2021-01-31,50260.0,25109.35951219512,Active,2.0,Laptop,284.0,59.0
+245,EMP1983,"Pandey, Rohit",pandey.rohit@gmail.com,2812735857,Male,Delhi,HR,2022-09-20,2023-01-16,112994.22453222453,16522.2,Inactive,5.0,Tablet,420.0,23.0
+247,EMP7187,Vikram Verma,vikram.verma@yahoo.com,,Female,Lucknow,Engineering,2023-11-29,2020-02-14,119246.0,24802.39,Active,3.0,Camera,134.0,10.0
+248,EMP8138,Kavya Malhotra,kavya.malhotra@outlook.com,,Male,Jaipur,Operations,2021-07-26,2022-07-10,160706.0,29201.5,Active,2.0,Laptop,377.0,46.0
+249,EMP4240,Aarav Pillai,aarav.pillai@gmail.com,2484337976,Female,Hyderabad,HR,2020-05-17,2023-05-29,160990.0,40279.29,Active,3.0,Speaker,307.0,18.0
+251,EMP8011,Aditya Iyer,,7520716781,Male,Delhi,Sales,2021-11-02,2022-04-07,136333.0,14286.66,Inactive,3.0,Speaker,262.0,49.0
+252,EMP2363,Divya Patel,divya.patel@gmail.com,2164334722,Male,Pune,Marketing,2023-01-12,2020-10-03,144680.0,31974.63,Inactive,3.0,Headphones,227.0,26.0
+254,EMP3374,Neha Mishra,neha.mishra@yahoo.com,7265273543,Male,Mumbai,Marketing,2022-05-06,2021-03-26,192247.0,45326.12,Inactive,5.0,Headphones,429.0,0.0
+255,EMP6778,Aarav Pillai,aarav.pillai@hotmail.com,0835832863,Male,Bangalore,Finance,2020-01-28,2024-03-26,152113.0,14512.94,Inactive,3.0,Speaker,68.0,56.0
+256,EMP7908,"Nair, Siddharth",nair.siddharth@outlook.com,6683496047,Male,Unknown,HR,2022-03-01,2021-12-29,131595.0,27562.24,Active,4.0,Headphones,451.0,16.0
+257,EMP1897,  Meera Patel  ,meera.patel@gmail.com,3244510762,Female,Pune,Sales,2024-02-28,2022-07-30,175931.0,20518.93,Active,3.0,Monitor,471.0,27.0
+258,EMP9040,Deepa Verma,deepa.verma@yahoo.com,,Female,Bangalore,HR,2020-10-04,2021-08-22,123845.0,1679.79,Inactive,4.0,Smartwatch,358.0,30.0
+259,EMP8451,Meera Pillai,meera.pillai@gmail.com,5168087603,Female,Hyderabad,Engineering,2023-01-29,2022-06-16,112994.22453222453,12345.22,Inactive,2.0,Mobile,61.0,9.0
+260,EMP3373,Aditya Reddy,aditya.reddy@yahoo.com,5699611253,Female,Kolkata,HR,2024-05-18,2022-12-02,73204.0,6689.48,Active,3.0,Speaker,33.0,30.0
+261,EMP8481,Siddharth Pillai,siddharth.pillai@hotmail.com,1248255442,Male,Pune,Finance,2021-01-15,2020-09-29,83247.0,10131.11,Active,2.0,Camera,390.0,59.0
+262,EMP2334,Neha Bose,neha.bose@gmail.com,1620281237,Male,Jaipur,Marketing,2024-03-13,2021-08-30,102128.0,44071.2,Active,2.0,Headphones,488.0,33.0
+263,EMP8410,Siddharth Chopra,siddharth.chopra@company.in,7555628333,Female,Jaipur,Marketing,2023-08-11,2020-10-16,195980.0,45281.47,Inactive,2.0,Tablet,480.0,11.0
+264,EMP1997,Sneha Joshi,sneha.joshi@gmail.com,8038287232,Male,Lucknow,Operations,,2020-09-04,52159.0,41719.96,Active,4.0,Headphones,280.0,39.0
+265,EMP1764,Rajesh Rao,rajesh.rao@company.in,3963428987,Male,Pune,Sales,2023-07-28,2020-10-11,40383.0,42894.16,Inactive,4.0,Monitor,0.0,53.0
+266,EMP1246,Rahul Pandey,rahul.pandey@outlook.com,3668348268,Female,Lucknow,Marketing,2022-12-17,2023-02-16,198123.0,39188.67,Active,2.0,Mobile,460.0,44.0
+267,EMP8478,Aditya Mishra,aditya.mishra@gmail.com,0691767993,Female,Chennai,Operations,2021-04-14,2020-01-09,142768.0,611.4,Active,5.0,Laptop,488.0,49.0
+268,EMP8177,Meera Pillai,meera.pillai@hotmail.com,3315098393,Female,Hyderabad,HR,2022-11-18,2022-09-21,112994.22453222453,12528.36,Active,4.0,Speaker,374.0,30.0
+269,EMP1753,Arjun Shah,arjun.shah@company.in,7349960105,Male,Delhi,Operations,2021-10-26,2020-11-04,172282.0,12638.72,Inactive,3.0,Tablet,35.0,44.0
+270,EMP4112,Pooja Nair,pooja.nair@company.in,8444310698,Male,,HR,2023-07-04,2020-02-22,101496.0,23941.75,Inactive,3.0,Speaker,454.0,11.0
+271,EMP9071,Kiran Patel,kiran.patel@gmail.com,,Female,Chennai,Sales,2022-01-28,2021-04-28,112994.22453222453,25109.35951219512,Active,4.0,Headphones,306.0,3.0
+272,EMP1315,Arjun Joshi,arjun.joshi@gmail.com,9967069219,Female,,Finance,2020-11-28,2022-11-15,89319.0,35020.05,Inactive,5.0,Monitor,475.0,30.0
+273,EMP8756,Aarav Das,aarav.das@outlook.com,6184438612,Female,Chennai,Marketing,2023-03-28,2022-09-15,79988.0,37544.93,Active,2.0,Tablet,219.0,10.0
+274,EMP7383,  Lakshmi Rao  ,lakshmi.rao@yahoo.com,7311804674,Male,Bangalore,Finance,2024-04-30,,43805.0,19575.66,Active,4.0,Monitor,198.0,46.0
+276,EMP1333,Priya Sharma,priya.sharma@hotmail.com,,Female,Delhi,HR,2023-03-31,2023-03-25,76990.0,34685.41,Active,5.0,Laptop,220.0,4.0
+278,EMP7361,  Neha Joshi  ,neha.joshi@gmail.com,9353875842,Female,Ahmedabad,Engineering,2021-06-13,2021-11-18,83544.0,15700.72,Active,4.0,Monitor,247.0,12.0
+279,EMP2309,Arjun Malhotra,arjun.malhotra@hotmail.com,8664693656,Female,Lucknow,Marketing,2023-07-08,2020-01-15,37891.0,48543.17,Inactive,3.0,Headphones,413.0,36.0
+280,EMP2430,Aditya Verma,aditya.verma@yahoo.com,,Female,,Marketing,2024-01-24,2020-12-13,95495.0,24909.64,Active,1.0,Headphones,254.0,12.0
+281,EMP8674,Vikram Patel,vikram.patel@outlook.com,0880670898,Unknown,Mumbai,Finance,2020-07-08,2020-06-10,63078.0,19239.33,Inactive,1.0,Speaker,337.0,38.0
+282,EMP7374,Meera Nair,meera.nair@company.in,9788977828,Male,Pune,HR,2020-05-05,2020-09-19,178083.0,25109.35951219512,Active,4.0,Headphones,332.0,5.0
+283,EMP1924,Rahul,rahul@company.in,4813235707,Male,Delhi,Finance,2020-04-26,2022-04-19,69542.0,16421.98,Active,4.0,Tablet,0.0,7.0
+284,EMP2377,Priya Das,priya.das@hotmail.com,2764579389,Male,Unknown,Operations,2022-02-21,2023-07-28,30867.0,37464.97,Inactive,5.0,Headphones,156.0,34.0
+285,EMP5757,Arjun Verma,,2583132370,Female,Jaipur,Engineering,2020-06-25,2024-01-08,132330.0,4150.66,Inactive,5.0,Tablet,67.0,58.0
+286,EMP5095,Deepa Singh,deepa.singh@gmail.com,6234190310,Male,Mumbai,HR,2022-04-21,2023-10-25,77834.0,7722.82,Active,4.0,Smartwatch,130.0,30.0
+287,EMP1020,  Rohit Verma  ,rohit.verma@gmail.com,6267658617,Female,Mumbai,Sales,2020-11-02,2020-08-02,123424.0,4212.62,Active,5.0,Laptop,335.0,56.0
+289,EMP1996,Rajesh Joshi,,6177115921,Female,Lucknow,Finance,2022-07-18,2023-12-08,195633.0,27791.09,Active,4.0,Mobile,161.0,23.0
+290,EMP9893,"Reddy, Vikram",reddy.vikram@yahoo.com,0800463580,Female,Jaipur,Engineering,2022-01-29,2020-07-21,83082.0,4111.69,Active,1.0,Headphones,60.0,0.0
+291,EMP7491,  Rajesh Mehta  ,rajesh.mehta@company.in,,Female,Chennai,Operations,2022-11-29,2024-08-03,64099.0,46262.89,Inactive,3.0,Monitor,429.0,1.0
+293,EMP5224,Kiran Kumar,,5484203531,Female,Lucknow,Sales,2023-01-18,2021-10-25,47651.0,6242.3,Inactive,3.0,Laptop,156.0,42.0
+294,EMP6904,Priya Iyer,priya.iyer@yahoo.com,7861035797,Female,Chennai,Operations,2021-06-08,2020-11-29,194706.0,10733.18,Inactive,1.0,Tablet,308.0,14.0
+295,EMP8586,  Suresh Mishra  ,suresh.mishra@hotmail.com,2507146112,Male,Pune,Marketing,2022-06-16,2021-06-09,55168.0,17482.36,Inactive,2.0,Camera,491.0,51.0
+296,EMP3184,Rajesh Iyer,rajesh.iyer@hotmail.com,0676251538,Female,Chennai,HR,2020-01-05,2021-09-16,186939.0,3346.09,Active,1.0,Tablet,5.0,31.0
+298,EMP3863,Neha Das,neha.das@company.in,8750036915,Female,Bangalore,HR,2023-09-06,2022-10-18,122598.0,20329.33,Inactive,1.0,Headphones,439.0,9.0
+299,EMP1425,Lakshmi Pandey,lakshmi.pandey@company.in,9311091939,Female,Lucknow,Marketing,2021-05-12,2020-05-03,112994.22453222453,25109.35951219512,Inactive,3.0,Camera,497.0,30.0
+300,EMP8823,  Kiran Chopra  ,kiran.chopra@outlook.com,1704542185,Male,Jaipur,Engineering,2023-03-29,2022-01-21,175607.0,36848.71,Active,4.0,Laptop,109.0,17.0
+301,EMP5012,Divya Joshi,divya.joshi@company.in,1027677359,Female,Pune,Marketing,2024-06-04,2020-05-08,57118.0,12771.98,Active,3.0,Tablet,479.0,20.0
+302,EMP8765,Aditya Chopra,aditya.chopra@outlook.com,5916011241,Unknown,Chennai,Finance,2023-08-02,2020-01-13,112994.22453222453,20106.01,Active,1.0,Camera,403.0,59.0
+303,EMP5815,Kavya Pillai,kavya.pillai@hotmail.com,1537038240,Female,Bangalore,Marketing,2020-10-24,2020-02-12,112994.22453222453,49919.44,Active,5.0,Speaker,362.0,23.0
+304,EMP8158,Deepa,deepa@outlook.com,2480962440,Male,Chennai,HR,2023-11-05,2021-05-04,82948.0,14747.65,Inactive,5.0,Speaker,286.0,30.0
+306,EMP6997,Vikram,vikram@company.in,2927318683,Male,Pune,Operations,2023-08-08,2021-04-09,48716.0,25109.35951219512,Inactive,3.0,Speaker,13.0,58.0
+307,EMP8105,Ananya Pillai,ananya.pillai@outlook.com,1518260688,Female,Lucknow,Finance,2024-03-23,2020-08-28,72169.0,25109.35951219512,Active,2.0,Smartwatch,18.0,7.0
+308,EMP5835,Rahul Singh,rahul.singh@yahoo.com,0571983863,Female,Hyderabad,Marketing,2022-03-05,2020-04-20,78238.0,39155.78,Inactive,3.0,Headphones,494.0,28.0
+309,EMP8245,Meera Nair,meera.nair@hotmail.com,0335211039,Female,Unknown,Sales,,2024-02-24,162171.0,27665.6,Active,1.0,Laptop,31.0,50.0
+310,EMP3436,Rajesh Pandey,rajesh.pandey@yahoo.com,6043260931,Male,Bangalore,Engineering,2022-05-22,2022-05-24,95581.0,47178.44,Active,1.0,Camera,242.0,38.0
+311,EMP1741,Aditya Nair,aditya.nair@gmail.com,4597794523,Female,Mumbai,Marketing,2020-06-02,2020-01-28,145628.0,43504.64,Inactive,5.0,Speaker,45.0,0.0
+312,EMP1917,Aarav Patel,aarav.patel@hotmail.com,1491507628,Female,Delhi,Sales,2022-01-24,2021-07-07,140513.0,14434.3,Inactive,4.0,Speaker,306.0,1.0
+313,EMP6589,Rohit Sharma,rohit.sharma@hotmail.com,9751910231,Female,Unknown,Engineering,2020-04-12,2023-07-04,76720.0,25017.37,Active,1.0,Laptop,247.0,56.0
+314,EMP8989,Kiran Shah,kiran.shah@yahoo.com,5303856770,Female,Jaipur,Operations,2024-02-28,2023-03-13,124226.0,32840.16,Inactive,2.0,Camera,177.0,30.0
+316,EMP9637,Siddharth Shah,siddharth.shah@company.in,,Female,Lucknow,Operations,2021-02-22,2021-03-12,25111.0,49060.12,Active,4.0,Laptop,185.0,17.0
+317,EMP3400,Neha Iyer,neha.iyer@gmail.com,,Male,Pune,Sales,2023-01-09,2023-11-07,64410.0,26380.45,Active,5.0,Monitor,489.0,30.0
+318,EMP7180,Siddharth Sharma,siddharth.sharma@yahoo.com,6821719553,Other,Lucknow,Sales,2022-04-25,2020-01-31,45083.0,22208.52,Active,2.0,Tablet,246.0,42.0
+319,EMP2564,Siddharth Chopra,siddharth.chopra@gmail.com,4028182238,Other,Delhi,Marketing,2020-09-03,2020-05-23,110134.0,23644.66,Active,2.0,Headphones,233.0,30.0
+320,EMP6956,Sneha Chopra,sneha.chopra@outlook.com,1082555989,Female,Mumbai,Sales,2023-07-13,2023-09-02,141855.0,4206.54,Active,2.0,Tablet,247.0,45.0
+321,EMP4218,"Patel, Divya",patel.divya@company.in,,Female,Ahmedabad,Operations,2023-04-21,2021-05-30,154133.0,16767.65,Active,5.0,Smartwatch,258.0,28.0
+322,EMP1052,Rohit Bose,rohit.bose@company.in,8932064969,Male,Bangalore,HR,2022-09-20,2022-03-14,102441.0,6062.19,Inactive,4.0,Speaker,238.0,42.0
+323,EMP8904,Siddharth Gupta,siddharth.gupta@yahoo.com,8744956213,Female,Jaipur,Marketing,2023-01-02,2023-07-26,63096.0,30212.15,Active,1.0,Speaker,267.0,38.0
+324,EMP5309,Sneha Mishra,sneha.mishra@gmail.com,6435023850,Male,Mumbai,Marketing,2024-02-23,2022-09-07,35942.0,25081.54,Active,2.0,Tablet,247.0,55.0
+325,EMP1692,Lakshmi Mehta,lakshmi.mehta@company.in,6748095739,Male,Jaipur,Sales,,2023-06-17,195570.0,42902.37,Active,5.0,Tablet,144.0,55.0
+326,EMP2612,Divya Reddy,divya.reddy@gmail.com,0835354443,Unknown,Chennai,Sales,2021-07-31,2022-04-07,196785.0,32877.51,Active,2.0,Monitor,237.0,5.0
+327,EMP9245,Lakshmi Joshi,lakshmi.joshi@hotmail.com,4325122572,Female,Delhi,HR,2020-12-15,2022-08-28,89883.0,2736.24,Inactive,2.0,Mobile,412.0,28.0
+328,EMP4248,Lakshmi Iyer,lakshmi.iyer@outlook.com,2069694215,Female,Kolkata,Marketing,2020-08-30,2021-01-25,154543.0,21849.78,Active,3.0,Speaker,15.0,16.0
+329,EMP8814,Rajesh Singh,,0422711332,Male,Delhi,HR,2022-01-07,2023-12-30,112994.22453222453,47921.77,Active,3.0,Smartwatch,497.0,57.0
+330,EMP7143,"Joshi, Suresh",joshi.suresh@yahoo.com,,Female,Kolkata,HR,2020-09-23,2020-08-04,112994.22453222453,31572.95,Inactive,2.0,Mobile,247.0,41.0
+331,EMP8130,Siddharth Rao,siddharth.rao@hotmail.com,2723865624,Female,Unknown,Sales,2024-01-17,2020-10-05,134014.0,44732.33,Active,5.0,Monitor,116.0,38.0
+332,EMP5974,Rahul Iyer,rahul.iyer@outlook.com,5557469660,Male,Delhi,Marketing,2020-02-09,2024-01-07,122904.0,21661.17,Inactive,2.0,Monitor,55.0,10.0
+333,EMP7247,Suresh Mishra,suresh.mishra@company.in,,Male,Chennai,Operations,2020-01-26,2023-09-15,71867.0,1354.7,Active,5.0,Laptop,41.0,39.0
+334,EMP3978,Rohit Nair,rohit.nair@hotmail.com,5129592728,Female,Jaipur,Sales,2021-08-19,2021-01-04,155456.0,8185.0,Active,5.0,Monitor,343.0,21.0
+335,EMP8715,"Joshi, Vikram",joshi.vikram@outlook.com,1595841749,Male,Delhi,Engineering,2022-11-17,2023-02-04,100151.0,5394.65,Active,4.0,Laptop,131.0,13.0
+336,EMP5747,Aarav Das,aarav.das@hotmail.com,1864482217,Other,Bangalore,Finance,2022-04-11,2020-01-24,31735.0,2817.71,Active,2.0,Speaker,154.0,5.0
+337,EMP7528,Arjun Rao,arjun.rao@company.in,5510762091,Male,Lucknow,Operations,2022-11-20,,36994.0,36922.75,Active,5.0,Camera,477.0,30.0
+338,EMP4325,Siddharth Mishra,,6346692548,Female,Pune,Engineering,2020-03-25,2021-11-19,138378.0,25109.35951219512,Active,3.0,Camera,151.0,32.0
+339,EMP5775,Aditya Mishra,aditya.mishra@yahoo.com,,Male,Kolkata,Finance,2020-01-07,2021-06-05,112994.22453222453,14216.04,Active,4.0,Monitor,161.0,11.0
+340,EMP9031,Rajesh Rao,rajesh.rao@gmail.com,5726284987,Female,Bangalore,Sales,2022-07-12,2023-03-13,154579.0,9501.07,Inactive,5.0,Smartwatch,265.0,5.0
+341,EMP4781,Aditya Kumar,aditya.kumar@yahoo.com,,Male,Jaipur,Marketing,2021-02-17,2022-10-01,112994.22453222453,47652.73,Active,3.0,Monitor,17.0,42.0
+343,,"Mehta, Aarav",mehta.aarav@hotmail.com,8605210262,Male,Lucknow,Sales,2023-01-19,2021-01-06,83049.0,43924.36,Active,3.0,Headphones,378.0,53.0
+344,EMP6377,Divya Nair,divya.nair@hotmail.com,9739889413,Unknown,Hyderabad,Operations,2020-08-23,2022-07-09,160940.0,14709.74,Active,5.0,Tablet,247.0,30.0
+345,EMP7484,"Bose, Kiran",bose.kiran@gmail.com,4706810390,Female,Mumbai,Finance,2022-11-08,2020-07-11,188261.0,28035.0,Active,3.0,Camera,202.0,18.0
+346,EMP4893,Lakshmi Bose,lakshmi.bose@outlook.com,,Female,Hyderabad,Finance,2021-05-07,2023-09-30,119530.0,26539.94,Active,4.0,Tablet,192.0,1.0
+347,EMP6209,Arjun Nair,arjun.nair@company.in,0997683890,Female,Kolkata,Engineering,2020-11-06,2022-10-18,123500.0,2376.38,Inactive,3.0,Camera,390.0,30.0
+348,EMP5740,  Siddharth Gupta  ,,,Female,Jaipur,Marketing,2022-04-07,2021-08-09,71563.0,665.2,Inactive,1.0,Speaker,211.0,1.0
+349,EMP5182,Meera Pandey,meera.pandey@company.in,8623760088,Male,Bangalore,Marketing,2020-06-30,2022-10-01,173702.0,22140.57,Active,3.0,Headphones,493.0,8.0
+350,EMP1157,Divya Verma,divya.verma@outlook.com,6413836702,Male,Jaipur,Marketing,2022-07-27,2022-11-01,128376.0,28607.13,Active,3.0,Speaker,377.0,28.0
+351,EMP5881,Deepa Pillai,deepa.pillai@company.in,8055077406,Female,Kolkata,Engineering,2023-03-02,2020-01-20,112374.0,16565.35,Inactive,3.0,Headphones,43.0,29.0
+352,EMP3713,Lakshmi Sharma,lakshmi.sharma@yahoo.com,4322259136,Female,Ahmedabad,Engineering,,2020-09-18,159386.0,28827.33,Active,4.0,Laptop,373.0,18.0
+353,EMP8292,Vikram Malhotra,vikram.malhotra@outlook.com,9303646871,Male,Bangalore,Operations,2020-08-19,2023-08-23,112994.22453222453,11974.12,Active,3.0,Mobile,276.0,16.0
+354,EMP8800,Deepa Chopra,deepa.chopra@company.in,,Male,Ahmedabad,HR,2021-05-29,2021-01-29,165473.0,34663.1,Inactive,3.0,Mobile,152.0,11.0
+355,EMP5395,Arjun Verma,arjun.verma@gmail.com,,Female,Hyderabad,Engineering,2022-05-02,2023-10-21,124549.0,30762.24,Inactive,2.0,Monitor,211.0,4.0
+356,,Rajesh Gupta,rajesh.gupta@yahoo.com,5421689421,Male,Jaipur,Finance,2021-11-22,2020-01-10,153497.0,9827.09,Active,2.0,Tablet,12.0,10.0
+357,EMP3647,"Shah, Meera",shah.meera@outlook.com,7871888223,Female,Jaipur,HR,2022-05-03,2020-06-06,112994.22453222453,25109.35951219512,Inactive,3.0,Camera,352.0,17.0
+358,EMP7472,Divya Gupta,divya.gupta@company.in,3155206506,Male,Pune,Sales,2021-03-23,2023-05-11,51689.0,39667.36,Inactive,5.0,Speaker,498.0,8.0
+360,EMP5843,Rohit Shah,rohit.shah@yahoo.com,9551127474,Male,Lucknow,Marketing,2022-01-14,2023-06-23,159343.0,25109.35951219512,Inactive,1.0,Laptop,126.0,35.0
+361,EMP3439,Rahul Chopra,rahul.chopra@gmail.com,1832700046,Male,Hyderabad,Sales,2020-04-13,2023-09-27,91143.0,37576.62,Active,1.0,Smartwatch,162.0,45.0
+362,,Vikram Pandey,vikram.pandey@hotmail.com,3513052312,Female,Jaipur,Operations,2022-08-14,2022-03-30,76872.0,44422.09,Active,3.0,Headphones,250.0,28.0
+363,EMP2410,Pooja Chopra,pooja.chopra@yahoo.com,7851961064,Female,Kolkata,HR,2022-01-10,2021-09-10,146491.0,39665.37,Active,5.0,Smartwatch,252.0,41.0
+364,EMP7524,Divya Rao,divya.rao@outlook.com,4941163187,Female,Mumbai,Sales,2020-03-18,2024-04-10,186302.0,37048.14,Inactive,2.0,Camera,247.0,21.0
+365,,Siddharth Mishra,siddharth.mishra@yahoo.com,5770272785,Female,Chennai,Finance,2023-11-02,2023-04-11,117692.0,7890.59,Active,2.0,Speaker,60.0,48.0
+366,EMP4955,Suresh Pillai,,7236108092,Male,,HR,2021-10-14,2022-04-12,199459.0,25109.35951219512,Inactive,3.0,Tablet,221.0,0.0
+367,EMP4206,Deepa Mishra,deepa.mishra@gmail.com,5031219804,Other,Delhi,Marketing,2021-01-15,2020-12-07,49188.0,28844.15,Inactive,5.0,Speaker,121.0,30.0
+368,EMP2625,Suresh Pandey,suresh.pandey@yahoo.com,4123281206,Female,,Operations,2023-12-10,2021-04-23,112994.22453222453,40293.33,Active,3.0,Mobile,247.0,52.0
+369,EMP3591,Ananya Das,ananya.das@hotmail.com,7558556659,Female,Chennai,HR,,2021-05-08,104125.0,49227.52,Active,3.0,Tablet,236.0,8.0
+370,EMP8772,Vikram Kumar,vikram.kumar@company.in,0054364597,Female,Hyderabad,Marketing,2020-08-25,2024-01-17,110451.0,37480.79,Active,1.0,Speaker,193.0,4.0
+371,EMP8588,  Deepa Chopra  ,deepa.chopra@outlook.com,2768172257,Male,Chennai,Marketing,2022-02-15,2020-07-03,112994.22453222453,38888.14,Active,1.0,Tablet,492.0,30.0
+372,EMP5562,  Pooja Shah  ,pooja.shah@gmail.com,,Male,Hyderabad,Marketing,2023-12-15,2023-02-17,189439.0,25109.35951219512,Active,4.0,Tablet,145.0,40.0
+373,,Suresh Joshi,suresh.joshi@outlook.com,8679252985,Male,Jaipur,Marketing,,2021-12-02,83801.0,30627.74,Active,4.0,Laptop,434.0,50.0
+374,EMP1669,Aarav Malhotra,aarav.malhotra@yahoo.com,7774867595,Male,Kolkata,Operations,2023-11-07,2022-10-22,108886.0,26239.99,Inactive,4.0,Headphones,457.0,47.0
+376,EMP3996,  Kavya Das  ,kavya.das@gmail.com,7648467357,Male,Bangalore,Operations,2020-10-17,2022-07-11,184233.0,25109.35951219512,Active,2.0,Camera,194.0,56.0
+377,EMP9248,Pooja Mehta,pooja.mehta@outlook.com,8382567262,Female,Lucknow,Engineering,2021-09-16,2023-07-29,46011.0,19893.61,Active,1.0,Camera,340.0,25.0
+380,EMP2669,Aditya Kumar,aditya.kumar@hotmail.com,1213524787,Male,Delhi,Sales,2022-06-18,2020-01-14,149168.0,25498.63,Active,2.0,Speaker,71.0,26.0
+381,EMP5902,Suresh Das,suresh.das@outlook.com,9268315893,Male,Kolkata,Marketing,2020-07-07,2020-09-23,45466.0,26549.65,Inactive,3.0,Monitor,486.0,26.0
+382,EMP6615,  Meera Sharma  ,meera.sharma@yahoo.com,0339685270,Female,Delhi,Engineering,2020-07-06,2021-02-22,136736.0,15917.42,Active,3.0,Monitor,104.0,50.0
+383,EMP6465,Neha Nair,neha.nair@hotmail.com,0153641547,Female,Delhi,HR,2021-03-15,2022-12-10,136738.0,16207.35,Inactive,1.0,Mobile,247.0,24.0
+384,EMP4072,Kiran Chopra,kiran.chopra@gmail.com,6373516091,Male,Hyderabad,Finance,2023-02-07,2022-09-16,70521.0,6854.9,Inactive,4.0,Headphones,494.0,18.0
+385,EMP7765,  Rajesh Chopra  ,rajesh.chopra@gmail.com,8249793998,Male,Bangalore,Operations,2020-06-19,2024-05-19,48169.0,1644.51,Active,2.0,Laptop,141.0,27.0
+386,EMP7122,Arjun Pillai,arjun.pillai@company.in,3279862398,Female,Kolkata,Sales,2020-06-22,2020-03-22,98618.0,40437.16,Active,3.0,Monitor,198.0,53.0
+387,EMP8723,Deepa Rao,deepa.rao@yahoo.com,7368011923,Male,Mumbai,Sales,2023-01-28,2021-03-28,50390.0,1079.04,Active,4.0,Mobile,122.0,5.0
+388,EMP5198,Rahul Verma,rahul.verma@outlook.com,,Male,Hyderabad,HR,2022-06-08,2020-09-03,182889.0,31877.41,Active,5.0,Camera,114.0,43.0
+389,EMP5105,Ananya Sharma,ananya.sharma@company.in,5202389743,Male,Pune,Finance,2021-11-21,2024-04-29,112167.0,42959.82,Active,5.0,Headphones,487.0,2.0
+390,EMP7372,Aditya Mehta,aditya.mehta@company.in,5169139521,Female,Delhi,Marketing,2020-01-10,2021-03-21,112994.22453222453,13272.37,Active,3.0,Headphones,148.0,18.0
+391,EMP7582,Kiran Sharma,kiran.sharma@company.in,,Male,Jaipur,Operations,2023-09-16,2022-07-19,107885.0,24796.08,Inactive,3.0,Headphones,354.0,51.0
+392,EMP1009,  Divya Mishra  ,divya.mishra@gmail.com,,Female,Pune,Marketing,2023-03-27,2021-10-30,112994.22453222453,14308.75,Active,5.0,Camera,154.0,46.0
+394,EMP9466,  Divya Patel  ,divya.patel@company.in,7420495612,Male,Hyderabad,Marketing,2024-05-01,2021-01-09,177979.0,11822.26,Inactive,2.0,Laptop,188.0,27.0
+395,EMP7703,Meera Reddy,meera.reddy@company.in,,Female,Pune,Operations,2023-05-01,2021-05-23,185609.0,49188.61,Active,4.0,Mobile,262.0,35.0
+396,EMP8438,Rajesh Rao,,1235679836,Male,Lucknow,Operations,2020-10-28,2024-03-05,145808.0,1915.02,Active,5.0,Speaker,204.0,32.0
+397,EMP1136,Lakshmi Mehta,lakshmi.mehta@gmail.com,4510463681,Female,Jaipur,Marketing,2023-12-30,2022-12-20,128127.0,1409.43,Active,5.0,Laptop,450.0,52.0
+398,EMP1055,Aditya Iyer,aditya.iyer@hotmail.com,9114160091,Female,Delhi,Operations,2021-02-16,2023-04-06,186946.0,940.87,Active,1.0,Speaker,133.0,2.0
+399,EMP3992,Ananya Pillai,ananya.pillai@company.in,5513276179,Female,Delhi,HR,2023-11-18,2021-12-19,59449.0,28961.14,Active,1.0,Speaker,208.0,44.0
+400,EMP4372,Ananya Mishra,ananya.mishra@company.in,6188081904,Female,Pune,Marketing,2021-10-28,2022-03-19,117047.0,34546.15,Active,2.0,Mobile,469.0,60.0
+401,EMP2865,Sneha Pandey,sneha.pandey@yahoo.com,4339133252,Unknown,Delhi,Engineering,2023-05-09,2022-04-23,81774.0,25279.57,Inactive,1.0,Speaker,138.0,3.0
+402,EMP7234,Vikram Verma,vikram.verma@gmail.com,0399529701,Male,Kolkata,HR,2021-10-30,2024-04-10,32088.0,4209.98,Active,1.0,Camera,246.0,31.0
+403,EMP2747,Meera Gupta,meera.gupta@yahoo.com,5944064090,Female,Bangalore,Finance,2021-03-24,2023-10-20,189484.0,15792.18,Inactive,3.0,Speaker,68.0,56.0
+404,EMP6878,  Ananya Nair  ,ananya.nair@hotmail.com,5992937842,Male,Hyderabad,Finance,2020-02-01,2021-02-16,71520.0,25109.35951219512,Active,3.0,Camera,192.0,42.0
+405,EMP8891,Rohit Gupta,rohit.gupta@yahoo.com,6929298425,Female,Kolkata,Engineering,2020-02-03,2022-10-29,183731.0,24055.52,Active,1.0,Tablet,277.0,57.0
+406,EMP6599,Aarav Das,aarav.das@company.in,1689363926,Other,Delhi,Engineering,2020-10-10,2021-09-24,63050.0,28459.79,Active,1.0,Tablet,392.0,26.0
+407,EMP3798,  Neha Malhotra  ,neha.malhotra@yahoo.com,5505705218,Female,Chennai,HR,2021-09-29,2023-01-05,45014.0,15774.15,Active,2.0,Camera,102.0,28.0
+408,EMP9920,Meera Patel,meera.patel@hotmail.com,2614543079,Female,Hyderabad,Sales,2023-08-15,2022-12-23,62247.0,4430.34,Active,2.0,Smartwatch,91.0,57.0
+409,EMP4083,Vikram Kumar,vikram.kumar@gmail.com,2368314727,Male,Ahmedabad,Marketing,2020-02-10,2021-02-16,127690.0,889.78,Inactive,3.0,Tablet,263.0,39.0
+410,EMP1242,Priya Reddy,priya.reddy@company.in,9928919827,Male,Bangalore,Engineering,2020-07-04,2020-01-13,105730.0,8994.98,Active,3.0,Headphones,45.0,15.0
+411,EMP1842,Deepa Reddy,deepa.reddy@company.in,6261684552,Male,Mumbai,Sales,2023-07-20,2024-01-15,112994.22453222453,30061.93,Inactive,5.0,Headphones,16.0,37.0
+412,EMP9529,Rohit Rao,rohit.rao@outlook.com,,Male,Hyderabad,Finance,2022-11-18,2021-12-18,112994.22453222453,25109.35951219512,Active,2.0,Tablet,26.0,3.0
+413,EMP3496,  Rajesh Nair  ,rajesh.nair@gmail.com,8352791875,Female,Ahmedabad,Marketing,2020-07-13,2023-12-07,68790.0,44993.27,Active,2.0,Tablet,228.0,7.0
+414,EMP1369,Aditya Mishra,aditya.mishra@hotmail.com,2316600767,Unknown,Mumbai,HR,2021-07-30,2021-01-07,74301.0,22675.46,Inactive,5.0,Monitor,367.0,3.0
+415,EMP8661,Kiran Chopra,kiran.chopra@yahoo.com,,Male,Kolkata,Operations,2021-04-25,2023-05-20,112994.22453222453,11408.54,Active,4.0,Speaker,151.0,32.0
+416,EMP9148,Rohit Shah,rohit.shah@gmail.com,,Female,Pune,Sales,2022-07-19,2023-06-23,120235.0,6144.16,Active,3.0,Camera,24.0,31.0
+417,EMP8541,Aarav Malhotra,aarav.malhotra@outlook.com,4508917768,Female,Delhi,Marketing,2023-09-14,2023-07-24,76467.0,19502.53,Active,2.0,Headphones,423.0,27.0
+419,EMP5065,  Arjun Singh  ,arjun.singh@hotmail.com,9404389836,Male,Mumbai,Engineering,2023-07-30,2020-01-25,59598.0,42029.18,Inactive,3.0,Tablet,247.0,59.0
+420,EMP9452,Neha Verma,neha.verma@gmail.com,2478261375,Male,Bangalore,Marketing,,2024-03-01,61070.0,45911.11,Inactive,3.0,Mobile,247.0,35.0
+421,EMP2319,Lakshmi Iyer,lakshmi.iyer@hotmail.com,6059329715,Female,Bangalore,Engineering,2022-01-25,2023-12-30,101803.0,2029.04,Active,2.0,Monitor,57.0,53.0
+422,EMP2287,"Iyer, Kiran",iyer.kiran@company.in,,Female,Chennai,Operations,2024-03-25,2023-05-17,77435.0,17900.92,Inactive,3.0,Headphones,35.0,37.0
+423,EMP7541,Aarav Iyer,aarav.iyer@company.in,5372603214,Male,Kolkata,Sales,2021-08-25,2023-02-03,150687.0,25109.35951219512,Inactive,2.0,Smartwatch,247.0,23.0
+424,EMP7790,Neha Pandey,neha.pandey@hotmail.com,6763201632,Female,Bangalore,Sales,2020-09-30,2023-02-18,141017.0,36104.06,Inactive,2.0,Monitor,385.0,40.0
+425,EMP4027,Kiran Pillai,kiran.pillai@gmail.com,4471746542,Male,Pune,Sales,2021-06-26,2022-10-04,71777.0,5867.31,Active,4.0,Mobile,247.0,16.0
+427,EMP9341,  Neha Chopra  ,neha.chopra@gmail.com,4471893953,Female,Kolkata,HR,2024-03-28,2020-12-20,158469.0,25109.35951219512,Active,2.0,Camera,458.0,54.0
+428,EMP5485,Pooja Joshi,pooja.joshi@yahoo.com,1220994999,Male,Ahmedabad,Engineering,2023-05-23,2022-02-04,153829.0,8607.43,Active,4.0,Headphones,34.0,28.0
+429,EMP2191,Rahul Shah,rahul.shah@yahoo.com,1516411955,Male,Kolkata,Finance,2023-04-25,2022-10-14,40780.0,526.13,Active,1.0,Monitor,374.0,9.0
+430,EMP3174,Lakshmi Iyer,,,Male,Mumbai,Marketing,2021-11-18,2020-08-29,101228.0,33712.73,Active,1.0,Tablet,312.0,25.0
+431,EMP9348,Sneha Nair,sneha.nair@company.in,2164175823,Female,Chennai,HR,2022-08-24,2023-06-02,65526.0,9999.25,Active,2.0,Monitor,404.0,46.0
+432,EMP4728,Vikram,vikram@yahoo.com,3654145868,Male,Chennai,Sales,2023-05-06,2021-10-04,159066.0,45025.48,Active,5.0,Headphones,36.0,58.0
+433,EMP1222,Suresh Pillai,suresh.pillai@yahoo.com,1840257870,Male,Hyderabad,Marketing,2020-03-26,2022-07-06,58886.0,44411.42,Inactive,4.0,Tablet,23.0,10.0
+434,EMP7979,Pooja Verma,pooja.verma@gmail.com,5732788147,Other,Delhi,Operations,2021-05-24,2020-04-07,159588.0,21533.22,Inactive,3.0,Mobile,9.0,42.0
+435,EMP5385,Aarav Patel,aarav.patel@yahoo.com,9001851327,Unknown,Pune,Marketing,2021-05-14,,112994.22453222453,5577.02,Active,1.0,Speaker,336.0,58.0
+436,EMP4093,Siddharth Mishra,siddharth.mishra@company.in,6448869461,Female,Chennai,Operations,2024-03-12,2020-01-14,25413.0,38800.31,Active,3.0,Tablet,102.0,32.0
+437,EMP5043,Lakshmi Shah,lakshmi.shah@company.in,,Female,Ahmedabad,Marketing,2021-05-18,2020-03-21,190320.0,9897.59,Active,4.0,Laptop,463.0,53.0
+438,EMP6488,Pooja Pandey,pooja.pandey@outlook.com,,Unknown,Hyderabad,Sales,2022-04-22,2023-11-04,99264.0,2185.07,Active,2.0,Mobile,62.0,38.0
+439,EMP3416,Arjun Sharma,,1648072791,Female,Jaipur,Engineering,2022-02-12,2021-01-26,120366.0,44884.42,Inactive,4.0,Camera,278.0,48.0
+440,EMP2127,Rajesh Mehta,rajesh.mehta@yahoo.com,2784980841,Male,Jaipur,Engineering,2021-07-31,2021-02-20,90829.0,42382.13,Active,3.0,Smartwatch,227.0,27.0
+441,EMP8507,"Kumar, Rahul",kumar.rahul@company.in,4547574949,Male,,Finance,2024-01-01,2024-01-06,104886.0,22273.19,Inactive,5.0,Speaker,117.0,30.0
+442,EMP1011,Divya Malhotra,divya.malhotra@outlook.com,4258591779,Male,Delhi,Engineering,2020-06-17,2021-08-01,90711.0,25109.35951219512,Active,5.0,Smartwatch,68.0,23.0
+443,EMP8784,Vikram Das,vikram.das@hotmail.com,7810539128,Female,Kolkata,Finance,2023-04-01,2022-12-16,181985.0,25109.35951219512,Inactive,4.0,Monitor,130.0,2.0
+444,EMP8970,Neha Verma,neha.verma@outlook.com,0545897148,Male,Delhi,HR,2020-03-04,2023-11-26,48402.0,47763.31,Active,4.0,Tablet,348.0,21.0
+447,EMP2746,Neha Chopra,neha.chopra@company.in,,Male,Mumbai,Marketing,2020-01-17,,133320.0,49205.37,Active,4.0,Mobile,247.0,28.0
+448,EMP3442,Divya Sharma,divya.sharma@hotmail.com,5982620450,Male,Pune,Finance,2023-06-25,2021-04-29,71413.0,1726.92,Active,3.0,Mobile,20.0,14.0
+450,EMP4362,Arjun Iyer,arjun.iyer@gmail.com,8393352904,Male,Delhi,Sales,,,38736.0,21337.55,Active,3.0,Headphones,23.0,58.0
+451,EMP5139,Rohit Pandey,rohit.pandey@yahoo.com,3839728339,Male,Jaipur,Marketing,2022-03-13,2023-03-06,160549.0,46245.61,Inactive,1.0,Tablet,95.0,56.0
+452,EMP5572,Siddharth Joshi,siddharth.joshi@hotmail.com,,Female,Pune,Sales,2024-03-25,2021-06-21,114376.0,31265.76,Inactive,3.0,Smartwatch,481.0,27.0
+453,EMP3487,Deepa Mehta,deepa.mehta@yahoo.com,4501848197,Male,Lucknow,Marketing,2020-05-24,2020-03-24,91965.0,23593.02,Inactive,3.0,Mobile,375.0,38.0
+455,EMP7364,Sneha,sneha@company.in,9662782827,Male,Pune,Sales,2020-10-06,2023-02-24,153902.0,42074.64,Active,3.0,Smartwatch,148.0,29.0
+456,EMP7054,Arjun Verma,arjun.verma@hotmail.com,,Other,Jaipur,HR,2021-11-09,2021-10-21,184747.0,41073.02,Active,1.0,Tablet,42.0,29.0
+458,,"Rao, Siddharth",rao.siddharth@hotmail.com,9523120219,Female,Kolkata,HR,2023-02-27,,25312.0,48424.39,Active,4.0,Smartwatch,304.0,19.0
+459,EMP8018,Meera,meera@gmail.com,0337469833,Female,Hyderabad,Marketing,2023-12-06,2020-10-04,135265.0,42952.27,Inactive,1.0,Monitor,260.0,13.0
+460,EMP3673,Rajesh Pillai,rajesh.pillai@gmail.com,3197899901,Male,Ahmedabad,Sales,2020-08-07,2023-04-22,170431.0,39143.38,Inactive,2.0,Camera,316.0,3.0
+461,EMP6250,Suresh Gupta,,8640155778,Male,Pune,Operations,2021-01-20,2022-03-11,45171.0,14159.17,Inactive,1.0,Tablet,216.0,41.0
+463,EMP7188,Neha Reddy,neha.reddy@yahoo.com,6896270661,Other,Jaipur,Operations,2021-06-10,2022-07-17,183865.0,16995.09,Active,5.0,Camera,474.0,25.0
+465,EMP4575,Rahul Reddy,rahul.reddy@company.in,1827279559,Female,Mumbai,Operations,2020-01-17,2021-11-16,51268.0,18221.22,Inactive,5.0,Speaker,243.0,16.0
+466,EMP4733,Kavya Mishra,kavya.mishra@outlook.com,,Female,Delhi,Finance,2020-11-30,2023-08-03,39663.0,25109.35951219512,Active,5.0,Camera,256.0,58.0
+467,EMP2595,Meera Shah,meera.shah@company.in,0344096617,Female,Delhi,Operations,2023-02-05,2024-02-02,146038.0,7700.28,Active,1.0,Camera,471.0,24.0
+468,EMP3292,Priya Singh,priya.singh@yahoo.com,2315551651,Female,Kolkata,Operations,2023-01-27,2022-07-07,93355.0,3297.45,Active,2.0,Laptop,120.0,55.0
+469,EMP6902,Pooja Joshi,pooja.joshi@outlook.com,5749025042,Male,Jaipur,Operations,2023-05-04,2022-02-14,64341.0,49892.13,Active,5.0,Speaker,63.0,33.0
+470,EMP5022,Kavya,kavya@outlook.com,0311587605,Male,Kolkata,Operations,2023-10-14,2022-07-17,95320.0,47165.7,Active,2.0,Monitor,139.0,59.0
+471,EMP9108,  Rohit Reddy  ,,3745843845,Female,Kolkata,Operations,2022-09-22,2020-10-07,169956.0,18933.3,Active,4.0,Laptop,18.0,37.0
+472,EMP3104,"Malhotra, Neha",malhotra.neha@hotmail.com,2864330265,Female,Delhi,Sales,2021-01-21,2022-07-30,123973.0,20986.22,Active,3.0,Laptop,435.0,8.0
+474,EMP2928,Kiran Patel,kiran.patel@yahoo.com,7221455937,Male,Bangalore,Marketing,2022-01-15,2021-12-07,91107.0,40719.68,Active,3.0,Speaker,491.0,36.0
+475,EMP9393,Aditya Singh,,8583339452,Female,Pune,Operations,2024-07-04,2023-04-08,164959.0,42441.4,Inactive,1.0,Headphones,403.0,18.0
+476,EMP1199,Siddharth,siddharth@gmail.com,4980425373,Female,Delhi,Marketing,2023-07-21,2020-09-17,42824.0,49498.41,Active,3.0,Smartwatch,386.0,55.0
+477,EMP3653,Priya Kumar,priya.kumar@outlook.com,,Female,Delhi,Finance,2020-11-11,2024-01-15,172749.0,43257.17,Active,2.0,Speaker,16.0,40.0
+478,EMP8758,  Suresh Verma  ,suresh.verma@yahoo.com,9852973561,Male,Kolkata,HR,2023-02-26,2024-04-13,121923.0,43680.7,Inactive,1.0,Camera,208.0,44.0
+479,EMP2023,Pooja Pandey,pooja.pandey@gmail.com,8627633283,Female,Bangalore,Engineering,2022-04-14,2023-07-24,167168.0,37627.11,Active,4.0,Mobile,247.0,42.0
+481,EMP4261,Arjun Das,arjun.das@hotmail.com,,Female,Pune,Engineering,2023-06-16,2022-11-04,103588.0,25109.35951219512,Active,1.0,Smartwatch,401.0,37.0
+482,EMP5617,  Aarav Bose  ,,,Male,Kolkata,Engineering,2021-04-11,2021-10-05,161243.0,38232.55,Inactive,4.0,Smartwatch,377.0,53.0
+483,EMP5918,"Pandey, Kavya",pandey.kavya@gmail.com,3816649690,Male,Jaipur,Engineering,2024-03-19,2021-11-13,106074.0,25109.35951219512,Active,2.0,Tablet,42.0,54.0
+484,EMP5387,Pooja Gupta,pooja.gupta@yahoo.com,8602050898,Unknown,Bangalore,HR,2023-03-30,2022-06-06,112994.22453222453,43466.33,Active,3.0,Tablet,57.0,24.0
+485,EMP8085,Kavya Iyer,kavya.iyer@company.in,1444856451,Female,Ahmedabad,Engineering,2022-06-07,2024-05-18,173273.0,26188.86,Active,1.0,Mobile,123.0,43.0
+487,EMP4684,Divya Rao,divya.rao@yahoo.com,2728129163,Male,Kolkata,Operations,2022-07-15,2020-12-17,169956.0,18116.94,Inactive,3.0,Monitor,259.0,27.0
+488,EMP2437,Neha Chopra,neha.chopra@outlook.com,6383806578,Male,Delhi,Sales,,2020-04-29,178089.0,48712.0,Inactive,1.0,Headphones,409.0,59.0
+489,EMP2762,Pooja Pandey,pooja.pandey@hotmail.com,,Male,Mumbai,Engineering,2022-05-29,2020-05-28,122508.0,16065.42,Inactive,4.0,Camera,288.0,18.0
+490,EMP5053,Rahul Bose,rahul.bose@company.in,3791212110,Male,Pune,Operations,2022-01-05,2020-05-31,152069.0,2284.66,Active,5.0,Smartwatch,92.0,47.0
+491,EMP5511,Rahul Pandey,,5743748969,Female,Lucknow,Finance,2021-09-03,2021-11-19,97583.0,35699.14,Active,2.0,Speaker,349.0,1.0
+492,EMP6144,  Pooja Joshi  ,pooja.joshi@hotmail.com,,Male,Chennai,Operations,2021-09-21,2021-09-17,112994.22453222453,37772.58,Inactive,4.0,Smartwatch,136.0,30.0
+494,EMP5968,"Shah, Aditya",shah.aditya@gmail.com,,Female,Bangalore,Sales,2020-10-27,2020-03-21,148945.0,8937.67,Inactive,5.0,Monitor,497.0,42.0
+495,EMP8003,Aditya Shah,aditya.shah@outlook.com,,Female,Bangalore,Marketing,2023-01-30,2022-10-05,177296.0,26583.82,Inactive,3.0,Headphones,9.0,30.0
+496,EMP3677,Suresh Sharma,suresh.sharma@yahoo.com,5076487177,Male,Lucknow,Engineering,2020-04-12,2023-01-14,140528.0,34043.09,Active,3.0,Camera,389.0,45.0
+497,EMP7798,Priya Pillai,,4051665451,Unknown,Mumbai,Finance,2023-06-06,2020-01-11,77878.0,20623.53,Active,3.0,Laptop,232.0,30.0
+498,EMP9222,Rohit Rao,rohit.rao@gmail.com,4976987313,Male,Kolkata,Finance,2024-03-15,2022-02-21,152128.0,2930.66,Active,3.0,Headphones,496.0,37.0
+499,EMP6927,Pooja Malhotra,pooja.malhotra@gmail.com,0811556260,Male,Hyderabad,Operations,2021-08-28,2023-10-26,107233.0,891.16,Inactive,3.0,Monitor,455.0,41.0
+500,EMP7061,Suresh Verma,suresh.verma@gmail.com,,Female,Lucknow,Marketing,2022-01-17,2021-07-27,68747.0,25109.35951219512,Active,3.0,Monitor,171.0,8.0
+501,EMP1276,Arjun Kumar,arjun.kumar@company.in,6205459671,Other,Kolkata,Marketing,,2022-03-15,47686.0,35351.94,Active,4.0,Mobile,419.0,37.0
+502,EMP5215,Sneha Rao,sneha.rao@yahoo.com,5493296685,Female,Ahmedabad,HR,2020-01-14,2022-07-03,112994.22453222453,28857.43,Active,1.0,Tablet,258.0,56.0
+503,EMP2790,Sneha Patel,sneha.patel@yahoo.com,8726247317,Female,Jaipur,Sales,2024-03-23,2022-09-21,130130.0,8649.54,Active,3.0,Monitor,152.0,3.0
+504,EMP6953,Meera Sharma,,0208019290,Female,Chennai,Engineering,2020-03-07,2023-03-18,70443.0,17750.55,Active,2.0,Laptop,192.0,51.0
+505,EMP3283,Kiran Kumar,kiran.kumar@outlook.com,8633302126,Female,Mumbai,Operations,2020-05-31,2020-11-19,62035.0,4314.73,Inactive,3.0,Smartwatch,370.0,50.0
+507,EMP7399,Priya Das,priya.das@yahoo.com,8384887638,Male,Kolkata,Sales,2021-05-02,2021-01-04,182975.0,42561.37,Inactive,2.0,Speaker,402.0,32.0
+508,EMP4197,Aditya Sharma,aditya.sharma@yahoo.com,0119391038,Female,Pune,HR,2021-05-13,2020-04-30,51493.0,36000.35,Active,4.0,Mobile,478.0,50.0
+509,EMP9680,Pooja Bose,pooja.bose@company.in,7659916247,Other,Jaipur,Marketing,2021-01-22,2020-01-15,123311.0,25109.35951219512,Active,5.0,Speaker,314.0,43.0
+510,EMP4270,Deepa Malhotra,deepa.malhotra@gmail.com,,Male,Bangalore,Operations,2023-03-08,2023-02-11,133036.0,29961.31,Active,1.0,Tablet,104.0,51.0
+512,EMP8206,Rahul Bose,rahul.bose@gmail.com,3455812236,Female,Pune,Finance,2022-01-05,2022-05-10,178112.0,1466.83,Inactive,3.0,Speaker,489.0,34.0
+513,EMP6597,  Aditya Mehta  ,aditya.mehta@yahoo.com,9502097002,Other,Kolkata,Finance,2023-08-22,2023-10-07,117535.0,19130.63,Active,4.0,Camera,228.0,30.0
+514,EMP4546,Vikram Reddy,vikram.reddy@outlook.com,9128965999,Female,Hyderabad,Engineering,2020-07-06,2022-08-31,38681.0,40458.1,Active,1.0,Speaker,198.0,22.0
+515,EMP2527,Kiran Shah,kiran.shah@company.in,5280988516,Female,Hyderabad,HR,2021-01-10,2022-11-05,151403.0,5856.81,Active,2.0,Laptop,337.0,17.0
+516,EMP6049,Rahul,rahul@gmail.com,,Male,Kolkata,HR,2020-07-03,2020-11-24,193933.0,2177.14,Inactive,4.0,Camera,449.0,6.0
+517,EMP9063,Neha Singh,neha.singh@gmail.com,,Male,Pune,Marketing,2023-06-18,2021-04-03,114213.0,38584.01,Inactive,4.0,Mobile,475.0,51.0
+518,EMP1504,Meera Malhotra,meera.malhotra@company.in,3268424508,Male,Unknown,Marketing,2023-01-26,2024-12-03,194327.0,7551.53,Inactive,2.0,Laptop,478.0,35.0
+519,EMP6209,Vikram Gupta,vikram.gupta@hotmail.com,3099384253,Female,Lucknow,Marketing,2024-01-29,2023-09-20,126742.0,32431.04,Inactive,3.0,Monitor,254.0,37.0
+520,EMP7077,Lakshmi Malhotra,lakshmi.malhotra@company.in,9582819022,Female,Lucknow,Operations,2020-10-08,2021-01-19,146142.0,16744.23,Active,1.0,Headphones,390.0,33.0
+521,EMP8920,  Rajesh Pillai  ,rajesh.pillai@hotmail.com,1378765530,Male,Unknown,HR,2021-11-24,2020-01-16,47341.0,5250.88,Inactive,4.0,Camera,416.0,30.0
+522,EMP9160,  Rajesh Malhotra  ,rajesh.malhotra@gmail.com,3208652377,Female,Kolkata,Engineering,2022-08-16,2020-06-05,189967.0,40856.91,Active,3.0,Laptop,247.0,43.0
+523,EMP5346,Divya Gupta,divya.gupta@hotmail.com,7888975358,Male,Hyderabad,Engineering,2021-07-23,2022-03-05,175431.0,25109.35951219512,Inactive,3.0,Mobile,247.0,10.0
+524,EMP7831,Meera Rao,meera.rao@yahoo.com,4999827950,Male,Mumbai,Marketing,2020-05-12,2020-09-06,112994.22453222453,34943.56,Active,5.0,Monitor,310.0,45.0
+525,EMP9151,Siddharth Rao,siddharth.rao@outlook.com,8416169284,Male,Lucknow,Operations,2020-12-07,2020-03-27,139017.0,49011.35,Active,5.0,Tablet,74.0,43.0
+526,EMP7341,Aarav Das,aarav.das@yahoo.com,4530693588,Male,Bangalore,HR,2020-03-14,2024-01-04,157423.0,45297.65,Active,3.0,Camera,219.0,30.0
+527,EMP4586,Arjun Singh,arjun.singh@company.in,2942095481,Female,Bangalore,Marketing,2023-12-13,2021-11-13,80210.0,46754.43,Inactive,4.0,Smartwatch,338.0,10.0
+528,EMP3451,Deepa Pandey,deepa.pandey@yahoo.com,8039662038,Female,Chennai,Operations,2023-09-13,2020-01-26,112994.22453222453,17228.33,Active,5.0,Headphones,176.0,8.0
+529,EMP9295,Aarav Chopra,aarav.chopra@yahoo.com,6259062003,Male,Kolkata,HR,2024-02-01,2022-07-06,152323.0,10838.86,Active,5.0,Smartwatch,307.0,16.0
+530,EMP2109,  Deepa Gupta  ,deepa.gupta@gmail.com,6750762799,Female,Hyderabad,Engineering,2023-07-08,2020-06-09,112994.22453222453,13286.6,Active,2.0,Tablet,235.0,51.0
+531,EMP2924,Kiran Nair,kiran.nair@gmail.com,2436258542,Female,Ahmedabad,Finance,2020-07-19,2021-05-06,47186.0,28759.23,Active,2.0,Smartwatch,499.0,56.0
+533,EMP1618,Rajesh Das,,9296222927,Male,Lucknow,HR,2022-07-08,2021-09-25,75860.0,47382.94,Active,3.0,Headphones,71.0,3.0
+534,EMP7868,Meera Verma,meera.verma@yahoo.com,8225120734,Male,Hyderabad,Sales,2020-02-28,2020-10-22,123837.0,36264.87,Active,1.0,Mobile,244.0,26.0
+535,EMP8925,Sneha Verma,sneha.verma@company.in,3044836085,Male,Kolkata,Marketing,2020-04-21,2021-03-24,36961.0,20785.67,Active,3.0,Camera,277.0,30.0
+536,EMP1081,  Priya Kumar  ,priya.kumar@hotmail.com,3543788260,Female,Pune,Marketing,2023-05-25,2023-03-02,112994.22453222453,46780.6,Active,2.0,Speaker,294.0,55.0
+537,EMP6618,Sneha Pandey,sneha.pandey@hotmail.com,3393049366,Female,Chennai,Finance,2020-11-02,,128490.0,25109.35951219512,Active,2.0,Smartwatch,9.0,37.0
+538,EMP4389,Kiran Sharma,kiran.sharma@yahoo.com,,Male,Ahmedabad,Finance,2022-12-04,2022-11-24,86277.0,34849.12,Inactive,1.0,Tablet,296.0,5.0
+539,EMP2986,Rohit Gupta,rohit.gupta@outlook.com,1856724380,Male,Kolkata,Engineering,2020-03-18,2023-12-23,146699.0,3877.74,Active,3.0,Tablet,311.0,18.0
+540,EMP8905,Neha Joshi,neha.joshi@company.in,8263982146,Female,Chennai,Operations,2023-04-17,2022-07-03,169681.0,19171.9,Inactive,4.0,Speaker,0.0,51.0
+541,EMP9877,  Divya Mehta  ,divya.mehta@outlook.com,0220509386,Female,Chennai,Operations,2021-02-09,2023-06-02,99335.0,31490.26,Active,4.0,Tablet,279.0,24.0
+542,EMP4892,Priya Pillai,priya.pillai@gmail.com,4505444713,Unknown,Pune,HR,2022-05-03,2021-03-08,160397.0,41140.36,Active,3.0,Laptop,449.0,53.0
+543,EMP8311,"Chopra, Priya",chopra.priya@outlook.com,,Male,Lucknow,Operations,2022-07-18,2023-05-16,168482.0,31617.45,Active,3.0,Tablet,342.0,38.0
+545,EMP2475,Siddharth Malhotra,siddharth.malhotra@yahoo.com,6225179086,Male,Delhi,Engineering,2023-02-19,2023-08-28,162428.0,4046.38,Active,4.0,Camera,177.0,1.0
+547,EMP6025,Deepa Sharma,deepa.sharma@yahoo.com,9488218849,Female,Hyderabad,HR,2020-07-25,2020-11-25,197100.0,4571.96,Active,4.0,Speaker,247.0,6.0
+548,EMP5982,Suresh Joshi,suresh.joshi@company.in,8877190659,Male,Chennai,Finance,2024-04-11,2023-08-27,72576.0,22076.31,Active,3.0,Mobile,169.0,31.0
+549,EMP9937,Rahul Das,rahul.das@outlook.com,0167930148,Male,Lucknow,Operations,2024-04-29,2021-09-30,35132.0,28310.15,Inactive,5.0,Mobile,309.0,30.0
+550,EMP7931,Rajesh,rajesh@gmail.com,0848729758,Unknown,Bangalore,Operations,2023-09-19,2021-01-20,81416.0,30306.15,Active,3.0,Smartwatch,333.0,25.0
+551,EMP7352,"Bose, Arjun",bose.arjun@company.in,,Female,Delhi,Sales,2021-09-01,2020-10-05,185362.0,11239.43,Active,5.0,Mobile,442.0,9.0
+552,EMP1672,Sneha Verma,sneha.verma@gmail.com,8842163090,Male,Bangalore,Engineering,2023-06-20,2021-12-25,112994.22453222453,38236.39,Active,5.0,Tablet,293.0,17.0
+553,EMP7729,Vikram Reddy,vikram.reddy@gmail.com,0243765456,Female,Ahmedabad,Operations,2020-11-27,2022-07-06,77026.0,14602.54,Active,2.0,Monitor,137.0,31.0
+554,EMP9598,Rahul Rao,rahul.rao@hotmail.com,,Female,Jaipur,Finance,2020-01-24,2022-08-19,44625.0,25109.35951219512,Active,4.0,Headphones,0.0,28.0
+555,EMP4643,  Pooja Iyer  ,pooja.iyer@hotmail.com,9060078068,Female,Bangalore,Sales,2024-03-22,2022-04-12,102539.0,49948.11,Inactive,3.0,Laptop,238.0,55.0
+556,EMP9818,Ananya Shah,ananya.shah@yahoo.com,4116597263,Female,Ahmedabad,HR,,2023-04-06,112994.22453222453,37960.14,Active,1.0,Speaker,75.0,34.0
+557,EMP3855,Sneha Iyer,sneha.iyer@hotmail.com,3595205610,Unknown,Hyderabad,Operations,2022-03-25,2023-01-26,126412.0,24136.28,Inactive,5.0,Tablet,490.0,12.0
+558,EMP2821,"Rao, Divya",rao.divya@yahoo.com,1775123959,Male,Kolkata,Operations,2024-04-10,,101734.0,37038.22,Inactive,3.0,Camera,247.0,30.0
+559,EMP7059,Suresh Sharma,suresh.sharma@company.in,4521182379,Male,Lucknow,Engineering,2024-04-20,2021-09-29,34570.0,28482.96,Active,5.0,Monitor,334.0,29.0
+561,EMP3808,Suresh Malhotra,suresh.malhotra@gmail.com,2097023164,Male,Pune,Finance,2020-12-17,2022-04-21,54030.0,21211.45,Active,2.0,Monitor,295.0,37.0
+562,EMP6751,Divya Kumar,divya.kumar@company.in,6071748113,Female,Pune,Engineering,2022-08-19,2023-02-05,132638.0,34349.28,Inactive,4.0,Tablet,357.0,51.0
+563,EMP5807,"Iyer, Arjun",,0424624561,Male,Chennai,Marketing,2020-02-23,2023-12-28,112994.22453222453,25109.35951219512,Active,3.0,Tablet,299.0,14.0
+565,EMP6132,Pooja Kumar,pooja.kumar@hotmail.com,5756766708,Female,Lucknow,HR,2023-03-04,2023-01-17,127933.0,33668.92,Inactive,1.0,Smartwatch,333.0,38.0
+566,EMP6241,"Iyer, Pooja",iyer.pooja@outlook.com,9518023806,Female,Chennai,HR,,2021-08-20,88591.0,29788.7,Inactive,3.0,Headphones,478.0,14.0
+567,EMP1894,  Kiran Patel  ,kiran.patel@company.in,,Male,Delhi,Sales,2020-03-27,2020-01-08,147299.0,12331.44,Active,3.0,Tablet,4.0,4.0
+568,EMP5949,Sneha Rao,sneha.rao@hotmail.com,9639382761,Female,Kolkata,Finance,2023-01-20,2023-10-03,175520.0,6158.98,Active,2.0,Speaker,247.0,38.0
+569,EMP7161,Kiran Mishra,kiran.mishra@company.in,,Female,Hyderabad,Finance,2023-01-11,2023-12-13,132373.0,14880.21,Inactive,5.0,Smartwatch,481.0,42.0
+571,EMP8253,Deepa Singh,deepa.singh@yahoo.com,3899204573,Male,Mumbai,Finance,2020-03-12,2020-04-10,74135.0,25142.79,Inactive,2.0,Mobile,247.0,6.0
+574,EMP8401,Deepa Das,deepa.das@gmail.com,7942007494,Male,Bangalore,Finance,2021-07-30,2022-12-29,128626.0,41609.66,Active,5.0,Camera,485.0,16.0
+576,EMP9805,Siddharth Gupta,siddharth.gupta@outlook.com,2884318848,Female,Unknown,Finance,2021-05-09,2022-10-31,122774.0,25621.22,Inactive,5.0,Monitor,121.0,37.0
+578,EMP4741,Deepa Rao,deepa.rao@outlook.com,6022939469,Other,Chennai,Marketing,2022-05-01,2021-01-23,27734.0,20075.69,Active,1.0,Mobile,406.0,11.0
+579,EMP9171,Vikram Nair,vikram.nair@outlook.com,1687339500,Female,Hyderabad,Sales,2020-10-01,2024-04-13,130010.0,25109.35951219512,Active,5.0,Mobile,50.0,50.0
+581,EMP1821,Suresh Das,suresh.das@hotmail.com,8208121913,Unknown,Lucknow,Sales,2020-06-16,2023-03-03,78545.0,16052.1,Active,3.0,Mobile,247.0,13.0
+582,EMP8548,Siddharth Mehta,siddharth.mehta@gmail.com,,Unknown,Ahmedabad,Engineering,2021-06-24,2021-12-23,78973.0,4219.65,Active,4.0,Mobile,417.0,33.0
+583,EMP4641,Sneha Sharma,sneha.sharma@yahoo.com,6519941013,Male,Pune,Sales,2022-02-08,2023-03-21,128546.0,19445.11,Active,4.0,Laptop,316.0,18.0
+585,EMP4700,"Mishra, Rajesh",mishra.rajesh@yahoo.com,,Female,Chennai,HR,2022-05-06,2020-03-15,165536.0,37483.69,Inactive,3.0,Speaker,495.0,2.0
+586,EMP5310,Rahul Malhotra,rahul.malhotra@yahoo.com,6121203843,Other,Pune,Operations,2024-02-03,2022-12-26,116843.0,25109.35951219512,Active,2.0,Headphones,450.0,51.0
+587,EMP5919,Vikram Verma,vikram.verma@company.in,1364424936,Male,Chennai,Marketing,2023-02-20,2020-03-16,60764.0,39588.66,Inactive,5.0,Laptop,247.0,19.0
+588,EMP6761,Ananya Das,ananya.das@company.in,,Male,Ahmedabad,HR,2024-01-11,2021-05-24,37292.0,41152.28,Active,1.0,Camera,61.0,1.0
+591,EMP4091,Ananya Joshi,ananya.joshi@hotmail.com,,Female,Kolkata,Marketing,2023-11-21,,38792.0,18384.67,Active,1.0,Mobile,247.0,15.0
+592,EMP8768,Divya Reddy,divya.reddy@company.in,2991406884,Male,Mumbai,Engineering,2022-01-02,2022-04-01,45748.0,10643.39,Active,5.0,Speaker,385.0,52.0
+593,EMP4428,Meera Iyer,meera.iyer@hotmail.com,3000413211,Unknown,Kolkata,Sales,2023-05-08,2022-02-06,112994.22453222453,24182.75,Active,4.0,Laptop,243.0,24.0
+596,EMP3183,Pooja Sharma,pooja.sharma@outlook.com,2041231905,Male,Mumbai,Sales,2023-12-19,2023-12-13,81384.0,18875.96,Inactive,5.0,Smartwatch,325.0,9.0
+597,EMP4368,Pooja Singh,pooja.singh@yahoo.com,1094416423,Male,Chennai,Sales,2021-02-06,2022-08-20,149940.0,44767.63,Active,3.0,Tablet,24.0,56.0
+598,EMP8215,Kavya Sharma,kavya.sharma@yahoo.com,5003342342,Female,Delhi,HR,2020-02-12,2020-08-15,104972.0,25109.35951219512,Active,5.0,Mobile,452.0,50.0
+599,EMP5635,Arjun Mishra,arjun.mishra@outlook.com,1896164236,Female,Kolkata,HR,2024-03-21,2022-10-02,106291.0,25109.35951219512,Active,4.0,Speaker,289.0,5.0

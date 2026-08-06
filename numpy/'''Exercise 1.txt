@@ -1,0 +1,84 @@
+'''Exercise 1
+Create a NumPy array of integers from 1 to 10. Use boolean masking to extract all even numbers.
+
+Exercise 2
+Given the array `[15, 3, 22, 8, 47, 6, 31, 19]`, extract all elements greater than 15.
+
+Exercise 3
+Create an array `[4, 2, 7, 5, 0, 3, 1, 9]`. Use boolean masking to extract only the negative numbers.
+
+Exercise 4
+From the array `[10, 20, 30, 40, 50, 60]`, use a boolean mask to extract elements at positions where the value is divisible by 3. (Hint: use `% 3 == 0`)
+
+
+
+ Level 2 – Compound Conditions
+
+Exercise 5
+Given `marks = [45, 78, 92, 33, 56, 88, 71, 29]`, extract marks that are between 50 and 85 (inclusive).
+
+Exercise 6
+From the array `[3, 14, 7, 21, 5, 28, 9, 42]`, extract elements that are either less than 6 or greater than 25.
+
+Exercise 7
+Given `temps = [36.1, 37.5, 38.9, 36.8, 39.2, 37.0, 38.1]`, extract temperatures that indicate fever (above 37.5).
+
+Exercise 8
+Create a 2D array of shape (4, 4) with values 1 to 16. Use boolean masking to extract all values greater than 10.
+
+
+
+ Level 3 – Masking with Assignment
+
+Exercise 9
+Given `scores = [45, 82, 67, 23, 91, 55, 38, 76]`, replace all scores below 50 with 0 using boolean masking.
+
+Exercise 10
+From the array `[3, 7, 1, 4, 8, 2, 5, 6]`, replace all negative values with their absolute values using boolean masking.
+
+Exercise 11
+Given `data = [100, 250, 430, 180, 510, 320, 95]`, cap all values above 400 to exactly 400 using boolean masking.
+
+
+
+ Level 4 – Realworld Scenarios
+
+Exercise 12 — Student Grades
+You have two arrays:
+
+students = ["Ravi", "Priya", "Arjun", "Meena", "Kiran"]
+marks    = [72, 45, 88, 61, 39]
+
+Use boolean masking to print the names of students who scored above 60.
+
+Exercise 13 — Sensor Data Cleaning
+A temperature sensor recorded: `[22.5, 999, 24.1, 999, 23.8, 25.0, 999, 21.9]`
+The value `999` represents a faulty reading. Replace all `999` values with the mean of the valid readings.
+
+Exercise 14 — Stock Filter
+
+prices  = [120, 340, 89, 455, 210, 670, 150]
+volumes = [500, 200, 800, 150, 600, 90, 450]
+
+Extract prices where the price is above 200 and volume is above 300.
+
+Exercise 15 — Normalisation
+Given `data = [10, 85, 42, 67, 5, 91, 33]`, use boolean masking to:
+ Replace values below 20 with 20 (lower clamp)
+ Replace values above 80 with 80 (upper clamp)
+
+
+
+ Bonus Challenge
+
+Exercise 16
+Given a 2D marks array:
+python
+marks = np.array([[55, 78, 43],
+                  [90, 61, 38],
+                  [47, 82, 74]])
+
+ Find all values below 50 and replace them with 50 (pass mark)
+ Count how many values were below 50 originally
+
+'''

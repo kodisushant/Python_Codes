@@ -1,0 +1,101 @@
+ String Practice Questions 17-3-26
+
+Q1. Given s = "Data Science", print: (a) the character at index 5, (b) the last 7 characters, (c) every third character from the whole string, (d) the length.
+Expected: 'S', 'Science', 'DaSec', 12
+
+Q2. Given s = "abcdefghijklmnopqrstuvwxyz", use slicing to extract: (a) the first 5 letters, (b) letters from index 10 to 19, (c) the last 3 letters.
+Expected: 'abcde', 'klmnopqrst', 'xyz'
+
+Q3. Given s = "racecar", use slicing to check if the string is a palindrome (reads same forwards and backwards) without using any built-in method. Print True or False.
+Expected: True
+
+Q4. Given s = "OpenAI GPT", use slicing and concatenation to swap the two words — produce "GPT OpenAI".
+Expected: 'GPT OpenAI'
+
+Q5. Given s = "1234567890", extract: (a) digits at even indices, (b) digits at odd indices, (c) the middle two characters (index 4 and 5).
+Expected: '13579', '2468' (wait — check: '24680'), '56'
+
+Q6. Without using .find() or .index(), write a loop that finds the position of the first occurrence of 'n' in s = "banana". Then verify your result using s.find('n').
+Expected: 2, 2
+
+Q7. Given s = "Hello World", demonstrate immutability: (a) try to replace the space with _ by indexing, catch the TypeError; (b) produce the corrected string "Hello_World" using slicing.
+Expected: TypeError caught; 'Hello_World'
+
+Q8. Given s = "mississippi", use membership testing and slicing to: (a) check if 'issi' is in s, (b) extract characters from index 2 to 8, (c) count how many times the character 's' appears using only a loop and in.
+Expected: True, 'ssiss', 4
+
+Q9. Given s = "PyThOn Is AwEsOmE", use s[::-1] to reverse it, then use a step slice to extract only uppercase letters by index (indices 0, 2, 4, 6 …).
+Expected (reversed): 'EmOsEwA sI nOhTyP'; (step): 'POIsAEE'
+
+Q10. Write a function middle(s) that returns the middle character if the string length is odd, or the two middle characters if even.
+Expected: middle("abcde") → 'c'; middle("abcd") → 'bc'
+
+Q11. Given s = "Python3.11", use slicing to separate the language name "Python" from the version "3.11". Then check if '3' is in the version part.
+Expected: 'Python', '3.11', True
+
+Q12. Given s = "  " (four spaces), what is its length? Is '' in s? Is '  ' in s? Print all three answers and explain why the empty string check returns True.
+Expected: 4, True, True
+
+Q13. Write a function char_frequency(s, ch) using only indexing, len(), and a loop (no .count()) that returns how many times ch appears in s.
+Expected: char_frequency("programming", 'g') → 2
+
+Q14. Given s = "The quick brown fox", use a single expression (slice + step + concatenation allowed) to produce a string containing only the characters at prime-number indices (2, 3, 5, 7, 11, 13, 17).
+Expected: 'e ick' — trace s[2], s[3], s[5], s[7], s[11], s[13], s[17]
+
+Q15. Write a function rotate(s, n) that rotates the string n positions to the left using only slicing.
+Expected: rotate("abcdef", 2) → 'cdefab'; rotate("abcdef", -1) → 'fabcde'
+ 
+ String Methods 
+
+Q16. Given s = "WELCOME TO PYTHON", apply: (a) lowercase, (b) title case, (c) swap case, (d) check if all characters are uppercase (use .isupper()).
+Expected: 'welcome to python', 'Welcome To Python', 'welcome to python', True
+
+Q17. Given s = "hello world", strip the dashes using only .strip() with an argument. Then lstrip and rstrip separately.
+Expected: 'hello world', 'hello world', 'hello world'
+
+Q18. Given email = "  User.Name@Example.COM  ", write code to normalise it: strip whitespace, convert to lowercase. Then check if it ends with .com and starts with user.
+Expected: 'user.name@example.com', True, True
+
+Q19. Given s = "one two three two one", (a) count 'two', (b) replace the first occurrence of 'one' only (use replace with the count argument), (c) find the index of the second 'two' using find with a start parameter.
+Expected: 2, 'zero two three two one', 14
+
+Q20. Given data = "name:Alice;age:30;city:Delhi", split by ';' to get key-value pairs, then split each pair by ':'. Build a dictionary from the result.
+Expected: {'name': 'Alice', 'age': '30', 'city': 'Delhi'}
+
+Q21. Given words = ['Python', 'is', 'elegant'], join them with: (a) a single space, (b) ' -> ', (c) no separator. Also split the result of (a) back into a list.
+Expected: 'Python is elegant', 'Python -> is -> elegant', 'Pythoniselegant'
+
+Q22. Given s = "  hello\n\tworld  ", strip all whitespace (spaces, newlines, tabs) using .strip(). Then check: does .strip() handle \n and \t automatically?
+Expected: 'hello\n\tworld' — .strip() only removes leading/trailing. Explain the output.
+
+Q23. Write a function is_palindrome_word(word) that strips whitespace, converts to lowercase, and checks if the result equals its reverse using slicing.
+Expected: is_palindrome_word("  Racecar  ") → True; is_palindrome_word("hello") → False
+
+Q24. Given sentence = "To be or not to be that is the question", (a) count the word 'be' using .count(), (b) replace all spaces with underscores, (c) check if it ends with 'question', (d) split into words and find how many unique words there are.
+Expected: 2, 'To_be_or...', True, 8 unique words
+
+Q25. Given phone = "(040) 1234-5678", use chained .replace() calls to strip all non-digit characters (, ), -,   and produce a pure digit string.
+Expected: '04012345678'
+
+Q26. Write a function title_clean(s) that: strips whitespace, converts to title case, removes duplicate spaces inside the string (replace '  ' with ' ' in a loop until no doubles remain), and returns the result.
+Expected: title_clean("  hello    world  ") → 'Hello World'
+
+Q27. Given a log line log = "[ERROR] 2024-01-15 :: Disk full on /dev/sda1", use .split() and string methods to extract: (a) the log level (ERROR), (b) the date (2024-01-15), (c) the message after '::'.
+Expected: 'ERROR', '2024-01-15', ' Disk full on /dev/sda1'
+
+Q28. Given tags = "#python #data #ml #ai", split by space to get a list of tags, then strip the # from each tag using .lstrip('#') and rejoin with ', '.
+Expected: 'python, data, ml, ai'
+
+Q29. Write a function word_count(sentence) that: lowercases the input, removes all punctuation (.,!?;:), splits into words, and returns a dictionary of word → frequency.
+Expected: word_count("To be, or not to be!") → {'to': 2, 'be': 2, 'or': 1, 'not': 1}
+
+Q30.  Given :name,score,grade
+Alice,92,A
+Bob,74,C
+Carol,88,B
+
+Write code to: split into lines, skip the header, split each line by ',', and produce a formatted report string like "Alice: 92 (A) | Bob: 74 (C) | Carol: 88 (B)" using .join().
+Expected: 'Alice: 92 (A) | Bob: 74 (C) | Carol: 88 (B)'
+
+
+

@@ -1,0 +1,18 @@
+n=int(input("enter 1 for domestic and 2 for business: "))
+if n==1:
+    u=int(input("enter no of units consumed: "))
+    if u<100 and u>=0:
+        price=u*3
+    elif u>=100 and u<300:
+        price=(u-100)*5+300
+    else:
+        price=(u-300)*8+300+1000
+elif n==2:
+    u=int(input("enter no of units consumed: "))
+    if u<100 and u>=0:
+        price=u*6
+    elif u>=100 and u<300:
+        price=(u-100)*10+600
+    else:
+        price=(u-300)*16+2000+600
+print("the bill is",price)

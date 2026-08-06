@@ -1,0 +1,653 @@
+Employee ID,Name,Email Address,Phone No.,Gender,City,Department,Joining Date,Last Review Date,Salary (INR),Monthly Revenue,Is Active?,Performance Rating,Product Sold,Units_Sold,Discount %
+EMP6534,Pooja Shah,pooja.shah@company.in,9228777251,woman,Kolkata,H R,03-Apr-20,08/15/2023,N/A,39909.86,false,1,Laptop,268,30%
+EMP6694,Rohit Chopra,rohit.chopracompany.in,+910450063553,man,Lucknow,Marketting,16-Jan-21,13.08.2020,124655/-,10691.49,INACTIVE,3,Tablet,237,13%
+EMP2241,Divya Mishra,divya.mishra@yahoo.com,(532) 694-9684,Man,Jaipur,Sls,"October 31, 2023",11/26/2020, 154478 ,36779.25,false,4,,46,49%
+EMP5407,Vikram Rao,vikram.rao@hotmail.com,(708) 213-9865,Male,Delhi,Enginering,28-Jan-24,2024/02/29,119182,₹573.76,True,5,Headphones,381,25%
+EMP5436,"Nair, Kavya",nair.kavya@company.in,5353896298,F,Kolkata,Marketting,"November 04, 2020",08/30/2022,144974,35043.19,active,2,Headphones,147,21%
+EMP1152,  Kiran Mishra  ,KIRAN.MISHRAGMAIL.COM,1627136111,other,Delhi,Ops,20-05-2020,02-Dec-20,80851 ,7993.02,0,1,Mobile,197,27%
+EMP2479,Rohit Chopra,rohit.chopra@company.in,+912319818984,male,Pune,H R,2024-02-18,03 Mar 2024,Rs.82149,9170.14,Yes,1.3,Mobile,217,15%
+EMP1519,Meera Reddy,meera.reddy@gmail.com,N/A,female,Hyderabad,Eng,18-Nov-23,"June 01, 2020",172720,9378.05,1,4,Smartwatch,124,54%
+EMP4361,Suresh Singh,suresh.singhhotmail.com,5525782841,MAN,Ahmedabad,H.R.,09.01.2020,28-Aug-21,175399,40079.02,na,4,Tablet,60,25%
+EMP3928,LAKSHMI REDDY,lakshmi.reddy@hotmail.com,7852282305,Female,Hyderabad,Mktg,08-12-2020,27 Sep 2020,N/A,₹14324.21,true,7,Laptop,0,18%
+EMP3376,Rajesh,rajesh@hotmail.com,+91-27663-72395,male,Ahmedabad,MKTG,09-Sep-21,20 Mar 2024,127254%,7684.92,T,3,Laptop,273,54%
+,Lakshmi Sharma,lakshmi.sharma@company.in,76604 65586,Man,Jaipur,ENGG,"July 30, 2021",07/10/2022,108522,$44843.05,T,1,Mobile,411,5%
+EMP4059,Neha Gupta,neha.gupta@gmail.com,+917461917798,woman,Delhi,engineering,23 Nov 2022,15-03-2024, 164497 ,26457.14,active,na,Smartwatch,340,23%
+EMP5221,Siddharth Patel,siddharth.patel@gmail,83337 21885,Man,Bangalore,Engg.,09/12/2022,2020-04-26,Rs.138290,$23922.12,,4,Monitor,203,25%
+EMP1924,Arjun Pandey,arjun.pandey@gmail.com,(763) 177-4954,O,Chennai,Operations,05 Mar 2023,12/01/2021,72398.00 INR,₹4262.67,0,7,Smartwatch,78,32%
+EMP4304,Vikram Bose,vikram.bose@gmail.com,+917169385977,male,Ahmedabad,HumanResources,"December 28, 2023",2020-12-24,186935,23162.49,Active,1,Tablet,322,42%
+EMP9653,Divya,divya@company.in,39785 59821,female,Delhi,finance,07/25/2020,??,90898.00 INR,18216.31,Yes,5,Smartwatch,30,57%
+EMP4748,Meera Mehta,meera.mehta@outlook.com,N/A,MALE,Ahmedabad,Salez,2023/10/18,11/20/2022,Rs.186555,$41654.17,y,7,Laptop,494,59%
+EMP2306,"Mehta, Meera",mehta.meera@@hotmail.com,+91-79064-77159,Male,Pune,OPERATIONS,2021/04/08,22.01.2024,165917,46738.46,T,1,Mobile,353,51%
+EMP9243,Ananya Chopra,ananya.chopra@outlook.com,1848947697,WOMAN,Lucknow,Salez,"August 26, 2020",21 Jul 2023,85274,none,INACTIVE,Bad,Speaker,421,35%
+EMP1474,sneha malhotra,sneha.malhotra@gmail.com,0455623869,M,Kolkata,Fin,2022/10/16,"July 30, 2023","$199,808",40329.34,FALSE,3,Smartwatch,218,29%
+EMP4620,NEHA KUMAR,neha.kumar@yahoo.com,2234103469,WOMAN,Mumbai,Salez,30-Dec-23,2024-02-22,"$124,657",₹38370.26,NO,na,Monitor,199,38%
+EMP9868,"Mehta, Priya",mehta.priya@gmail,8984841604,Man,Hyderabad,Engineering,12-07-2020,03-09-2022,119667.00 INR,(5791.1),N/A,2,Mobile,9,46%
+,Neha Das,neha.das@yahoo.com,4931214639,WOMAN,Pune,operations,2020/10/22,"December 09, 2023",Rs.131288,40889.26,ACTIVE,5,Smartwatch,0,16%
+EMP8645,RAJESH MEHTA,rajesh.mehta@hotmail.com,(501) 137-5358,MAN,Jaipur,FINANCE,06-12-2022,15-May-24,39742,23663.44,True,5,Monitor,80,12%
+EMP6886,Meera Pillai,meera.pillai@company.in,+91-73203-09376,FEMALE,Ahmedabad,Sales,25-11-2021,16-01-2024,80490,33532.16,n,5,Mobile,N/A,1%
+EMP4137,Aarav Mehta,aarav.mehta@gmail,+91-43375-04793,not specified,Chennai,Finence,2022/10/08,2023/09/13,58619,6807.83,n,8,Laptop,355,39%
+EMP6631,Siddharth Mehta,siddharth.mehta@hotmail.com,(016) 492-8150,Male,Hyderabad,Fin,"April 24, 2022",08 Apr 2020,,26120.28,,4,Tablet,213,41%
+EMP8007,arjun das,,3231829716,Woman,Chennai,HR,08-03-2020,06-05-2024,"$32,955",8663.73,false,2,Mobile,458,23%
+EMP2446,Aarav Nair,aarav.nair@outlook.com,2874527193,Woman,Chennai,Mktg,05/24/2023,12-06-2020, 155892 ,48545.98,T,3,Tablet,146,4%
+EMP2483,Siddharth Rao,siddharth.rao@yahoo,90227 84699,Man,Chennai,marketing,01-07-2020,2022-11-11,"$102,118",45103.25,y,Average,Smartwatch,121,37%
+EMP5827,Neha Mishra,neha.mishra@outlook.com,9494079,Male,Mumbai,Engg.,"June 06, 2020","June 15, 2023","$92,359",(6021.7),FALSE,3,Smartwatch,121,51%
+EMP7192,  Deepa Reddy  ,deepa.reddy@gmail.com,74932 51149,Woman,Delhi,Operations,15-08-2021,07 Aug 2021,195559.00 INR,₹5190.55,F,1,Monitor,44,37%
+EMP1859,Priya,priya@gmail.com,+915962630136,F,Kolkata,Operations,11-May-24,2023-08-24,196231%,(1074.32),active,5,Monitor,382,37%
+,Aditya Iyer,aditya.iyer@yahoo.com,+91-46212-76025,man,Delhi,Engineering,2020-11-10,2021/04/14,161383,44249.52,unknown,5,Monitor,305,36%
+EMP2570,Meera Mehta,meera.mehta@hotmail.com,+91-20284-57652,m,Jaipur,Finence,12/25/2022,06/05/2020,29555%,none,Inactive,3,Smartwatch,,54%
+EMP1266,  Meera Rao  ,meera.rao@hotmail.com,89655 83445,M,Pune,Engineering,07-Oct-22,2023-12-03,86534,20715.25,No,1,Smartwatch,328,26%
+EMP5424,AARAV IYER,aarav.iyer@yahoo.com,(751) 887-8179,male,Kolkata,Engg.,27-05-2021,06/24/2023,Rs.67543,8436.82,N,3,,406,6%
+EMP9175,Arjun Verma,arjun.verma@yahoo.com,+91-26460-91785,Woman,Pune,MKTG,2020/03/01,07.12.2020,133892,1658.71,N,4,Tablet,486,6%
+EMP7387,"Pillai, Priya",pillai.priya@yahoo.com,5402635582,not specified,,MKTG,2021-09-22,18-08-2021, 53564 ,28026.47,Yes,2,Laptop,175,none
+EMP9009,ANANYA NAIR,ananya.nair@yahoo.com,+91-29732-39644,F,Delhi,MKTG,2022/02/09,18-Jun-22,188040,8392.96,inactive,2,Tablet,,0%
+,  Vikram Patel  ,vikram.patel@company.in,+912121461476,FEMALE,Hyderabad,Salez,"December 01, 2021",2021-12-16,165379,8454.11,ACTIVE,1,Headphones,N/A,52%
+EMP2941,Suresh Reddy,suresh.reddy@company.in,80568 56670,F,Jaipur,marketing,10-01-2022,"August 10, 2021",34483%,21858.52,Inactive,N/A,Camera,0,12%
+EMP5379,Ananya Pillai,ananya.pillai@hotmail.com,0000000000,female,Bangalore,operations,2020-03-06,2023/09/23, 143622 ,25689.36 USD,NO,2,Smartwatch,108,9%
+EMP1183,Sneha Das,sneha.das@outlook.com,52308 37081,Male,Hyderabad,Mktg,26.05.2021,N/A, 28816 ,10011.52,true,N/A,Laptop,56,20%
+EMP3248,Suresh Das,suresh.das@company.in,,Man,Lucknow,engineering,19 Sep 2021,2022-11-26,181699.00 INR,33126.0,N/A,na,Camera,284,51%
+EMP2422,Meera Rao,,5743842150,O,Ahmedabad,Fin,24.01.2021,"February 09, 2024",62563,5363.45,FALSE,1,Mobile,,38%
+EMP6567,  Aarav Nair  ,AARAV.NAIR@OUTLOOK.COM,29612 01836,Man,Pune,Finence,22-06-2020,25-03-2024,96330% ,21488.73,1,6,Mobile,348,33%
+EMP3138,NEHA PANDEY,neha.pandey@gmail.com,+910417929111,f,Bangalore,marketing,2024-02-20,2023/11/02,80897,,TRUE,7,Tablet,474,8%
+EMP9580,Lakshmi Bose,lakshmi.bose@company.in,N/A,woman,Delhi,H R,2024-05-07,2021-10-26,,14337.14,ACTIVE,3,Smartwatch,174,27%
+EMP9849,divya shah,divya.shah@company.in,+916422405920,m,N/A,MKTG,05/31/2023,2021-06-18,173998,41450.53,,3,Tablet,44,23%
+EMP9209,Priya Pillai,priya.pillai@company.in,+916188924141,M,Kolkata,Finance,2021-09-27,03-05-2021,"$138,897",$30808.69,inactive,6,,6,60%
+EMP1511,Deepa Reddy,deepa.reddy@hotmail.com,0404769210,woman,Pune,SALES,05-05-2022,03/12/2020,93871%,46646.16,,1,Monitor,58,15%
+EMP2030,siddharth sharma,siddharth.sharma@outlook.com,+910153017316,man,Jaipur,Marketting,06.05.2020,"June 07, 2021",-,15725.74,YES,3,Camera,470,3%
+EMP5408,"Shah, Ananya",shah.ananya@yahoo.com,3733343333,male,Mumbai,OPERATIONS,11-06-2023,13-01-2023,122306,24870.85,na,5,Headphones,66,N/A
+EMP3385,Meera Bose,meera.bose@yahoo.com,(434) 046-6821,man,Lucknow,operations,01.12.2020,18-12-2020,197995,40150.98,true,5,Headphones,42,29%
+EMP4047,Ananya Singh,ananya.singh@hotmail.com,+91-22699-20666,man,Pune,Marketting,2023/04/23,18 Feb 2024,169925,43325.49,INACTIVE,5,Speaker,,33%
+EMP2646,Deepa Sharma,deepa.sharma@hotmail.com,+91-57240-43474,m,Bangalore,Marketting,2021-10-08,16-Apr-20,76498,4127.09,1,5,Tablet,76,53%
+EMP1451,  Rahul Mishra  ,rahul.mishra@hotmail.com,2637484539,woman,Jaipur,Oprns,06-10-2021,18.04.2020,43615,26723.71,0,2,Laptop,254,21%
+EMP9350,Kiran Nair,kiran.nair@yahoo.com,(084) 937-8306,f,Chennai,H.R.,2022-04-08,"August 12, 2021",57675,13122.46,true,2,Tablet,417,7%
+EMP2144,  Arjun Nair  ,arjun.nair@@gmail.com,0000000000,Female,Hyderabad,hr,25-01-2024,07-Jan-24,"$57,520",42429.98,F,2,Camera,125,13%
+EMP8182,Kavya,kavya@@hotmail.com,(417) 159-4973,f,,Marketting,30-12-2022,12 Sep 2020,42995,12362.47,N/A,1,Tablet,286,50%
+EMP3487,Ananya Reddy,ANANYA.REDDY@GMAIL.COM,N/A,woman,Hyderabad,S@les,12.08.2020,05-01-2023,105109 ,41940.0,YES,5,Monitor,269,53%
+EMP9540,Deepa Joshi,deepa.joshi@yahoo.com,4089268705,Woman,Kolkata,engineering,2022/02/09,27 Aug 2022,103836,7645.41,YES,5,Speaker,105,5%
+EMP9691,  Kavya Joshi  ,kavya.joshi@company.in,01573 99305,female,Jaipur,operations,20.02.2020,07-Nov-22,102708,10029.36,N/A,5,Mobile,323,55%
+EMP4770,"Reddy, Kavya",reddy.kavya@yahoo.com,2643350271,MAN,Bangalore,Marketing,04-Jul-22,2021-02-25,"$57,676",9167.29,false,2,Monitor,184,20%
+EMP4706,Arjun Verma,arjun.verma@outlook.com,(036) 988-8439,f,Chennai,ENGG,2020-11-30,05-01-2023,166129,(11909.33),na,6,Laptop,171,25%
+EMP1653,Lakshmi Chopra,lakshmi.chopra@outlook.com,(779) 806-6039,Woman,Kolkata,Sls,"July 24, 2022",30.10.2023,90195/-,,inactive,2,Camera,386,52%
+EMP3492,Siddharth Pillai,siddharth.pillai@company.in,2895171870,M,Chennai,H R,2023-11-19,2021-11-03,189311,38090.39,true,3,Mobile,51,45%
+EMP8225,Priya Pandey,priya.pandey@outlook.com,9435353751,man,Pune,Finence,05.06.2020,24 May 2023,134799/-,41477.14,N/A,?,Tablet,408,20%
+EMP2167,Kavya Pillai,N/A,0000000000,Male,Kolkata,Ops,11-May-21,10-01-2022,Rs.194170,30469.06,1,2,,330,24%
+EMP8568,Kavya Verma,N/A,+91-92071-15238,M,Lucknow,Ops,18.05.2020,12/10/2022,153144,34476.57,T,4,Camera,282,37%
+EMP7776,Rajesh Reddy,RAJESH.REDDYCOMPANY.IN,(971) 967-0683,male,N/A,sales,17-12-2021,08 May 2024,96331 ,2177.42,1,3,Speaker,337,43%
+EMP5471,Divya Pandey,divya.pandey@company.in,,female,Delhi,Mktg,"April 12, 2020",09-Mar-21,124385/-,47584.6,N,5,Camera,36,41%
+EMP7747,Aarav Sharma,AARAV.SHARMA@COMPANY.IN,(041) 728-2076,female,Delhi,Eng,2020/10/19,2023/02/12,165522/- ,(16673.74),Active,3,,20,35%
+EMP4565,siddharth bose,siddharth.bose@gmail.com,8568119397,Man,Hyderabad,Oprns,2023/09/06,30-Jun-22, 122099 ,28233.56,1,3,Camera,276,48%
+EMP7864,Aditya Bose,,3845720266,unknown,Delhi,finance,03/23/2023,06 Jul 2022,-,(44609.9),Active,4,Laptop,378,8%
+EMP2941,Suresh Reddy,suresh.reddy@company.in,80568 56670,F,Jaipur,marketing,10-01-2022,"August 10, 2021",34483%,21858.52,Inactive,N/A,Camera,0,12%
+EMP1312,RAJESH PILLAI,rajesh.pillai@yahoo.com,4760220695,MALE,Mumbai,Ops,01/02/2020,08-Jan-21, 173344 ,$48117.96,F,Good,Mobile,442,11%
+EMP2785,RAHUL IYER,rahul.iyer@yahoo.com,+917756185374,female,Chennai,Oprns,23 Mar 2020,2021/11/02,90069,$20114.1,TRUE,4,Headphones,53,8%
+EMP6409,Lakshmi Mehta,lakshmi.mehta@yahoo.com,7056227104,male,Pune,Sales,03-Jul-23,16.05.2020, 84252 ,₹1199.41,YES,3,Speaker,288,42%
+EMP1805,Arjun Patel,arjun.patel@@company.in,+916343629489,Male,Mumbai,Engineering,18-04-2020,05/03/2021,97210/-,31200.93,true,3,Tablet,178,45%
+EMP9592,Aditya Bose,aditya.bose@gmail.com,+91-23009-15618,Female,Kolkata,hr,28-Jul-23,08/03/2021,133923,44172.92,Active,N/A,Mobile,37,55%
+EMP9551,Siddharth Nair,N/A,,F,Ahmedabad,H.R.,2020/01/19,29-Jun-21,40413/-,19147.77,T,4,Smartwatch,-1,48%
+EMP8130,  Pooja Kumar  ,pooja.kumar@@gmail.com,N/A,f,Kolkata,MKTG,2023-07-14,2020-02-04,"$165,203",$36154.14,False,6,Mobile,352,5%
+EMP1294,rajesh kumar,rajesh.kumar@gmail.com,(083) 566-9106,Man,Bangalore,sales,21 Apr 2024,28.11.2021,,9578.49,N,5,Tablet,269,18%
+EMP3216,Priya Iyer,priya.iyer@gmail.com,5237597953,F,Hyderabad,S@les,2024-01-07,07.08.2022,154236,33248.52 USD,active,2,,286,18%
+EMP3793,Suresh Iyer,suresh.iyer@hotmail.com,9623091307,m,Lucknow,Marketing,2023/12/16,22.02.2023,,(16030.75),na,3,Headphones,143,14%
+EMP4504,"Bose, Meera",bose.meera@yahoo.com,4268774,Man,Pune,OPERATIONS,13 Mar 2021,01-01-2021,,,yes,5,Smartwatch,-1,25%
+,"Singh, Rahul",singh.rahul@yahoo.com,(780) 774-0649,Man,Jaipur,MKTG,2021/05/26,2023-08-15,82826/-,₹21400.85,Inactive,na,Smartwatch,437,8%
+EMP3418,Pooja,pooja@company.in,8297514743,M,Pune,Sales,17.04.2020,2022/01/25,N/A,31630.07,yes,1,Camera,292,none
+EMP5831,  Arjun Iyer  ,arjun.iyer@company.in,,Woman,Bangalore,Fin,02-10-2021,2020/06/16,Rs.116146,8728.1,,2,Tablet,477,59%
+EMP7914,Neha Iyer,neha.iyer@hotmail.com,+91-14671-79576,m,Ahmedabad,Engg.,25.03.2021,04-Jan-24,101911,19823.38,?,9,Tablet,145,5%
+EMP9220,Aarav Mishra,aarav.mishra@outlook.com,+918950097519,F,Jaipur,hr,11/24/2022,06/03/2023,190324,$48040.35,F,5,Camera,6,32%
+EMP5576,"Mehta, Aarav",mehta.aarav@company.in,7192817074,M,Chennai,H.R.,11.01.2021,??,Rs.72470,29591.8,ACTIVE,1,Smartwatch,229,30%
+EMP5555,Lakshmi Gupta,lakshmi.gupta@hotmail.com,+911966553307,unknown,Ahmedabad,Engg.,2021-10-31,,26218,14576.11,y,1,Laptop,,26%
+EMP4678,Siddharth Kumar,siddharth.kumar@gmail.com,(451) 951-5109,Man,Kolkata,Enginering,"November 08, 2023",10.08.2021,96065,33255.72,INACTIVE,,Tablet,76,24%
+EMP7843,Arjun Gupta,arjun.gupta@yahoo.com,8052924075,man,Jaipur,Human Resources,17-04-2023,2020/03/06,N/A,40057.72,NO,2,Mobile,97,21%
+,Rahul Das,rahul.das@company.in,+910566418775,m,Kolkata,FINANCE,09-10-2021,11/16/2021,31651,11668.59,N/A,3,Mobile,0,37%
+EMP8045,Meera Reddy,meera.reddy@hotmail.com,(897) 609-8731,WOMAN,Lucknow,Eng,2022-06-15,27-Feb-20,176198,26970.88,no,2,Smartwatch,309,49%
+,,,,,,,,,,,,,,,
+EMP9608,Meera Chopra,meera.chopra@hotmail.com,(529) 978-7729,m,,Marketing,19 Feb 2024,2022-04-29,N/A,$32056.43,Yes,1,Camera,59,21%
+EMP4625,Arjun,arjun@yahoo.com,N/A,Man,Ahmedabad,OPERATIONS,2022/08/01,2021/12/22,168273%,45886.52,False,1,Laptop,212,40%
+EMP4257,Suresh Verma,suresh.verma@company.in,(830) 930-9671,female,Mumbai,ENGG,2020/04/09,24 Aug 2020,145676.00 INR,(37756.66),T,6,Speaker,67,2%
+EMP5471,Divya Pandey,divya.pandey@company.in,,female,Delhi,Mktg,"April 12, 2020",09-Mar-21,124385/-,47584.6,N,5,Camera,36,41%
+EMP4737,aarav malhotra,aarav.malhotra@hotmail.com,5953828040,not specified,Delhi,Oprns,2023-06-03,2023/01/29,,7757.31,y,4,Mobile,111,N/A
+EMP7725,MEERA KUMAR,meera.kumar@yahoo.com,0000000000,MALE,Delhi,Salez,02/11/2022,14-06-2021, 169500 ,10129.32,y,,,437,45%
+,aditya kumar,aditya.kumar@company.in,,WOMAN,Kolkata,Human Resources,14-Feb-24,11.05.2021, 128005 ,₹46637.32,N/A,5,,483,28%
+EMP1354,aditya pandey,aditya.pandey@yahoo.com,3288377441,FEMALE,Mumbai,MKTG,TBD,??,33934,44714.44,yes,4,Monitor,82,54%
+EMP4304,Priya Nair,priya.nair@hotmail.com,0988392,,Kolkata,HumanResources,2022-03-20,26-11-2022,42987,27704.84,Inactive,3,Headphones,207,16%
+EMP7805,RAHUL REDDY,rahul.reddy@gmail.com,89219 63945,FEMALE,Bangalore,SALES,05-Sep-23,05/29/2022,N/A,24425.8,0,4,Camera,366,14%
+,Aditya Iyer,ADITYA.IYER@YAHOO.COM,+91-46212-76025,man,Delhi,Engineering,2020-11-10,2021/04/14,161383 ,44249.52,unknown,5,Monitor,305,36%
+EMP1348,Neha Kumar,neha.kumar@company.in,+918116403439,female,Bangalore,FINANCE,26.06.2022,31 Mar 2021,99439,22750.6,ACTIVE,1,Mobile,179,52%
+EMP4678,Siddharth Kumar,siddharth.kumar@gmail.com,(451) 951-5109,Man,Kolkata,Enginering,"November 08, 2023",10.08.2021,96065,33255.72,INACTIVE,,Tablet,76,24%
+EMP4749,ROHIT RAO,rohit.rao@company.in,+91-62107-81871,Woman,Delhi,hr,2020-04-18,27-08-2023,137148,₹32999.01,false,3,Headphones,,
+EMP8347,Rahul Das,rahul.das@gmail.com,1768802942,,Bangalore,OPERATIONS,10/10/2022,2024-03-17,127300.00 INR,₹13938.96,1,1,Monitor,369,19%
+EMP5555,Lakshmi Gupta,LAKSHMI.GUPTA@HOTMAIL.COM,+911966553307,unknown,Ahmedabad,Engg.,2021-10-31,,26218 ,14576.11,y,1,Laptop,,26%
+EMP2743,Rahul Bose,,8932528809,Man,Chennai,Engineering,05/08/2021,09/22/2022,164645,6855.38,No,5,Headphones,387,12%
+EMP8805,Deepa Patel,deepa.patel@hotmail.com,+914967379457,O,Pune,Eng,2021/08/10,"March 06, 2022",121489,21870.96 USD,YES,10,Speaker,321,60%
+EMP5032,Kavya Joshi,kavya.joshi@outlook.com,1247601080,female,,OPERATIONS,08 Feb 2023,"March 27, 2022",48587%,$21478.36,true,Average,Tablet,445,21%
+EMP8059,Lakshmi Bose,N/A,2125450809,FEMALE,Pune,ENGG,2023/05/05,2022-01-30,Rs.142095,₹42745.7,Yes,3,Mobile,198,52%
+EMP8499,Ananya Singh,ananya.singh@yahoo.com,8813770285,man,Pune,finance,2020/03/23,16.09.2021,"$152,382",7572.03,Yes,2,Monitor,-1,2%
+EMP7766,Kiran,kiran@yahoo,8355054296,Female,Hyderabad,Mktg,2021-05-07,11-Jun-23,29454,39041.38,n,1,Laptop,444,53%
+EMP7113,Arjun Kumar,arjun.kumar@yahoo.com,2866464911,Male,Kolkata,Salez,03/15/2024,27-10-2022,Rs.135268,38955.57,Y,3,Monitor,421,50%
+EMP9021,Ananya Bose,ananya.bose@gmail.com,(948) 491-0256,woman,Delhi,HR,2023/11/07,2020-10-19,"$95,089",36408.25,0,4,Tablet,182,32%
+EMP8308,Lakshmi Joshi,lakshmi.joshi@gmail.com,4262037087,F,Kolkata,sales,15-09-2023,"September 14, 2023",168064,₹40059.7,F,5,Monitor,460,28%
+EMP8585,Deepa Sharma,deepa.sharma@hotmail.com,6337524310,Male,Mumbai,S@les,09-Mar-20,11-12-2023,36596.00 INR,₹12099.79,False,3,Camera,396,20%
+EMP1745,Meera Sharma,meera.sharma@gmail.com,(271) 094-7775,MAN,Mumbai,MKTG,31-05-2020,"February 26, 2023","$90,061",38339.95,0,?,Monitor,302,19%
+EMP5107,ADITYA DAS,aditya.das@gmail.com,9755231491,MAN,Chennai,Oprns,08.11.2020,na,83071,32221.51 USD,active,9,Camera,250,11%
+EMP6583,  Arjun Mehta  ,arjun.mehta@gmail,+91-83199-71791,Male,Mumbai,Engineering,24-06-2022,2023-07-06,N/A,15098.38,T,5,Laptop,238,56%
+EMP7021,Meera Kumar,meera.kumar@hotmail.com,2727956878,f,Lucknow,S@les,03.07.2022,03/01/2023,168562,10506.76,y,2,Monitor,262,3%
+EMP8978,Sneha,sneha@gmail.com,+912194672324,M,Hyderabad,Fin,08-Jan-24,"June 29, 2020",N/A,9999.19,unknown,5,Monitor,338,3%
+EMP6789,PRIYA PANDEY,priya.pandey@outlook.com,1844421,FEMALE,Mumbai,Eng,"April 12, 2024",27.03.2020,,$23631.98,active,2,Camera,371,33%
+EMP4707,Sneha Nair,sneha.nair@yahoo.com,9634064686,F,Chennai,Sales,"May 29, 2021",02/11/2024,Rs.132577,(24306.14),N/A,2,Speaker,128,4%
+EMP7347,Rohit Kumar,rohit.kumar@company.in,+917252145264,man,Pune,Operations,26-Nov-21,,40964,none,y,3,Laptop,291,54%
+EMP8631,Rohit Shah,rohit.shah@outlook.com,(043) 502-3850,FEMALE,Pune,ENGG,19.03.2024,2024/03/23,,8089.24,True,4,Mobile,450,
+EMP1494,Meera Joshi,meera.joshi@gmail.com,88959 27411,male,Kolkata,sales,2022-08-25,01-02-2020,29389/-,$6442.32,FALSE,4,Smartwatch,112,38%
+EMP6567,  Aarav Nair  ,aarav.nair@outlook.com,29612 01836,Man,Pune,Finence,22-06-2020,25-03-2024,96330%,21488.73,1,6,Mobile,348,33%
+EMP6567,  Kavya Mishra  ,kavya.mishra@gmail.com,0717327980,Woman,Bangalore,Operations,08-04-2020,12 Aug 2021,Rs.28199,(44914.49),TRUE,2,Smartwatch,-1,58%
+EMP3592,Aarav Singh,aarav.singh@hotmail.com,+91-13671-57787,male,Kolkata,Mktg,02.04.2022,02-Dec-21,"$149,838",23001.64,N/A,3,Speaker,-1,30%
+EMP6375,Neha Nair,neha.nair@outlook.com,+91-17882-24731,man,Jaipur,HR,09/13/2022,20-12-2021, 175565 ,(550.77),T,1,Speaker,451,N/A
+EMP5458,Meera Kumar,meera.kumar@hotmail.com,+91-50208-02144,Male,Delhi,Salez,20.03.2021,17.10.2022, 33319 ,42255.54,T,5,Headphones,129,53%
+EMP5430,Rohit Nair,rohit.nair@yahoo.com,+91-68827-69704,male,Mumbai,FINANCE,18.08.2020,09 Oct 2022,99479,40519.76,ACTIVE,1,Monitor,440,42%
+EMP3286,Sneha Sharma,sneha.sharmagmail.com,,woman,Lucknow,HR,2024/04/03,"November 27, 2021","$113,236",none,Yes,?,Speaker,-1,39%
+EMP8259,rahul patel,rahul.patel@gmail.com,9063224815,N/A,Hyderabad,Enginering,"December 25, 2023",??,131309,28439.2,YES,3,Camera,347,22%
+EMP1945,Aditya Singh,aditya.singh@hotmail.com,4064039106,Male,Mumbai,Marketing,2021-08-10,2020-10-04,125264%,none,active,1.6,Mobile,276,8%
+EMP5263,Suresh Pillai,suresh.pillai@hotmail.com,,female,Hyderabad,Ops,18.07.2022,29 Aug 2023,165356,36452.47,Yes,3,Tablet,327,55%
+EMP7292,Deepa Kumar,deepa.kumar@company.in,0941017590,MAN,Lucknow,Fin,"February 04, 2021","October 22, 2023",67490.00 INR,26662.21,True,1,Tablet,185,36%
+EMP4845,Rahul,rahul@outlook.com,N/A,m,Jaipur,ENGG,05-07-2021,15-Jun-22,41949,8981.39,False,4,Tablet,-1,46%
+EMP6489,Aditya,aditya@hotmail.com,(126) 861-2059,WOMAN,Ahmedabad,HR,05-Sep-20,12.04.2020,113463,$38458.27,Yes,1,Smartwatch,306,46%
+EMP5169,RAHUL PATEL,rahul.pateloutlook.com,4752311232,na,Lucknow,OPERATIONS,10/29/2023,2024-05-03,88673,32430.71,TRUE,5,Tablet,460,45%
+EMP9868,"Mehta, Priya",MEHTA.PRIYA@GMAIL,8984841604,Man,Hyderabad,Engineering,12-07-2020,03-09-2022,119667.00 INR ,(5791.1),N/A,2,Mobile,9,46%
+EMP2754,Sneha Kumar,sneha.kumar@yahoo.com,21175 36170,female,Kolkata,marketing,21-Jul-23,na,N/A,$30529.42,na,5,Laptop,380,7%
+EMP3292,"Das, Siddharth",das.siddharth@gmail.com,50163 15999,Female,Ahmedabad,Mktg,2021-12-29,2023-10-24,187166/-,$12699.26,YES,7,Camera,47,N/A
+EMP1459,Rohit Verma,rohit.verma@yahoo.com,0000000000,MALE,Lucknow,Finance,28-Feb-23,10/06/2021,27222,37708.13,no,8,Mobile,460,6%
+EMP9064,sneha shah,sneha.shah@@company.in,+91-33872-20542,man,Chennai,FINANCE,28 Jan 2021,04 Jan 2020,100994/-,22419.52,y,Excellent,Camera,0,
+EMP3977,Kiran Bose,kiran.bose@company.in,(289) 666-0534,MALE,Kolkata,Sales,02-Aug-20,24 Oct 2021,191412,20774.94 USD,,5,Tablet,110,
+EMP9418,ananya reddy,ananya.reddy@gmail.com,+916484229405,Other,Pune,Finance,"May 03, 2024",18.03.2023,,47870.89,FALSE,5,Camera,110,21%
+EMP5333,kavya reddy,kavya.reddyhotmail.com,0766534460,M,Ahmedabad,Mktg,"July 22, 2023",02/21/2020,112266/-,18614.57,0,3,Tablet,180,26%
+EMP6492,Priya Nair,N/A,05224 11420,female,Chennai,HumanResources,TBD,19 May 2022,Rs.161133,(7216.33),yes,5,Tablet,0,1%
+EMP2639,Pooja Reddy,pooja.reddy@hotmail.com,+91-01799-93242,m,Chennai,HR,23-Apr-24,04.07.2021,112881,25298.67,Active,,Smartwatch,190,24%
+EMP4519,Arjun Verma,arjun.verma@yahoo.com,+91-37553-44902,man,Hyderabad,Finance,TBD,06.03.2020,153977/-,$17020.75,true,1,Mobile,240,12%
+EMP1474,sneha malhotra,sneha.malhotra@gmail.com,0455623869,M,Kolkata,Fin,2022/10/16,"July 30, 2023","$199,808",40329.34,FALSE,3,Smartwatch,218,29%
+EMP3387,Pooja Kumar,pooja.kumar@yahoo,(595) 143-4682,FEMALE,Chennai,Operations,2020/03/01,,-,45413.28,,Excellent,Mobile,99,21%
+EMP1081,Rajesh Kumar,rajesh.kumar@outlook.com,+914287738363,MALE,Mumbai,Enginering,"March 30, 2022","December 04, 2022","$66,574",44032.58,ACTIVE,10,Mobile,399,29%
+EMP3291,  Rajesh Shah  ,rajesh.shah@company.in,+91-58969-33539,Man,Kolkata,SALES,"July 20, 2023",05/19/2021,126144,12350.74,yes,,Smartwatch,490,2%
+,aarav joshi,aarav.joshi@yahoo,85695 57988,M,Chennai,engineering,09-Apr-21,13-08-2021,99549%,8734.97,No,2,Tablet,60,N/A
+EMP3626,Kavya Gupta,kavya.gupta@outlook,+91-11936-00608,Female,Chennai,Marketing,2023-11-04,22-Apr-20,59026.00 INR,11310.24,,3,Tablet,217,52%
+EMP3803,Deepa Joshi,deepa.joshi@yahoo.com,N/A,Man,Pune,HR,"December 15, 2023","April 16, 2022",40011,none,No,1,Mobile,353,41%
+EMP3345,"Pillai, Sneha",,8027148727,f,Delhi,Operations,2020-08-04,2020/02/29,110590,₹38432.29,Y,1,Monitor,355,14%
+EMP1526,aarav joshi,aarav.joshi@@hotmail.com,8206678498,M,Mumbai,FINANCE,13 Sep 2020,24 Apr 2020,-,4321.86,active,4,Camera,100,6%
+EMP7131,VIKRAM CHOPRA,vikram.chopra@gmail.com,5178637673,M,Delhi,marketing,2021-08-02,12/29/2022,"$178,728",(44336.61),yes,1,Speaker,331,31%
+EMP9830,  Aditya Singh  ,aditya.singh@@outlook.com,6965328710,M,Kolkata,Finance,2022-02-27,"August 16, 2022",28009,6170.31,F,1,Tablet,489,46%
+EMP9821,rohit joshi,rohit.joshi@outlook.com,6986407905,male,Mumbai,Ops,19-Nov-21,15.04.2024, 103517 ,22081.56,F,5,Smartwatch,0,39%
+EMP9011,Meera Joshi,meera.joshi@outlook.com,8441986652,male,Ahmedabad,operations,10-Mar-24,"January 08, 2023",Rs.96203,30976.01,active,2,Laptop,170,6%
+EMP5225,Pooja Gupta,pooja.gupta@outlook.com,1168685487,man,Delhi,Engg.,04/19/2023,02/26/2023,165413,43955.73 USD,Inactive,1,Speaker,312,25%
+EMP8007,priya sharma,N/A,1034444299,MALE,Kolkata,FINANCE,2022/02/05,2020-03-20,"$58,042",45552.98,Y,4,Tablet,93,0%
+EMP7584,Arjun Chopra,arjun.chopra@yahoo.com,+91-84227-17266,woman,Chennai,Marketing,02-09-2022,"June 18, 2020",196418,₹6005.96,NaN,4,Smartwatch,0,6%
+EMP5586,Kavya,kavya@yahoo.com,(748) 317-3066,female,Jaipur,Salez,2023/01/12,2020-10-27,N/A,21008.81,NO,2,Tablet,243,39%
+EMP3324,Siddharth Mehta,N/A,6173009928,M,Bangalore,Enginering,08/04/2020,16.04.2021,"$108,308",10889.24,active,2,Laptop,227,37%
+EMP2698,Kavya,kavya@@hotmail.com,5205852772,MAN,,sales,26.03.2020,2022-11-21,167352%,2312.73,T,3,Camera,205,57%
+EMP5673,Ananya Shah,ananya.shah@hotmail.com,5152174653,WOMAN,Jaipur,Sales,11/14/2022,05-Nov-23,98194,25079.92,YES,5,Mobile,115,25%
+EMP5434,rajesh das,rajesh.das@yahoo.com,3691430753,woman,Mumbai,Human Resources,"May 07, 2023",11.06.2022,61484,(10375.58),No,3,Monitor,193,53%
+EMP6150,Divya Das,divya.das@yahoo.com,+912189455906,MALE,Chennai,Finence,2021/05/27,2022-02-09,96820,37157.72,Y,3,Smartwatch,420,19%
+EMP5920,"Pandey, Arjun",pandey.arjun@hotmail.com,,Male,Bangalore,Marketting,27.05.2023,24 Jun 2022,69483,14547.43,false,Bad,Headphones,76,
+EMP7481,siddharth nair,siddharth.nair@@gmail.com,N/A,F,Bangalore,Marketing,21-Jun-21,01.08.2023,185250.00 INR,none,TRUE,Average,Mobile,161,19%
+EMP2288,Sneha Iyer,,5352181883,M,Delhi,H.R.,2020/12/21,09/04/2023,189613%,37845.07,Active,5,Camera,35,40%
+EMP8516,Ananya Patel,ananya.patel@hotmail.com,6142442607,WOMAN,Bangalore,Mktg,"November 10, 2023","March 10, 2022",82819.00 INR,7107.59,NO,5,Tablet,370,16%
+EMP4951,Rahul Pandey,rahul.pandey@gmail.com,+914820736511,MALE,na,Human Resources,22-Mar-24,02-12-2020,N/A,₹33531.28,0,7,Headphones,152,42%
+EMP6082,Sneha Mehta,sneha.mehta@company.in,9134438998,Female,Hyderabad,HumanResources,2024-04-25,03-Jan-20,53433,36183.6,No,4,Camera,242,56%
+EMP4165,LAKSHMI MEHTA,lakshmi.mehtaoutlook.com,N/A,Woman,Pune,Finence,13 Feb 2021,05/08/2023,40876,10149.68,T,1,Headphones,13,none
+EMP3695,Kavya Bose,kavya.bose@outlook.com,7451712368,Female,Mumbai,marketing,"October 09, 2023",31.07.2023,86295%,31167.57,Active,1,Monitor,155,7%
+EMP9314,Aarav Verma,aarav.verma@outlook.com,(537) 749-2663,Woman,Chennai,ENGG,16-Oct-22,2020/12/15,Rs.173698,21208.86,true,5,Camera,475,37%
+EMP7471,Aditya Bose,aditya.bose@hotmail.com,6878599648,MAN,Hyderabad,Engineering,13.05.2023,2020-08-24, 103516 ,₹16069.99,YES,N/A,Tablet,155,9%
+EMP3805,RAJESH MISHRA,rajesh.mishra@yahoo.com,9006548708,WOMAN,Chennai,Sls,2022-06-30,04 Oct 2021,45288,43987.12,False,Bad,Mobile,34,38%
+EMP1538,Rajesh Iyer,rajesh.iyer@company.in,N/A,MALE,Delhi,Ops,12-Apr-21,"June 01, 2023",48949,36800.19,N/A,1,Headphones,298,6%
+EMP9904,Aarav Bose,aarav.bose@gmail.com,+910468611145,f,Delhi,Sales,11/27/2020,23 Sep 2023, 168109 ,$13518.83,FALSE,1,Headphones,154,44%
+EMP8590,Neha Iyer,neha.iyer@company.in,4883958558,MALE,Pune,Enginering,10/02/2021,25.10.2022,"$186,204",,active,3,Smartwatch,158,14%
+EMP8707,Arjun Mishra,arjun.mishrayahoo.com,1688005378,f,Kolkata,Fin,07-Nov-22,"November 08, 2022",106524,33039.15,ACTIVE,7,,110,34%
+EMP3431,Sneha Reddy,sneha.reddy@hotmail.com,3270216487,Male,Hyderabad,Ops,2020/05/29,2022-12-20,Rs.117895,₹34997.97,yes,3,Mobile,24,58%
+EMPLOYEE_ID,NAME,EMAIL,PHONE,GENDER,CITY,DEPARTMENT,JOIN_DATE,LAST_REVIEW_DATE,SALARY,MONTHLY_REVENUE,IS_ACTIVE,PERFORMANCE_RATING,PRODUCT_SOLD,UNITS_SOLD,DISCOUNT_PCT
+EMP7147,Sneha Verma,sneha.verma@@outlook.com,90901 00167,WOMAN,Bangalore,Operations,2021-09-08,"September 18, 2023",60956.00 INR,44981.79,No,1,Headphones,426,12%
+EMP2871,Suresh Shah,suresh.shah@@outlook.com,5807836134,MALE,Mumbai,Marketing,07 May 2024,19.02.2024,184976,(8716.09),1,na,Tablet,361,36%
+EMP8256,Ananya Reddy,ananya.reddy@yahoo.com,(920) 522-2999,M,Kolkata,HumanResources,04/13/2023,2021/04/28, 68663 ,18502.77,n,5,Smartwatch,251,29%
+EMP4496,Meera Pandey,meera.pandeyhotmail.com,4136852830,m,Hyderabad,sales,"March 14, 2024","August 21, 2021",Rs.136791,$8613.41,na,5,Mobile,448,59%
+EMP5299,Kavya Pandey,kavya.pandey@outlook.com,(757) 475-8339,woman,Ahmedabad,hr,07-Aug-22,2020-10-17,31417,39519.13,FALSE,1,Tablet,485,6%
+,  Rajesh Reddy  ,rajesh.reddy@@gmail.com,9105302151,woman,Kolkata,Ops,18.04.2021,01/31/2023,"$110,420",6365.33,NaN,2,Speaker,63,15%
+EMP2050,Suresh Chopra,suresh.choprayahoo.com,3900251213,woman,Jaipur,Oprns,13 Mar 2022,21-Nov-21,170588,$48557.19,0,3,Smartwatch,357,24%
+EMP2007,Rajesh Sharma,rajesh.sharma@gmail.com,8241270493,Male,Jaipur,HR,30-Nov-21,11/27/2023,"$146,374",₹45941.55,yes,1,Laptop,192,56%
+EMP9729,Pooja Mehta,pooja.mehta@@company.in,4036488215,WOMAN,Pune,HumanResources,2022-03-30,2021/02/08,35076.00 INR,40436.46,n,5,Camera,291,58%
+EMP3944,rajesh sharma,rajesh.sharma@gmail.com,+91-33971-89569,Female,Delhi,Marketing,17.12.2022,07/05/2020,Rs.167024,7629.7 USD,Yes,2,Camera,366,N/A
+EMP4423,  Priya Joshi  ,priya.joshi@outlook.com,+91-84951-63211,WOMAN,Mumbai,Finance,27 May 2023,06 Jul 2020,60312.00 INR,₹16489.5,,6,Monitor,168,6%
+EMP5719,Kavya Rao,kavya.rao@yahoo.com,+91-49116-50200,Woman,Lucknow,Ops,28 May 2020,25.08.2020,Rs.43151,16536.84,inactive,5,Mobile,146,33%
+EMP7001,aditya patel,aditya.patel@outlook.com,+91-90927-55719,Man,Bangalore,Sales,2024/02/15,03/03/2022,93233,11121.24,N,2,Monitor,366,5%
+EMP3603,"Patel, Siddharth",patel.siddharth@yahoo.com,+913970774544,Female,Delhi,Ops,12-Jun-20,2021-08-15,N/A,36595.14,T,4,Tablet,93,44%
+EMP1498,  Priya Mehta  ,priya.mehta@company.in,7727810509,M,Delhi,Salez,01-09-2020,26-12-2023,167628/-,42702.51,no,Average,Tablet,301,23%
+EMP8741,MEERA VERMA,meera.verma@hotmail.com,5882556296,na,Ahmedabad,Oprns,15.04.2022,"June 26, 2020",112242,32450.47,inactive,1,Tablet,277,47%
+EMP8506,Deepa Pandey,deepa.pandey@gmail.com,N/A,m,Pune,Finence,,2023-06-23,128467,7045.79,TRUE,5,Camera,68,45%
+EMP7078,DEEPA REDDY,N/A,42362 20334,man,Mumbai,SALES,20-Apr-21,2022-05-01,166629,2117.14,?,2,Smartwatch,299,9%
+EMP9315,Siddharth Sharma,siddharth.sharma@outlook.com,4463060002,Woman,Lucknow,Mktg,2023-02-12,2023-08-12,176480.00 INR,46999.89,NO,5,Headphones,411,7%
+EMP3466,vikram singh,vikram.singh@yahoo.com,7733168066,Female,Ahmedabad,sales,17.02.2023,14-02-2022,Rs.107101,,false,6,Smartwatch,68,17%
+,Rahul Das,rahul.das@hotmail.com,6496322517,F,Chennai,Ops,2020-12-19,28-12-2022,105079.00 INR,21865.25,Y,5,Tablet,N/A,2%
+EMP9438,Priya Sharma,priya.sharmaoutlook.com,3611371181,Woman,Pune,Fin,"April 03, 2024",07 Feb 2020,"$199,255",,YES,4,Smartwatch,456,55%
+EMP6150,Vikram Chopra,vikram.chopra@gmail.com,2144773244,f,Delhi,sales,N/A,N/A,Rs.121872,47119.39,n,4,Mobile,471,28%
+,Deepa Reddy,deepa.reddy@hotmail.com,+91-09977-00886,FEMALE,Chennai,S@les,2023-11-30,01/02/2021,Rs.162464,10000.64,No,,Speaker,125,14%
+EMP3493,Rohit Chopra,rohit.chopra@outlook.com,0000000000,Male,Kolkata,engineering,01.04.2021,31 Aug 2023,175585,44715.56,0,N/A,Mobile,,34%
+EMP5247,Kavya Bose,kavya.bose@yahoo.com,0000000000,Woman,Lucknow,engineering,"November 18, 2020",03/21/2023,"$158,385",$43005.11,yes,2,Laptop,468,41%
+EMP7485,Pooja Rao,pooja.rao@yahoo.com,+91-05937-77569,F,Hyderabad,Ops,05/10/2023,11/05/2023,124121,2523.39,n,1,Smartwatch,0,9%
+EMP1014,Aditya Sharma,aditya.sharmagmail.com,42569 08776,female,Hyderabad,MKTG,05.09.2020,2021-09-12,"$194,626",26964.0,Y,na,Tablet,496,12%
+,"Chopra, Kavya",chopra.kavya@company.in,7530011972,female,Mumbai,HumanResources,18-Apr-21,"August 29, 2021",51164,43769.95,active,1,Laptop,N/A,10%
+EMP2102,ROHIT MISHRA,rohit.mishra@hotmail,7635148468,MALE,Ahmedabad,Oprns,04-01-2021,2022/11/23,80824,41283.45,active,5,Speaker,373,33%
+EMP8474,Meera Das,N/A,N/A,MALE,Bangalore,Eng,2020/08/09,"April 01, 2021",137689.00 INR,28212.51,ACTIVE,5,Speaker,235,57%
+EMP9973,Ananya Mehta,ananya.mehta@outlook.com,N/A,m,Delhi,FINANCE,16-Oct-21,2024/02/14,180456,₹40076.67,TRUE,4,Headphones,,41%
+EMP4120,ADITYA VERMA,aditya.verma@gmail.com,9901398373,Male,Bangalore,Operations,09-Mar-24,25 Nov 2023,N/A,38887.94,no,3,Monitor,412,30%
+EMP8259,Arjun Chopra,arjun.chopra@outlook.com,09745 33890,Man,Kolkata,Mktg,2023/07/21,"November 20, 2021",128937,,,4,Tablet,78,48%
+EMP3823,Aditya Sharma,aditya.sharma@outlook.com,9269326573,MAN,Lucknow,Finance,10/16/2023,N/A,111902,16008.05,TRUE,3,Camera,162,53%
+EMP9038,Lakshmi Pillai,lakshmi.pillai@yahoo.com,3677462025,not specified,Pune,H.R.,22 May 2020,12/20/2020,74918,6751.62,inactive,3,Laptop,5,33%
+EMP2560,Rahul Bose,rahul.bose@yahoo.com,+916042232536,FEMALE,Kolkata,Marketing,07/21/2023,"March 15, 2024",121749%,24658.2,INACTIVE,4,Camera,408,13%
+,Pooja,pooja@hotmail.com,68430 21166,Female,Pune,marketing,24-Mar-24,2023/03/04,180561,,1,2,Tablet,453,29%
+EMP9385,Aditya Sharma,aditya.sharma@company.in,1061339439,Male,Bangalore,finance,20-03-2021,2021/03/19,79094%,36137.13,YES,2,Monitor,147,42%
+EMP3870,Rohit Chopra,rohit.chopra@hotmail.com,+91-23471-99829,Woman,Mumbai,Human Resources,14.11.2023,07-03-2022, 141015 ,28635.5,y,1,,202,15%
+EMP7304,Aarav Kumar,aarav.kumar@company.in,(037) 183-7645,female,Chennai,engineering,16 Apr 2020,2021-04-28,68872,29442.49,True,4,Tablet,46,31%
+EMP1969,kiran iyer,kiran.iyer@outlook.com,N/A,Female,Hyderabad,Engineering,22 Jul 2023,2021/07/21,Rs.59393,none,?,2.0,Laptop,389,5%
+EMP2310,Aarav Gupta,aarav.gupta@company.in,0586509480,female,Jaipur,Sales,25 Jan 2024,23 Jan 2021,N/A,47401.42,INACTIVE,5,Monitor,219,10%
+EMP5646,Pooja Gupta,POOJA.GUPTA@OUTLOOK.COM,2975001701,MAN,N/A,Enginering,"September 27, 2020",07/15/2021,"$90,638 ",33393.19,active,2,Mobile,1,4%
+EMP3346,Aditya Reddy,aditya.reddy@hotmail.com,4359892625,Male,Bangalore,SALES,09/12/2020,04/13/2022, 48324 ,17009.11 USD,0,1,Headphones,54,7%
+EMP5888,Rajesh Kumar,rajesh.kumar@company.in,2235697252,F,Hyderabad,Salez,14 Jul 2021,2020/12/11,Rs.48079,21968.72,Y,1,Camera,457,53%
+EMP7252,SURESH PANDEY,suresh.pandey@hotmail.com,6334141115,NB,Lucknow,H.R.,2021-10-03,"January 04, 2020",Rs.165405,19713.2,F,2,Headphones,5,29%
+EMP5225,sneha rao,sneha.rao@company.in,10339 93788,Male,Jaipur,Marketing,18-09-2022,23-04-2021,178661,12692.65,No,4,Headphones,73,10%
+EMP9729,Pooja Mehta,pooja.mehta@@company.in,4036488215,WOMAN,Pune,HumanResources,2022-03-30,2021/02/08,35076.00 INR,40436.46,n,5,Camera,291,58%
+EMP1723,rajesh chopra,rajesh.chopra@yahoo.com,4564494856,MAN,Delhi,FINANCE,18 Apr 2020,2021/04/15,Rs.93216,(23623.08),NaN,3,Monitor,58,55%
+EMP7694,PRIYA MALHOTRA,priya.malhotra@company.in,+910735104584,man,Bangalore,Sales,2023-03-03,24.12.2022,-,₹25060.62,no,2,Tablet,471,59%
+EMP5318,Priya Bose,priya.bose@company.in,+91-37031-75438,MAN,Mumbai,H R,26-Oct-21,24-02-2022, 70287 ,38643.6,FALSE,2,Smartwatch,230,16%
+EMP8882,Lakshmi Mishra,lakshmi.mishra@@company.in,8375307681,MALE,Jaipur,Human Resources,unknown,"June 10, 2021",Rs.60377,₹20065.44,,1,Speaker,391,22%
+EMP4248,Lakshmi Mishra,lakshmi.mishra@hotmail.com,3703424447,FEMALE,Hyderabad,Marketting,2022/05/01,10/07/2021,26346,,Inactive,4,Camera,356,42%
+EMP5549,Pooja Mishra,pooja.mishrahotmail.com,12831 80036,M,Hyderabad,SALES,2021/02/06,2021-01-31,"$50,260",,1,2,Laptop,284,59%
+EMP1983,"Pandey, Rohit",pandey.rohit@gmail.com,2812735857,man,Delhi,HR,20-Sep-22,16-Jan-23,,16522.2,Inactive,5,Tablet,420,23%
+EMP4039,Aditya Sharma,aditya.sharma@gmail.com,5935186387,MALE,Pune,Sales,12/07/2022,2020/09/22,"$77,973",$9985.02,NO,5,Smartwatch,N/A,4%
+EMP7187,vikram verma,vikram.verma@@yahoo.com,,Female,Lucknow,Enginering,11/29/2023,2020-02-14,119246.00 INR,24802.39,,3,Camera,134,10%
+EMP7131,VIKRAM CHOPRA,vikram.chopra@gmail.com,5178637673,M,Delhi,marketing,2021-08-02,12/29/2022,"$178,728",(44336.61),yes,1,Speaker,331,31%
+EMP8138,Kavya Malhotra,kavya.malhotra@@outlook.com,2298120,Man,Jaipur,Oprns,07/26/2021,07.10.2022,160706,29201.5,yes,2,Laptop,377,46%
+EMP4240,Aarav Pillai,aarav.pillai@gmail.com,24843 37976,WOMAN,Hyderabad,HR,17.05.2020,"May 29, 2023",160990,40279.29,Yes,3,Speaker,307,18%
+EMP9305,  Pooja Gupta  ,pooja.gupta@outlook.com,8170066615,male,Chennai,Enginering,2020-06-21,"February 02, 2020","$109,743",(42447.03),y,4,Laptop,108,42%
+EMP8011,Aditya Iyer,,+91-75207-16781,male,Delhi,SALES,11.02.2021,04/07/2022,136333,14286.66,No,9,Speaker,262,49%
+EMP2363,DIVYA PATEL,divya.patel@gmail.com,+912164334722,Male,Pune,MKTG,"January 12, 2023",2020/10/03,144680,31974.63,inactive,3,Headphones,227,26%
+EMP2093,deepa sharma,deepa.sharma@@hotmail.com,+91-97964-71589,Male,Ahmedabad,Ops,2022/01/01,2022-01-09,"$118,319",14937.37,1,N/A,Tablet,447,54%
+EMP3374,Neha Mishra,neha.mishra@yahoo.com,7265273543,Male,Mumbai,MKTG,2022/05/06,"March 26, 2021",192247,45326.12,0,5,Headphones,429,0%
+EMP6778,AARAV PILLAI,aarav.pillai@hotmail.com,0835832863,Man,Bangalore,Fin,28-01-2020,03/26/2024,"$152,113",$14512.94,INACTIVE,3,Speaker,68,56%
+EMP7908,"Nair, Siddharth",nair.siddharth@outlook,+916683496047,MAN,na,HR,2022/03/01,29 Dec 2021,131595/-,$27562.24,N/A,4,Headphones,451,16%
+EMP1897,  Meera Patel  ,meera.patel@gmail.com,+91-32445-10762,f,Pune,Salez,28-02-2024,07/30/2022,175931.00 INR,20518.93,YES,3,Monitor,471,27%
+EMP9040,deepa verma,deepa.verma@yahoo,N/A,woman,Bangalore,Human Resources,04-Oct-20,2021-08-22,"$123,845",(1679.79),Inactive,4,Smartwatch,358,
+EMP8451,Meera Pillai,meera.pillai@gmail.com,+915168087603,WOMAN,Hyderabad,engineering,2023/01/29,16-Jun-22,-,(12345.22),n,2,Mobile,61,9%
+EMP3373,Aditya Reddy,aditya.reddy@yahoo.com,5699611253,FEMALE,Kolkata,hr,18.05.2024,02-Dec-22,73204,₹6689.48,ACTIVE,6,Speaker,33,30%
+EMP8481,Siddharth Pillai,siddharth.pillai@hotmail.com,1248255442,man,Pune,finance,15 Jan 2021,"September 29, 2020",83247,10131.11,,2,Camera,390,59%
+EMP3286,Sneha Sharma,sneha.sharmagmail.com,,woman,Lucknow,HR,2024/04/03,"November 27, 2021","$113,236",none,Yes,?,Speaker,-1,39%
+EMP2334,Neha Bose,neha.bose@gmail.com,1620281237,man,Jaipur,Mktg,2024-03-13,08/30/2021,102128,44071.2 USD,yes,2,Headphones,488,33%
+EMP8410,Siddharth Chopra,siddharth.chopra@company.in,7555628333,Woman,Jaipur,marketing,"August 11, 2023",16-Oct-20,195980%,45281.47,NO,2,Tablet,480,11%
+EMP1997,Sneha Joshi,sneha.joshi@@gmail.com,8038287232,Male,Lucknow,Ops,,09/04/2020,52159%,41719.96,true,4,Headphones,280,39%
+EMP9438,Priya Sharma,priya.sharmaoutlook.com,3611371181,Woman,Pune,Fin,"April 03, 2024",07 Feb 2020,"$199,255",,YES,4,Smartwatch,456,55%
+EMP1764,Rajesh Rao,rajesh.rao@company.in,3963428987,Man,Pune,Sls,"July 28, 2023",10/11/2020,40383/-,42894.16,false,4,Monitor,0,53%
+EMP1246,Rahul Pandey,rahul.pandey@@outlook.com,3668348268,woman,Lucknow,Marketing,17 Dec 2022,02/16/2023,198123,$39188.67,T,2,Mobile,460,44%
+EMP8478,Aditya Mishra,aditya.mishra@gmail.com,0691767993,f,Chennai,Operations,"April 14, 2021",09 Jan 2020,142768/-,$611.4,T,5,Laptop,488,49%
+EMP8177,Meera Pillai,meera.pillai@hotmail.com,+91-33150-98393,Female,Hyderabad,HR,18 Nov 2022,21 Sep 2022,N/A,12528.36,true,4,Speaker,374,none
+EMP1753,Arjun Shah,arjun.shahcompany.in,(734) 996-0105,MALE,Delhi,Operations,2021-10-26,"November 04, 2020","$172,282",12638.72,No,3,Tablet,35,44%
+EMP4112,POOJA NAIR,pooja.naircompany.in,8444310698,Man,,HumanResources,04-Jul-23,22 Feb 2020,101496,(23941.75),N,3,Speaker,454,11%
+EMP9071,Kiran Patel,kiran.patel@gmail.com,8267586,woman,Chennai,Sls,28 Jan 2022,28.04.2021,,none,1,4,Headphones,306,3%
+EMP1315,Arjun Joshi,arjun.joshi@gmail.com,9967069219,f,N/A,Finence,"November 28, 2020","November 15, 2022",89319,35020.05,INACTIVE,5,Monitor,475,none
+EMP8756,Aarav Das,aarav.das@@outlook.com,6184438612,Female,Chennai,Mktg,2023/03/28,"September 15, 2022",Rs.79988,37544.93,ACTIVE,1.5,Tablet,219,10%
+EMP7383,  Lakshmi Rao  ,lakshmi.rao@yahoo,+91-73118-04674,MAN,Bangalore,finance,04/30/2024,unknown,Rs.43805,19575.66,T,4,Monitor,198,46%
+EMP8558,AARAV SHARMA,aarav.sharma@company.in,+91-00898-76108,Man,Mumbai,HR,23 Jan 2024,15.08.2021,193074,29686.82,No,5,Headphones,210,37%
+EMP3138,NEHA PANDEY,neha.pandey@gmail.com,+910417929111,f,Bangalore,marketing,2024-02-20,2023/11/02,80897,,TRUE,7,Tablet,474,8%
+EMP1333,Priya Sharma,priya.sharma@hotmail.com,,female,Delhi,HR,31-03-2023,2023-03-25,"$76,990",34685.41,T,5,Laptop,220,4%
+EMP5654,Kiran,kiran@yahoo,84993 90892,MAN,Pune,SALES,10/27/2023,04/24/2023,"$65,311",23281.54,active,5,Camera,336,28%
+EMP7361,  Neha Joshi  ,neha.joshi@gmail.com,9353875842,F,Ahmedabad,Enginering,2021/06/13,11/18/2021,83544,15700.72,Yes,4,Monitor,,12%
+EMP9821,rohit joshi,rohit.joshi@outlook.com,6986407905,male,Mumbai,Ops,19-Nov-21,15.04.2024, 103517 ,22081.56,F,5,Smartwatch,0,39%
+EMP2309,arjun malhotra,arjun.malhotra@hotmail.com,8664693656,f,Lucknow,marketing,08-Jul-23,15.01.2020,37891,48543.17,N,,Headphones,413,36%
+EMP2430,Aditya Verma,aditya.verma@yahoo.com,,woman,N/A,Marketing,24 Jan 2024,2020-12-13, 95495 ,$24909.64,YES,1,Headphones,254,12%
+EMP8674,Vikram Patel,vikram.patel@outlook.com,+910880670898,?,Mumbai,Finence,"July 08, 2020",06/10/2020,63078,$19239.33,n,1,Speaker,337,38%
+EMP7374,Meera Nair,meera.nair@@company.in,+91-97889-77828,man,Pune,Human Resources,05-05-2020,19.09.2020,"$178,083",,yes,4,Headphones,332,5%
+EMP1924,Rahul,rahul@company.in,+91-48132-35707,MALE,Delhi,finance,04/26/2020,19-04-2022,69542,$16421.98,?,4,,0,7%
+EMP2377,Priya Das,priya.das@hotmail.com,27645 79389,Man,na,Operations,02/21/2022,"July 28, 2023",Rs.30867,37464.97,false,Excellent,Headphones,156,34%
+EMP5757,Arjun Verma,,2583132370,WOMAN,Jaipur,Engg.,06/25/2020,08-Jan-24,132330,4150.66,N,5,Tablet,67,58%
+EMP5095,Deepa Singh,deepa.singh@@gmail.com,62341 90310,MAN,Mumbai,Human Resources,2022-04-21,"October 25, 2023",77834,7722.82,active,3.6,Smartwatch,130,N/A
+EMP1020,  Rohit Verma  ,rohit.verma@gmail.com,6267658617,f,Mumbai,SALES,11.02.2020,08/02/2020,Rs.123424,4212.62,na,5,Laptop,335,56%
+EMP6651,rajesh rao,rajesh.rao@company.in,3718444902,M,Chennai,Finance,2020-07-12,18 Apr 2020,90569,20218.8,NaN,9,Tablet,39,
+EMP1996,Rajesh Joshi,,+91-61771-15921,Woman,Lucknow,finance,2022-07-18,12/08/2023,195633,27791.09,1,4,Mobile,161,23%
+EMP9893,"Reddy, Vikram",reddy.vikram@yahoo.com,0800463580,woman,Jaipur,Engg.,29-01-2022,21-Jul-20,83082,₹4111.69,active,1,Headphones,60,0%
+EMP7491,  Rajesh Mehta  ,RAJESH.MEHTA@COMPANY.IN,N/A,female,Chennai,Operations,29.11.2022,08-03-2024,64099% ,(46262.89),False,na,Monitor,429,1%
+EMP2317,Aditya Sharma,aditya.sharma@company.in,70500 49332,MALE,Kolkata,Fin,19-Aug-20,24-Jul-21,88351,₹763.8,INACTIVE,3,Tablet,316,52%
+EMP5224,Kiran Kumar,N/A,54842 03531,female,Lucknow,sales,2023-01-18,25-Oct-21,47651,6242.3,false,3,Laptop,156,42%
+EMP6904,PRIYA IYER,priya.iyer@yahoo.com,(786) 103-5797,Woman,Chennai,Operations,06-08-2021,29 Nov 2020,194706/-,10733.18,F,1,Tablet,308,14%
+EMP8586,  Suresh Mishra  ,suresh.mishrahotmail.com,2507146112,m,Pune,Marketing,16-Jun-22,06-09-2021,"$55,168",(17482.36),INACTIVE,2,Camera,491,51%
+EMP3184,rajesh iyer,rajesh.iyer@hotmail.com,0676251538,FEMALE,Chennai,H.R.,2020-01-05,16-09-2021,186939,$3346.09,Yes,1,Tablet,5,31%
+EMP8304,Rohit Chopra,rohit.chopra@hotmail.com,53817 92171,WOMAN,Bangalore,Engg.,12.06.2021,03.12.2023,110134%,1998.07,Y,Average,Tablet,208,50%
+EMP3863,NEHA DAS,neha.das@company.in,8750036915,F,Bangalore,hr,09.06.2023,2022-10-18, 122598 ,20329.33,Inactive,1,Headphones,439,9%
+EMP1425,lakshmi pandey,lakshmi.pandey@company.in,+91-93110-91939,Woman,Lucknow,Mktg,2021/05/12,2020/05/03,,none,n,N/A,Camera,497,none
+EMP8823,  Kiran Chopra  ,kiran.chopra@outlook.com,1704542185,Male,Jaipur,Engineering,2023/03/29,21-Jan-22,"$175,607",$36848.71,ACTIVE,4,Laptop,109,17%
+EMP5012,Divya Joshi,divya.joshi@company.in,+91-10276-77359,Woman,Pune,Mktg,06.04.2024,05.08.2020,57118/-,$12771.98,YES,2.7,Tablet,479,20%
+EMP8765,Aditya Chopra,aditya.chopra@outlook.com,+91-59160-11241,Prefer not to say,Chennai,Finence,2023-08-02,13-01-2020,,20106.01,N/A,1,Camera,403,59%
+EMP5815,kavya pillai,kavya.pillai@hotmail.com,+911537038240,f,Bangalore,Mktg,24-10-2020,12-Feb-20,N/A,₹49919.44,y,5,Speaker,362,23%
+EMP8158,Deepa,deepa@@outlook.com,24809 62440,man,Chennai,hr,11.05.2023,05-04-2021,"$82,948",14747.65,Inactive,5,Speaker,286,N/A
+EMP9952,Aditya Reddy,aditya.reddy@yahoo.com,5702793714,F,Mumbai,Sales,17-Dec-23,2020-06-23,159130,8415.03,TRUE,5,Tablet,75,45%
+EMP6997,Vikram,vikramcompany.in,2927318683,male,Pune,operations,2023/08/08,09 Apr 2021, 48716 ,none,inactive,10,Speaker,13,58%
+EMP8105,Ananya Pillai,ananya.pillai@outlook.com,1518260688,female,Lucknow,Finance,23 Mar 2024,2020/08/28,"$72,169",,Active,2,Smartwatch,18,7%
+EMP5835,Rahul Singh,rahul.singh@@yahoo.com,+910571983863,FEMALE,Hyderabad,MKTG,03.05.2022,20-04-2020,78238,39155.78,inactive,8,Headphones,494,28%
+EMP8245,Meera Nair,meera.nair@hotmail.com,0335211039,FEMALE,na,SALES,na,24 Feb 2024,162171,27665.6,?,1,Laptop,31,50%
+EMP8410,Siddharth Chopra,siddharth.chopra@company.in,7555628333,Woman,Jaipur,marketing,"August 11, 2023",16-Oct-20,195980%,45281.47,NO,2,Tablet,480,11%
+EMP3436,rajesh pandey,rajesh.pandey@yahoo.com,6043260931,MALE,Bangalore,engineering,22-May-22,24-05-2022, 95581 ,47178.44,True,1,Camera,242,38%
+EMP1741,Aditya Nair,aditya.nair@gmail.com,(459) 779-4523,FEMALE,Mumbai,Marketting,06-02-2020,2020/01/28,145628,43504.64,N,5,Speaker,45,0%
+EMP1917,Aarav Patel,aarav.patel@hotmail.com,(149) 150-7628,WOMAN,Delhi,Sls,24 Jan 2022,07-07-2021,140513%,(14434.3),N,4,Speaker,306,1%
+EMP7187,vikram verma,vikram.verma@@yahoo.com,,Female,Lucknow,Enginering,11/29/2023,2020-02-14,119246.00 INR,24802.39,,3,Camera,134,10%
+EMP6589,Rohit Sharma,rohit.sharma@hotmail.com,(975) 191-0231,female,na,Eng,04/12/2020,04 Jul 2023,76720,25017.37,ACTIVE,1,Laptop,N/A,56%
+EMP8989,Kiran Shah,kiran.shah@yahoo.com,+91-53038-56770,female,Jaipur,operations,"February 28, 2024",2023/03/13, 124226 ,32840.16,NO,2,Camera,177,30%
+EMP4706,  Aditya Patel  ,aditya.patel@outlook.com,2115869380,woman,Ahmedabad,Fin,"September 02, 2022",02-01-2024,160480,34037.98,T,2,Headphones,217,43%
+EMP9637,siddharth shah,siddharth.shah@company.in,,f,Lucknow,Ops,2021-02-22,12-Mar-21, 25111 ,$49060.12,y,4,Laptop,185,17%
+EMP3400,Neha Iyer,neha.iyer@gmail.com,0682122,man,Pune,SALES,09-Jan-23,"November 07, 2023",64410,26380.45,Active,5,Monitor,489,none
+EMP7180,Siddharth Sharma,siddharth.sharma@yahoo.com,6821719553,other,Lucknow,sales,25-04-2022,31 Jan 2020,"$45,083",22208.52 USD,Active,2,Tablet,246,42%
+EMP2564,Siddharth Chopra,siddharth.chopra@gmail.com,40281 82238,OTHER,Delhi,Mktg,09.03.2020,23-May-20,110134,23644.66,1,2,Headphones,233,N/A
+EMP6956,sneha chopra,sneha.chopra@outlook.com,1082555989,f,Mumbai,sales,07/13/2023,02 Sep 2023,141855,4206.54,ACTIVE,2,Tablet,N/A,45%
+EMP4218,"Patel, Divya",patel.divya@company.in,N/A,female,Ahmedabad,Ops,21-Apr-23,2021-05-30,154133,16767.65,active,5,Smartwatch,258,28%
+EMP1052,Rohit Bose,rohit.bose@company.in,(893) 206-4969,M,Bangalore,HumanResources,20-Sep-22,14.03.2022,"$102,441",6062.19,No,4,Speaker,238,42%
+EMP8904,Siddharth Gupta,SIDDHARTH.GUPTA@YAHOO.COM,87449 56213,F,Jaipur,marketing,01-02-2023,26-07-2023,63096% ,$30212.15,yes,1,Speaker,267,38%
+EMP5309,Sneha Mishra,sneha.mishra@gmail.com,(643) 502-3850,Male,Mumbai,Marketting,02/23/2024,2022/09/07,"$35,942",₹25081.54,Y,2,,N/A,55%
+EMP1692,Lakshmi Mehta,lakshmi.mehta@company.in,(674) 809-5739,Man,Jaipur,sales,unknown,"June 17, 2023",195570,42902.37,na,5,Tablet,144,55%
+EMP2612,Divya Reddy,divya.reddy@gmail.com,0835354443,not specified,Chennai,SALES,31.07.2021,2022-04-07,"$196,785",32877.51,NaN,2,Monitor,237,5%
+EMP9245,Lakshmi Joshi,lakshmi.joshi@hotmail.com,4325122572,woman,Delhi,HR,15-12-2020,28-08-2022,89883%,$2736.24,No,Bad,Mobile,412,28%
+EMP4248,Lakshmi Iyer,lakshmi.iyeroutlook.com,(206) 969-4215,Female,Kolkata,MKTG,30 Aug 2020,"January 25, 2021",154543.00 INR,₹21849.78,Yes,7,Speaker,15,16%
+EMP8814,RAJESH SINGH,,0422711332,Man,Delhi,Human Resources,2022-01-07,2023-12-30,-,47921.77,,N/A,Smartwatch,497,57%
+EMP7143,"Joshi, Suresh",joshi.suresh@yahoo.com,0000000000,female,Kolkata,Human Resources,2020-09-23,04-Aug-20,-,31572.95,F,2,Mobile,,41%
+EMP8130,Siddharth Rao,siddharth.rao@hotmail.com,2723865624,F,na,sales,17-Jan-24,10/05/2020,134014,44732.33,unknown,5,Monitor,116,38%
+EMP5974,Rahul Iyer,rahul.iyer@outlook.com,5557469660,man,Delhi,marketing,09 Feb 2020,"January 07, 2024","$122,904",21661.17,INACTIVE,2,Monitor,55,10%
+EMP7247,Suresh Mishra,suresh.mishra@@company.in,N/A,MALE,Chennai,Oprns,01/26/2020,15.09.2023,71867%,$1354.7,yes,5,Laptop,41,39%
+EMP3978,rohit nair,rohit.nair@hotmail.com,+91-51295-92728,Female,Jaipur,SALES,08/19/2021,2021/01/04,Rs.155456,8185.0,Y,5,Monitor,343,21%
+EMP8715,"Joshi, Vikram",joshi.vikram@outlook.com,+91-15958-41749,Male,Delhi,Engineering,11/17/2022,02/04/2023,100151,5394.65,Yes,4,Laptop,131,13%
+EMP5747,Aarav Das,aarav.das@hotmail.com,1864482217,Non-binary,Bangalore,FINANCE,04.11.2022,2020/01/24,31735/-,2817.71,true,Bad,Speaker,154,5%
+EMP7528,Arjun Rao,arjun.rao@company.in,5510762091,m,Lucknow,OPERATIONS,2022-11-20,??,36994,36922.75,Y,5,Camera,477,30%
+EMP4325,Siddharth Mishra,,+91-63466-92548,FEMALE,Pune,Engg.,25-Mar-20,2021-11-19,138378.00 INR,,TRUE,3,Camera,151,32%
+EMP5775,Aditya Mishra,aditya.mishra@yahoo.com,N/A,male,Kolkata,FINANCE,01/07/2020,05-Jun-21,-,14216.04,True,4,Monitor,161,11%
+EMP8568,Kavya Verma,N/A,+91-92071-15238,M,Lucknow,Ops,18.05.2020,12/10/2022,153144,34476.57,T,4,Camera,282,37%
+EMP9031,RAJESH RAO,rajesh.rao@gmail.com,+915726284987,FEMALE,Bangalore,SALES,12 Jul 2022,2023-03-13,154579,₹9501.07,no,5,Smartwatch,265,5%
+EMP4781,aditya kumar,aditya.kumar@yahoo.com,0000000000,male,Jaipur,MKTG,"February 17, 2021","October 01, 2022",,$47652.73,true,3,Monitor,17,42%
+EMP7784,Lakshmi Rao,lakshmi.rao@yahoo.com,,male,Delhi,H R,26-01-2020,18-Mar-21,34072,$8997.43,YES,5,Mobile,254,7%
+,"Mehta, Aarav",mehta.aarav@hotmail.com,8605210262,man,Lucknow,Sales,2023/01/19,01.06.2021,"$83,049",43924.36,active,na,Headphones,378,53%
+EMP6377,divya nair,divya.nair@hotmail.com,(973) 988-9413,?,Hyderabad,Ops,23-Aug-20,07.09.2022, 160940 ,14709.74,yes,5,Tablet,,N/A
+EMP7484,"Bose, Kiran",bose.kiran@gmail.com,(470) 681-0390,Female,Mumbai,finance,2022/11/08,07-11-2020,188261/-,28035.0,1,8,Camera,202,18%
+EMP4893,Lakshmi Bose,lakshmi.bose@outlook.com,0000000000,F,Hyderabad,finance,2021-05-07,09/30/2023,"$119,530",26539.94,unknown,4,,192,1%
+EMP7347,Rohit Kumar,ROHIT.KUMAR@COMPANY.IN,+917252145264,man,Pune,Operations,26-Nov-21,,40964 ,none,y,3,Laptop,291,54%
+EMP6209,Arjun Nair,arjun.nair@company.in,(099) 768-3890,female,Kolkata,Engg.,11-06-2020,"October 18, 2022",Rs.123500,2376.38,N,8,Camera,390,N/A
+EMP5740,  Siddharth Gupta  ,,0000000000,Woman,Jaipur,Mktg,07-Apr-22,09-Aug-21,71563.00 INR,665.2,inactive,1,Speaker,211,1%
+EMP5182,Meera Pandey,meera.pandey@company.in,(862) 376-0088,Male,Bangalore,Marketting,06/30/2020,"October 01, 2022",Rs.173702,$22140.57,ACTIVE,10,Headphones,493,8%
+EMP1157,Divya Verma,divya.verma@outlook.com,6413836702,m,Jaipur,marketing,07/27/2022,2022/11/01,"$128,376",28607.13,N/A,3,Speaker,377,28%
+EMP5881,Deepa Pillai,deepa.pillai@company.in,8055077406,Woman,Kolkata,Eng,2023/03/02,20-01-2020,112374,$16565.35,No,10,Headphones,43,29%
+EMP3713,Lakshmi Sharma,lakshmi.sharma@yahoo.com,4322259136,WOMAN,Ahmedabad,Engg.,N/A,2020/09/18,"$159,386",$28827.33,TRUE,4,Laptop,373,18%
+EMP8292,Vikram Malhotra,vikram.malhotra@outlook.com,9303646871,M,Bangalore,Oprns,19-Aug-20,2023/08/23,,(11974.12),unknown,3.2,Mobile,276,16%
+EMP8800,Deepa Chopra,deepa.chopra@company.in,N/A,Man,Ahmedabad,Human Resources,29 May 2021,29.01.2021,165473,₹34663.1,No,10,Mobile,152,11%
+EMP5395,Arjun Verma,arjun.verma@gmail.com,0000000000,female,Hyderabad,Engineering,02-May-22,21-Oct-23,124549,30762.24,INACTIVE,2,Monitor,211,4%
+,RAJESH GUPTA,rajesh.gupta@yahoo.com,5421689421,MALE,Jaipur,Finence,2021-11-22,01.10.2020, 153497 ,9827.09,NaN,2,Tablet,12,10%
+EMP3647,"Shah, Meera",shah.meera@outlook.com,78718 88223,WOMAN,Jaipur,HR,05-03-2022,06 Jun 2020,N/A,,Inactive,3,Camera,352,17%
+EMP7472,Divya Gupta,divya.gupta@company.in,(315) 520-6506,MALE,Pune,Sales,2021-03-23,11-May-23,51689,39667.36,No,5,Speaker,498,8%
+EMP3293,Lakshmi Reddy,lakshmi.reddy@hotmail.com,1108099693,WOMAN,Delhi,hr,"April 02, 2021",10/23/2022,"$156,640",12324.6,?,5,Tablet,486,55%
+EMP5843,ROHIT SHAH,rohit.shah@yahoo.com,9551127474,M,Lucknow,Marketing,"January 14, 2022",2023/06/23,159343,none,n,1,Laptop,126,35%
+EMP3439,Rahul Chopra,rahul.chopra@gmail.com,18327 00046,Man,Hyderabad,Sales,13-Apr-20,27-Sep-23,"$91,143",37576.62 USD,T,1,Smartwatch,162,45%
+,VIKRAM PANDEY,vikram.pandey@@hotmail.com,(351) 305-2312,female,Jaipur,operations,14-Aug-22,30 Mar 2022,76872,44422.09 USD,Active,na,Headphones,250,28%
+EMP2410,pooja chopra,pooja.chopra@yahoo.com,78519 61064,F,Kolkata,H R,01-10-2022,"September 10, 2021",146491/-,(39665.37),active,Excellent,Smartwatch,252,41%
+EMP7524,divya rao,divya.rao@outlook.com,(494) 116-3187,Female,Mumbai,sales,2020-03-18,04/10/2024, 186302 ,37048.14,inactive,2,Camera,,21%
+,Siddharth Mishra,siddharth.mishra@yahoo.com,+915770272785,Female,Chennai,finance,11-02-2023,04.11.2023,"$117,692",7890.59,YES,2,Speaker,60,48%
+EMP4955,suresh pillai,,72361 08092,M,N/A,Human Resources,14-Oct-21,"April 12, 2022",199459,,no,3,Tablet,221,0%
+EMP3487,Ananya Reddy,ananya.reddy@gmail.com,N/A,woman,Hyderabad,S@les,12.08.2020,05-01-2023,105109,41940.0,YES,5,Monitor,269,53%
+EMP4206,Deepa Mishra,deepa.mishra@gmail.com,+91-50312-19804,O,Delhi,marketing,15 Jan 2021,12/07/2020,49188,28844.15,INACTIVE,5,Speaker,121,
+EMP2625,SURESH PANDEY,suresh.pandey@yahoo.com,41232 81206,FEMALE,N/A,operations,10-Dec-23,"April 23, 2021",-,₹40293.33,1,3,Mobile,-1,52%
+EMP3591,Ananya Das,ananya.das@hotmail.com,(755) 855-6659,woman,Chennai,hr,N/A,05-08-2021,"$104,125",₹49227.52,T,Average,Tablet,236,8%
+EMP8772,Vikram Kumar,vikram.kumar@company.in,+91-00543-64597,F,Hyderabad,Marketting,08/25/2020,17-Jan-24,110451.00 INR,37480.79,true,1,Speaker,193,4%
+EMP8588,  Deepa Chopra  ,deepa.chopra@outlook.com,+912768172257,Man,Chennai,Mktg,2022/02/15,07.03.2020,,38888.14,active,1,Tablet,492,30%
+EMP5562,  Pooja Shah  ,pooja.shah@gmail.com,1315285,Man,Hyderabad,Marketing,15.12.2023,17-02-2023,"$189,439",none,?,4,Tablet,145,40%
+,suresh joshi,suresh.joshioutlook.com,+918679252985,MAN,Jaipur,Mktg,N/A,02 Dec 2021,Rs.83801,30627.74,1,4,Laptop,434,50%
+EMP1669,aarav malhotra,aarav.malhotra@yahoo.com,7774867595,MALE,Kolkata,operations,2023/11/07,2022/10/22,108886,26239.99,No,4,Headphones,457,47%
+EMP7308,Kiran Mishra,kiran.mishra@gmail,+912020326509,f,Lucknow,MKTG,15-Mar-21,22-Jan-23,98218,,N/A,4,Monitor,343,48%
+EMP3996,  Kavya Das  ,kavya.das@gmail.com,7648467357,m,Bangalore,Ops,2020/10/17,07-11-2022,184233/-,,?,2,Camera,194,56%
+EMP9248,POOJA MEHTA,pooja.mehta@@outlook.com,+91-83825-67262,woman,Lucknow,engineering,16 Sep 2021,29.07.2023,46011,19893.61,yes,1,Camera,340,25%
+EMP5227,Divya Rao,divya.rao@outlook.com,(723) 229-0310,WOMAN,Hyderabad,Fin,"May 04, 2020",03.02.2020,-,$17811.62,y,2,Camera,349,41%
+EMP6482,ARJUN PANDEY,arjun.pandey@gmail.com,8644925192,man,Mumbai,H R,10.02.2022,10/04/2023,,,na,4,Tablet,152,6%
+EMP2669,Aditya Kumar,aditya.kumar@hotmail.com,1213524787,Man,Delhi,sales,2022-06-18,14 Jan 2020, 149168 ,$25498.63,T,2,Speaker,71,26%
+EMP5902,Suresh Das,suresh.dasoutlook.com,9268315893,male,Kolkata,Marketing,07-07-2020,23-Sep-20, 45466 ,26549.65,NO,3.3,Monitor,486,26%
+EMP6615,  Meera Sharma  ,meera.sharma@yahoo.com,+91-03396-85270,f,Delhi,Eng,2020/07/06,22 Feb 2021,136736,15917.42,TRUE,3,Monitor,104,50%
+EMP6465,NEHA NAIR,neha.nair@hotmail.com,+91-01536-41547,f,Delhi,H R,2021-03-15,12/10/2022,136738%,$16207.35,FALSE,1,Mobile,-1,24%
+EMP4072,kiran chopra,kiran.chopra@gmail.com,6373516091,M,Hyderabad,Finance,2023-02-07,2022/09/16,70521,6854.9,no,4,Headphones,494,18%
+EMP3387,Pooja Kumar,POOJA.KUMAR@YAHOO,(595) 143-4682,FEMALE,Chennai,Operations,2020/03/01,,- ,45413.28,,Excellent,Mobile,99,21%
+EMP7765,  Rajesh Chopra  ,rajesh.chopra@gmail.com,8249793998,male,Bangalore,Oprns,06/19/2020,19 May 2024,"$48,169",1644.51,YES,2,Laptop,141,27%
+EMP7122,ARJUN PILLAI,arjun.pillai@company.in,3279862398,woman,Kolkata,S@les,2020/06/22,22.03.2020,98618%,40437.16,y,3,Monitor,198,53%
+EMP8723,DEEPA RAO,deepa.rao@yahoo.com,73680 11923,MAN,Mumbai,Sls,28-Jan-23,28 Mar 2021,"$50,390",1079.04,Yes,4,Mobile,122,5%
+EMP5198,Rahul Verma,rahul.verma@outlook.com,,man,Hyderabad,Human Resources,2022-06-08,03 Sep 2020,182889,31877.41,y,5,Camera,114,43%
+EMP5105,Ananya Sharma,ananya.sharma@company.in,5202389743,Male,Pune,finance,21-11-2021,29 Apr 2024,112167,42959.82,YES,5,Headphones,487,2%
+EMP7372,Aditya Mehta,aditya.mehtacompany.in,5169139521,woman,Delhi,Marketing,10-Jan-20,21 Mar 2021,,13272.37,1,6,Headphones,148,18%
+EMP7582,Kiran Sharma,kiran.sharmacompany.in,,m,Jaipur,OPERATIONS,"September 16, 2023",19-07-2022,"$107,885",24796.08,n,N/A,Headphones,354,51%
+EMP1009,  Divya Mishra  ,divya.mishra@gmail.com,0471372,Woman,Pune,marketing,27.03.2023,2021/10/30,,14308.75,N/A,Excellent,Camera,154,46%
+EMP3235,siddharth mishra,siddharth.mishra@@yahoo.com,6752895392,FEMALE,Hyderabad,Oprns,12-03-2022,13 Oct 2021,52291,7461.85,yes,1,Camera,136,44%
+EMP9466,  Divya Patel  ,divya.patel@company.in,7420495612,MAN,Hyderabad,Mktg,2024-05-01,09 Jan 2021,177979,11822.26,false,2,Laptop,188,27%
+EMP7703,Meera Reddy,meera.reddy@company.in,,woman,Pune,Oprns,05/01/2023,23.05.2021,"$185,609",49188.61,T,4,Mobile,262,35%
+EMP8438,Rajesh Rao,,(123) 567-9836,M,Lucknow,Operations,28-Oct-20,03/05/2024,Rs.145808,1915.02,Yes,5,Speaker,204,32%
+EMP1136,LAKSHMI MEHTA,lakshmi.mehta@gmail.com,4510463681,female,Jaipur,Marketting,30-12-2023,"December 20, 2022",128127,1409.43,Yes,5,Laptop,450,52%
+EMP1055,Aditya Iyer,aditya.iyer@hotmail.com,91141 60091,F,Delhi,OPERATIONS,16-Feb-21,06-Apr-23,"$186,946",940.87,y,1,Speaker,133,2%
+EMP3992,Ananya Pillai,ananya.pillai@company.in,5513276179,Female,Delhi,Human Resources,18.11.2023,12/19/2021,"$59,449",(28961.14),unknown,1,Speaker,208,44%
+EMP5032,Kavya Joshi,KAVYA.JOSHI@OUTLOOK.COM,1247601080,female,,OPERATIONS,08 Feb 2023,"March 27, 2022",48587% ,$21478.36,true,Average,Tablet,445,21%
+EMP4372,ananya mishra,ananya.mishra@company.in,6188081904,F,Pune,Marketing,28.10.2021,2022-03-19,117047,34546.15,active,2,Mobile,469,60%
+EMP1924,Arjun Pandey,arjun.pandey@gmail.com,(763) 177-4954,O,Chennai,Operations,05 Mar 2023,12/01/2021,72398.00 INR,₹4262.67,0,7,Smartwatch,78,32%
+EMP2865,Sneha Pandey,sneha.pandey@yahoo.com,+914339133252,,Delhi,Enginering,"May 09, 2023","April 23, 2022", 81774 ,25279.57 USD,Inactive,1,Speaker,138,3%
+EMP7234,Vikram Verma,vikram.verma@gmail,(039) 952-9701,M,Kolkata,H R,30.10.2021,2024/04/10,32088/-,4209.98,TRUE,1,Camera,246,31%
+EMP6150,Divya Das,divya.das@yahoo.com,+912189455906,MALE,Chennai,Finence,2021/05/27,2022-02-09,96820,37157.72,Y,3,Smartwatch,420,19%
+EMP7747,Aarav Sharma,aarav.sharma@company.in,(041) 728-2076,female,Delhi,Eng,2020/10/19,2023/02/12,165522/-,(16673.74),Active,3,,20,35%
+EMP5646,Pooja Gupta,pooja.gupta@outlook.com,2975001701,MAN,N/A,Enginering,"September 27, 2020",07/15/2021,"$90,638",33393.19,active,2,Mobile,1,4%
+EMP2747,Meera Gupta,meera.gupta@yahoo.com,5944064090,FEMALE,Bangalore,finance,24 Mar 2021,2023/10/20,189484,15792.18,INACTIVE,3,Speaker,68,56%
+EMP6878,  Ananya Nair  ,ananya.nair@hotmail.com,+915992937842,m,Hyderabad,FINANCE,02.01.2020,2021/02/16,71520,,Active,7,Camera,192,42%
+EMP8891,Rohit Gupta,rohit.gupta@yahoo.com,6929298425,female,Kolkata,Engineering,03 Feb 2020,2022-10-29,"$183,731",24055.52,T,1,Tablet,277,57%
+EMP2144,  Arjun Nair  ,ARJUN.NAIR@@GMAIL.COM,0000000000,Female,Hyderabad,hr,25-01-2024,07-Jan-24,"$57,520 ",42429.98,F,2,Camera,125,13%
+EMP6599,Aarav Das,aarav.dascompany.in,1689363926,OTHER,Delhi,Enginering,10 Oct 2020,2021/09/24,63050,(28459.79),y,1,Tablet,392,26%
+EMP3798,  Neha Malhotra  ,neha.malhotra@yahoo.com,+915505705218,f,Chennai,HR,29.09.2021,05 Jan 2023, 45014 ,15774.15,ACTIVE,2,Camera,102,28%
+EMP6589,Rohit Sharma,rohit.sharma@hotmail.com,(975) 191-0231,female,na,Eng,04/12/2020,04 Jul 2023,76720,25017.37,ACTIVE,1,Laptop,N/A,56%
+EMP9920,Meera Patel,meera.patel@hotmail.com,26145 43079,WOMAN,Hyderabad,S@les,08/15/2023,23.12.2022,62247,4430.34,y,2,Smartwatch,91,57%
+EMP4083,Vikram Kumar,vikram.kumar@gmail.com,23683 14727,M,Ahmedabad,MKTG,10-Feb-20,"February 16, 2021","$127,690",889.78,NO,Average,,263,39%
+EMP1242,Priya Reddy,priya.reddy@company.in,+91-99289-19827,Man,Bangalore,ENGG,04-Jul-20,2020-01-13,105730,8994.98,1,10,Headphones,45,15%
+EMP1842,Deepa Reddy,deepa.reddy@company.in,6261684552,MAN,Mumbai,sales,20.07.2023,01/15/2024,-,30061.93,no,5,Headphones,16,37%
+EMP9529,Rohit Rao,rohit.rao@outlook.com,4353344,M,Hyderabad,Finence,11/18/2022,18.12.2021,N/A,,unknown,2,,26,3%
+EMP3184,rajesh iyer,rajesh.iyer@hotmail.com,0676251538,FEMALE,Chennai,H.R.,2020-01-05,16-09-2021,186939,$3346.09,Yes,1,Tablet,5,31%
+EMP3496,  Rajesh Nair  ,rajesh.nairgmail.com,8352791875,Female,Ahmedabad,MKTG,13-07-2020,12.07.2023,"$68,790",44993.27,active,Bad,Tablet,228,7%
+EMP1369,Aditya Mishra,ADITYA.MISHRA@HOTMAIL.COM,23166 00767,?,Mumbai,HumanResources,30-Jul-21,01-07-2021,74301/- ,$22675.46,Inactive,Excellent,Monitor,367,3%
+EMP1312,RAJESH PILLAI,rajesh.pillai@yahoo.com,4760220695,MALE,Mumbai,Ops,01/02/2020,08-Jan-21, 173344 ,$48117.96,F,Good,Mobile,442,11%
+EMP8661,Kiran Chopra,kiran.chopra@yahoo.com,0000000000,MALE,Kolkata,operations,25.04.2021,20-05-2023,-,11408.54,YES,4,Speaker,151,32%
+EMP9148,Rohit Shah,rohit.shah@gmail.com,N/A,WOMAN,Pune,sales,19.07.2022,23-Jun-23,120235,6144.16,yes,3,Camera,24,31%
+EMP8541,Aarav Malhotra,aarav.malhotra@outlook.com,+91-45089-17768,female,Delhi,marketing,14-Sep-23,"July 24, 2023","$76,467",19502.53,Yes,2,Headphones,423,27%
+EMP5049,neha iyer,neha.iyer@gmail.com,44979 12799,M,Delhi,SALES,19-May-21,10/16/2022,Rs.110688,47586.18,FALSE,1,Camera,405,3%
+EMP5065,  Arjun Singh  ,arjun.singh@hotmail.com,9404389836,m,Mumbai,ENGG,07/30/2023,25.01.2020,59598.00 INR,42029.18,FALSE,,,-1,59%
+EMP9452,Neha Verma,neha.verma@gmail.com,2478261375,man,Bangalore,Marketing,N/A,03.01.2024,"$61,070",45911.11,F,9,Mobile,N/A,35%
+EMP2319,lakshmi iyer,lakshmi.iyer@hotmail.com,+91-60593-29715,woman,Bangalore,ENGG,25 Jan 2022,30 Dec 2023,"$101,803",2029.04,active,2,Monitor,57,53%
+EMP2287,"Iyer, Kiran",iyer.kirancompany.in,,FEMALE,Chennai,Operations,03/25/2024,17 May 2023,Rs.77435,$17900.92,No,3,Headphones,35,37%
+EMP7541,Aarav Iyer,aarav.iyercompany.in,5372603214,man,Kolkata,S@les,25.08.2021,03-Feb-23,"$150,687",,False,2,Smartwatch,N/A,23%
+EMP7790,Neha Pandey,neha.pandey@hotmail.com,6763201632,WOMAN,Bangalore,Salez,30-Sep-20,18.02.2023,141017,36104.06,n,2,Monitor,385,40%
+EMP4027,Kiran Pillai,kiran.pillaigmail.com,4471746542,Male,Pune,SALES,2021/06/26,04 Oct 2022,71777,5867.31,Active,4,Mobile,,16%
+EMP3747,Neha Nair,neha.nair@hotmail.com,+91-93358-95138,Woman,Ahmedabad,finance,??,28-Mar-24,100315,₹11598.23,false,4.5,Mobile,58,38%
+EMP7491,  Rajesh Mehta  ,rajesh.mehta@company.in,N/A,female,Chennai,Operations,29.11.2022,08-03-2024,64099%,(46262.89),False,na,Monitor,429,1%
+EMP9341,  Neha Chopra  ,neha.chopra@gmail.com,4471893953,Female,Kolkata,HumanResources,28-03-2024,"December 20, 2020",158469%,,,2.0,Camera,458,54%
+EMP5485,Pooja Joshi,pooja.joshi@@yahoo.com,(122) 099-4999,Male,Ahmedabad,Engg.,23-May-23,2022/02/04,153829%,₹8607.43,True,4,Headphones,34,28%
+EMP2191,RAHUL SHAH,rahul.shah@yahoo.com,15164 11955,male,Kolkata,Fin,25.04.2023,14.10.2022,40780%,(526.13),YES,1,Monitor,374,9%
+EMP3174,lakshmi iyer,N/A,N/A,Man,Mumbai,marketing,18.11.2021,29-Aug-20,101228,(33712.73),Active,1,Tablet,312,25%
+EMP9348,Sneha Nair,sneha.nair@company.in,2164175823,f,Chennai,H R,08/24/2022,02 Jun 2023, 65526 ,9999.25,TRUE,2,Monitor,404,46%
+EMP4728,Vikram,vikram@yahoo.com,3654145868,MALE,Chennai,Sales,2023-05-06,2021-10-04,"$159,066",₹45025.48,YES,5,Headphones,36,58%
+EMP1222,Suresh Pillai,suresh.pillai@@yahoo.com,(184) 025-7870,man,Hyderabad,Mktg,2020-03-26,07-06-2022,58886,$44411.42,No,Good,,23,10%
+EMP8481,Siddharth Pillai,siddharth.pillai@hotmail.com,1248255442,man,Pune,finance,15 Jan 2021,"September 29, 2020",83247,10131.11,,2,Camera,390,59%
+EMP7979,Pooja Verma,pooja.verma@gmail.com,57327 88147,O,Delhi,operations,2021-05-24,04/07/2020,"$159,588",$21533.22,Inactive,Average,Mobile,9,42%
+EMP5385,aarav patel,aarav.patel@yahoo.com,9001851327,Prefer not to say,Pune,Mktg,14-05-2021,N/A,,5577.02,True,1,Speaker,336,58%
+EMP4093,Siddharth Mishra,siddharth.mishra@company.in,+91-64488-69461,Woman,Chennai,Ops,2024-03-12,2020/01/14,"$25,413",38800.31,Yes,7,Tablet,102,32%
+EMP5043,Lakshmi Shah,lakshmi.shah@company.in,0000000000,Female,Ahmedabad,Marketing,2021-05-18,2020-03-21,190320,9897.59,na,4,Laptop,463,53%
+EMP6488,Pooja Pandey,pooja.pandey@outlook.com,1496739,na,Hyderabad,Sales,04/22/2022,04-Nov-23,99264/-,2185.07,Active,2,Mobile,62,38%
+EMP3416,arjun sharma,,+91-16480-72791,f,Jaipur,Engg.,12 Feb 2022,26-01-2021,"$120,366",44884.42,INACTIVE,4,Camera,278,48%
+EMP2127,rajesh mehta,rajesh.mehta@yahoo.com,2784980841,male,Jaipur,engineering,31 Jul 2021,"February 20, 2021",90829,$42382.13,Yes,3,Smartwatch,227,27%
+EMP4248,Lakshmi Iyer,LAKSHMI.IYEROUTLOOK.COM,(206) 969-4215,Female,Kolkata,MKTG,30 Aug 2020,"January 25, 2021",154543.00 INR ,₹21849.78,Yes,7,Speaker,15,16%
+EMP8507,"Kumar, Rahul",kumar.rahul@@company.in,+91-45475-74949,MALE,N/A,finance,"January 01, 2024",2024/01/06,104886%,22273.19 USD,INACTIVE,5,Speaker,117,
+EMP1011,divya malhotra,divya.malhotra@outlook.com,(425) 859-1779,M,Delhi,Enginering,06/17/2020,08/01/2021,Rs.90711,,?,5,Smartwatch,68,23%
+EMP8784,Vikram Das,vikram.das@hotmail.com,78105 39128,FEMALE,Kolkata,Finence,2023-04-01,2022/12/16,"$181,985",,FALSE,Good,Monitor,130,2%
+EMP8970,Neha Verma,neha.verma@outlook.com,0545897148,man,Delhi,hr,04 Mar 2020,2023-11-26,Rs.48402,47763.31,?,4,Tablet,348,21%
+EMP5079,Rahul Das,rahul.das@hotmail.com,9874869415,Man,Hyderabad,Sales,2023/06/10,2023/10/23,150241,12696.63,,1,Speaker,32,38%
+EMP8631,Rohit Shah,rohit.shah@outlook.com,(043) 502-3850,FEMALE,Pune,ENGG,19.03.2024,2024/03/23,,8089.24,True,4,Mobile,450,
+EMP6160,Lakshmi Bose,lakshmi.bose@outlook.com,4932664322,na,Mumbai,Engineering,11/17/2020,01.08.2020,172425,$11784.93,FALSE,4,Tablet,99,33%
+EMP2746,Neha Chopra,neha.chopra@company.in,N/A,Man,Mumbai,Marketting,17 Jan 2020,na,133320,49205.37,Yes,4,Mobile,,28%
+EMP3442,divya sharma,divya.sharma@hotmail.com,5982620450,m,Pune,FINANCE,2023/06/25,2021/04/29,71413,1726.92,YES,N/A,Mobile,20,14%
+EMP1901,Lakshmi Iyer,lakshmi.iyer@hotmail.com,9834301871,MAN,Lucknow,Finance,27.09.2023,2024-01-06,"$122,735",,y,4,Speaker,148,46%
+EMP4362,Arjun Iyer,arjun.iyer@gmail,8393352904,M,Delhi,Sls,na,??,Rs.38736,(21337.55),Y,,Headphones,23,58%
+EMP5139,Rohit Pandey,rohit.pandey@yahoo.com,3839728339,male,Jaipur,Marketing,2022/03/13,06 Mar 2023,160549,46245.61,0,1,,95,56%
+EMP5572,Siddharth Joshi,siddharth.joshi@hotmail.com,N/A,Female,Pune,S@les,25.03.2024,21 Jun 2021,114376,31265.76,INACTIVE,6,Smartwatch,481,27%
+EMP3487,deepa mehta,deepa.mehta@yahoo.com,(450) 184-8197,male,Lucknow,Mktg,24.05.2020,2020-03-24,"$91,965",23593.02,INACTIVE,3.0,Mobile,375,38%
+EMP8587,ANANYA SINGH,ananya.singh@yahoo.com,+910943913681,Male,Bangalore,Marketting,09.12.2021,2022-11-27,-,9731.11,F,2,Camera,441,13%
+EMP7364,Sneha,sneha@company.in,9662782827,MAN,Pune,Salez,06 Oct 2020,24-Feb-23,153902.00 INR,42074.64,True,N/A,Smartwatch,148,29%
+EMP7054,Arjun Verma,arjun.verma@hotmail.com,0000000000,O,Jaipur,H R,09 Nov 2021,21 Oct 2021,184747/-,41073.02,True,1,Tablet,42,29%
+EMP6067,Siddharth Mishra,siddharth.mishra@yahoo.com,8591679541,F,Delhi,finance,2023/07/01,08/13/2021,29087%,11257.6,Y,4,Laptop,N/A,18%
+,"Rao, Siddharth",rao.siddharthhotmail.com,+91-95231-20219,Woman,Kolkata,Human Resources,27-Feb-23,N/A,Rs.25312,48424.39,y,4,Smartwatch,304,19%
+EMP8018,Meera,meera@gmail.com,+91-03374-69833,WOMAN,Hyderabad,MKTG,12/06/2023,2020/10/04,135265.00 INR,42952.27,F,1,Monitor,260,13%
+EMP3673,RAJESH PILLAI,rajesh.pillai@gmail.com,+91-31978-99901,Male,Ahmedabad,sales,07-Aug-20,22-Apr-23,170431.00 INR,(39143.38),NO,2,Camera,316,3%
+EMP6250,Suresh Gupta,N/A,+918640155778,MALE,Pune,Operations,20-Jan-21,2022/03/11,"$45,171",14159.17,0,1,Tablet,216,41%
+EMP3587,Kiran Sharma,kiran.sharmacompany.in,N/A,Female,Delhi,Mktg,2020-03-15,"January 16, 2021",27429/-,30337.76,Y,5,Tablet,240,51%
+EMP7188,Neha Reddy,neha.reddy@yahoo.com,6896270661,Non-binary,Jaipur,Ops,2021-06-10,"July 17, 2022",183865%,16995.09,1,5,Camera,474,25%
+EMP3673,Rohit Shah,rohit.shah@@outlook.com,2726708666,Prefer not to say,Delhi,engineering,05-Jun-20,17-Apr-22,95664,15025.86,TRUE,2,Laptop,478,32%
+EMP4575,Rahul Reddy,rahul.reddy@company.in,1827279559,Female,Mumbai,operations,2020/01/17,16.11.2021,Rs.51268,(18221.22),F,5,Speaker,243,16%
+EMP4733,kavya mishra,kavya.mishra@outlook.com,3164752,female,Delhi,Fin,30-Nov-20,03 Aug 2023,39663/-,,1,5,Camera,256,58%
+EMP2595,meera shah,meera.shah@company.in,0344096617,female,Delhi,operations,02-05-2023,02-02-2024,146038,7700.28 USD,YES,1,Camera,471,24%
+EMP3292,Priya Singh,priya.singh@yahoo.com,+912315551651,woman,Kolkata,Ops,01/27/2023,2022/07/07,93355/-,3297.45,active,Bad,Laptop,120,55%
+EMP6902,pooja joshi,pooja.joshi@outlook.com,5749025042,m,Jaipur,Oprns,05.04.2023,14-02-2022,64341.00 INR,$49892.13,1,5,Speaker,63,33%
+EMP5022,Kavya,kavya@outlook.com,0311587605,MAN,Kolkata,Oprns,"October 14, 2023",2022-07-17,95320,47165.7,1,2,Monitor,139,59%
+EMP9108,  Rohit Reddy  ,N/A,3745843845,Female,Kolkata,Oprns,"September 22, 2022",07 Oct 2020,Rs.169956,18933.3,1,4,Laptop,18,37%
+EMP3104,"Malhotra, Neha",malhotra.neha@hotmail,2864330265,woman,Delhi,S@les,2021-01-21,07/30/2022,123973,20986.22,yes,7,Laptop,435,8%
+EMP1055,Aditya Iyer,aditya.iyer@hotmail.com,91141 60091,F,Delhi,OPERATIONS,16-Feb-21,06-Apr-23,"$186,946",940.87,y,1,Speaker,133,2%
+EMP5216,Arjun Pandey,arjun.pandey@gmail.com,5670789775,male,Hyderabad,Engg.,2021/06/15,03 Sep 2022,59141%,$10708.98,active,1,Mobile,426,56%
+EMP2928,KIRAN PATEL,kiran.patel@yahoo.com,72214 55937,MALE,Bangalore,Marketing,2022/01/15,12/07/2021,91107.00 INR,40719.68,?,2.8,Speaker,491,36%
+EMP9393,aditya singh,,8583339452,F,Pune,Operations,07.04.2024,2023-04-08,164959/-,42441.4,False,1,Headphones,403,18%
+EMP4565,siddharth bose,siddharth.bose@gmail.com,8568119397,Man,Hyderabad,Oprns,2023/09/06,30-Jun-22, 122099 ,28233.56,1,3,Camera,276,48%
+EMP1199,Siddharth,siddharth@gmail.com,(498) 042-5373,WOMAN,Delhi,Marketting,07/21/2023,2020/09/17,42824%,$49498.41,active,8,Smartwatch,386,55%
+EMP3653,Priya Kumar,priya.kumar@outlook.com,0000000000,female,Delhi,Finence,2020/11/11,15.01.2024,"$172,749",$43257.17,unknown,2,Speaker,16,40%
+EMP8758,  Suresh Verma  ,suresh.verma@yahoo.com,9852973561,man,Kolkata,Human Resources,02/26/2023,2024-04-13,121923,43680.7,NO,1,Camera,208,44%
+EMP2023,pooja pandey,POOJA.PANDEY@GMAIL.COM,8627633283,woman,Bangalore,ENGG,04/14/2022,07/24/2023,167168 ,37627.11,Y,4,Mobile,,42%
+EMP3078,  Aditya Singh  ,aditya.singhoutlook.com,4221883458,Female,Jaipur,MKTG,2020-03-25,21 Feb 2022,86467,29651.13,true,5,Tablet,367,18%
+EMP4261,Arjun Das,arjun.das@hotmail.com,,Woman,Pune,ENGG,"June 16, 2023",04-Nov-22,103588%,,YES,1,Smartwatch,401,37%
+EMP5617,  Aarav Bose  ,N/A,8013875,Man,Kolkata,Engg.,2021-04-11,10/05/2021,Rs.161243,38232.55,False,4,Smartwatch,377,53%
+EMP5918,"Pandey, Kavya",pandey.kavya@gmail.com,(381) 664-9690,MALE,Jaipur,Engg.,2024/03/19,13-11-2021,106074,,Y,2,Tablet,42,54%
+EMP5387,POOJA GUPTA,pooja.gupta@yahoo.com,(860) 205-0898,na,Bangalore,HumanResources,30-03-2023,06/06/2022,-,43466.33,NaN,3,Tablet,57,24%
+EMP2560,Rahul Bose,rahul.bose@yahoo.com,+916042232536,FEMALE,Kolkata,Marketing,07/21/2023,"March 15, 2024",121749%,24658.2,INACTIVE,4,Camera,408,13%
+EMP8085,Kavya Iyer,kavya.iyer@company.in,+91-14448-56451,WOMAN,Ahmedabad,Engg.,"June 07, 2022",18-May-24, 173273 ,26188.86,Active,1,Mobile,123,43%
+EMP4614,Rahul Pandey,rahul.pandey@outlook.com,+919627365271,M,Ahmedabad,Ops,na,2020-12-29,"$74,243",₹4066.41,NaN,5,Laptop,194,7%
+EMP4684,divya rao,divya.rao@yahoo.com,2728129163,man,Kolkata,OPERATIONS,2022-07-15,17-Dec-20,169956,₹18116.94,Inactive,10,Monitor,259,27%
+EMP2437,Neha Chopra,neha.chopra@outlook.com,6383806578,Man,Delhi,SALES,??,29-Apr-20,178089,(48712.0),No,1,Headphones,409,59%
+EMP5227,Divya Rao,divya.rao@outlook.com,(723) 229-0310,WOMAN,Hyderabad,Fin,"May 04, 2020",03.02.2020,-,$17811.62,y,2,Camera,349,41%
+EMP2762,Pooja Pandey,pooja.pandey@hotmail.com,,Man,Mumbai,engineering,2022/05/29,28 May 2020,Rs.122508,$16065.42,INACTIVE,4,Camera,288,18%
+EMP5053,Rahul Bose,rahul.bose@company.in,+91-37912-12110,Male,Pune,Oprns,01-05-2022,31-May-20,152069/-,2284.66,TRUE,5,Smartwatch,92,47%
+EMP5511,Rahul Pandey,N/A,+91-57437-48969,Woman,Lucknow,finance,09/03/2021,"November 19, 2021",97583/-,35699.14,TRUE,2,Speaker,349,1%
+EMP6144,  Pooja Joshi  ,pooja.joshi@hotmail.com,8989596,Man,Chennai,Ops,"September 21, 2021",09/17/2021,-,₹37772.58,No,4,Smartwatch,136,none
+EMP6322,Divya Shah,divya.shah@company.in,6211022580,Man,Lucknow,Operations,08-Jun-22,09/22/2022,89945,₹36597.8,true,4.9,Speaker,362,6%
+EMP5968,"Shah, Aditya",shah.aditya@gmail,N/A,FEMALE,Bangalore,Sls,27-Oct-20,2020/03/21, 148945 ,$8937.67,no,5,Monitor,497,42%
+EMP8003,Aditya Shah,aditya.shah@outlook.com,,F,Bangalore,MKTG,30-Jan-23,05 Oct 2022,177296,26583.82,0,7,Headphones,9,30%
+EMP3677,SURESH SHARMA,suresh.sharma@yahoo.com,5076487177,male,Lucknow,engineering,2020-04-12,14 Jan 2023,Rs.140528,34043.09,true,3,Camera,389,45%
+EMP7798,Priya Pillai,,(405) 166-5451,Prefer not to say,Mumbai,Finence,06-Jun-23,2020/01/11,Rs.77878,20623.53,y,na,Laptop,232,
+EMP9222,Rohit Rao,rohit.rao@gmail,+914976987313,male,Kolkata,Finence,"March 15, 2024",02/21/2022,152128/-,2930.66,1,Average,Headphones,496,37%
+EMP6927,Pooja Malhotra,pooja.malhotra@gmail.com,08115 56260,M,Hyderabad,Oprns,2021-08-28,"October 26, 2023",107233,891.16 USD,FALSE,9,Monitor,455,41%
+EMP7061,Suresh Verma,suresh.verma@gmail.com,,Female,Lucknow,Mktg,"January 17, 2022",27-07-2021,"$68,747",,YES,3,Monitor,171,8%
+EMP1276,ARJUN KUMAR,arjun.kumar@company.in,6205459671,Other,Kolkata,marketing,unknown,15.03.2022,47686,35351.94,na,4,Mobile,419,37%
+EMP5215,sneha rao,sneha.rao@yahoo.com,+91-54932-96685,F,Ahmedabad,H.R.,"January 14, 2020","July 03, 2022",-,28857.43 USD,1,1,Tablet,258,56%
+EMP2790,Sneha Patel,sneha.patel@yahoo.com,8726247317,female,Jaipur,Sales,23 Mar 2024,21-Sep-22,130130,$8649.54,T,na,Monitor,152,3%
+EMP6953,Meera Sharma,,(020) 801-9290,Woman,Chennai,Engg.,"March 07, 2020",18-03-2023,70443,₹17750.55,True,2,Laptop,192,51%
+EMP3283,KIRAN KUMAR,kiran.kumar@outlook.com,8633302126,woman,Mumbai,Oprns,31-May-20,19-11-2020,"$62,035",4314.73,FALSE,?,Smartwatch,370,50%
+EMP8785,SURESH PANDEY,suresh.pandey@@yahoo.com,+91-66941-79967,MAN,Ahmedabad,H R,"December 21, 2021",03 Jun 2020,157138,6070.96,Y,3,Mobile,150,34%
+EMP7399,Priya Das,priya.das@yahoo.com,+91-83848-87638,Male,Kolkata,sales,2021-05-02,01/04/2021,"$182,975",42561.37,F,2,Speaker,402,32%
+EMP4197,Aditya Sharma,aditya.sharmayahoo.com,+91-01193-91038,WOMAN,Pune,HR,2021-05-13,30.04.2020,51493,$36000.35,TRUE,4,Mobile,478,50%
+EMP9680,Pooja Bose,pooja.bose@company.in,7659916247,Other,Jaipur,marketing,22-01-2021,01/15/2020,123311,,TRUE,5,Speaker,314,43%
+EMP4270,DEEPA MALHOTRA,deepa.malhotra@gmail.com,N/A,Man,Bangalore,Ops,08-Mar-23,11 Feb 2023, 133036 ,29961.31 USD,true,1,Tablet,104,51%
+EMP4875,Sneha,sneha@gmail.com,+91-75000-30566,Prefer not to say,Bangalore,SALES,"March 04, 2022",18 Jun 2021,166914,44911.53 USD,True,4,Laptop,272,26%
+EMP8206,Rahul Bose,rahul.bosegmail.com,3455812236,female,Pune,FINANCE,01-05-2022,2022-05-10,178112,1466.83,N,3,Speaker,489,34%
+EMP6597,  Aditya Mehta  ,aditya.mehta@yahoo.com,95020 97002,NB,Kolkata,Finance,08/22/2023,07-Oct-23,117535,19130.63,T,Good,Camera,228,none
+EMP4546,Vikram Reddy,vikram.reddy@outlook.com,(912) 896-5999,WOMAN,Hyderabad,Eng,2020/07/06,31-08-2022,Rs.38681,40458.1,Yes,1,Speaker,198,22%
+EMP2527,KIRAN SHAH,kiran.shah@company.in,5280988516,woman,Hyderabad,H R,01.10.2021,05 Nov 2022,151403/-,5856.81,T,2,Laptop,337,17%
+EMP6049,Rahul,rahul@gmail.com,N/A,MAN,Kolkata,Human Resources,03 Jul 2020,24-Nov-20,193933.00 INR,2177.14,N,4,Camera,449,6%
+EMP9063,neha singh,neha.singh@gmail,7433800,Male,Pune,Marketing,18 Jun 2023,03-Apr-21,114213,38584.01,FALSE,4.4,Mobile,475,51%
+EMP1504,Meera Malhotra,meera.malhotra@company.in,3268424508,Male,na,Marketting,01/26/2023,12.03.2024,194327,₹7551.53,No,2,Laptop,478,35%
+EMP6209,Vikram Gupta,vikram.gupta@hotmail.com,+91-30993-84253,F,Lucknow,Mktg,01/29/2024,09/20/2023,126742,32431.04,N,3,Monitor,254,37%
+EMP7077,Lakshmi Malhotra,lakshmi.malhotra@company.in,+91-95828-19022,WOMAN,Lucknow,Operations,"October 08, 2020",19-Jan-21,"$146,142",16744.23,Yes,1,Headphones,390,33%
+EMP2023,pooja pandey,pooja.pandey@gmail.com,8627633283,woman,Bangalore,ENGG,04/14/2022,07/24/2023,167168,37627.11,Y,4,Mobile,,42%
+EMP8920,  Rajesh Pillai  ,rajesh.pillai@@hotmail.com,+91-13787-65530,Man,na,HumanResources,2021-11-24,16.01.2020,Rs.47341,5250.88,Inactive,4,Camera,416,none
+EMP9160,  Rajesh Malhotra  ,rajesh.malhotra@gmail.com,32086 52377,woman,Kolkata,Eng,16-08-2022,06-05-2020,189967,40856.91,,3,Laptop,N/A,43%
+EMP5346,divya gupta,divya.gupta@hotmail.com,7888975358,man,Hyderabad,Engineering,"July 23, 2021",03/05/2022, 175431 ,,0,3.3,Mobile,N/A,10%
+EMP7831,Meera Rao,meera.rao@yahoo.com,+91-49998-27950,Man,Mumbai,Marketting,"May 12, 2020","September 06, 2020",,34943.56,ACTIVE,5,Monitor,310,45%
+EMP9151,Siddharth Rao,siddharth.rao@outlook.com,8416169284,MALE,Lucknow,OPERATIONS,07-Dec-20,27.03.2020,139017/-,49011.35,active,5,Tablet,74,43%
+EMP7341,AARAV DAS,aarav.das@yahoo,4530693588,m,Bangalore,HR,03/14/2020,2024-01-04,157423/-,45297.65,TRUE,3,Camera,219,none
+EMP4586,Arjun Singh,arjun.singhcompany.in,(294) 209-5481,WOMAN,Bangalore,marketing,2023-12-13,2021/11/13,80210,₹46754.43,F,4,Smartwatch,338,10%
+EMP3451,Deepa Pandey,deepa.pandey@yahoo.com,8039662038,woman,Chennai,Operations,13-Sep-23,2020/01/26,-,17228.33,ACTIVE,5,Headphones,176,8%
+EMP9295,Aarav Chopra,aarav.chopra@yahoo.com,6259062003,Man,Kolkata,hr,02/01/2024,"July 06, 2022",152323,10838.86,Active,5,Smartwatch,307,16%
+EMP2109,  Deepa Gupta  ,deepa.guptagmail.com,6750762799,f,Hyderabad,engineering,07.08.2023,2020/06/09,N/A,13286.6,1,2,,235,51%
+EMP2924,Kiran Nair,kiran.nair@gmail.com,+91-24362-58542,Female,Ahmedabad,Finence,2020-07-19,"May 06, 2021",47186,28759.23,y,2,Smartwatch,499,56%
+EMP7399,Rajesh,rajesh@hotmail.com,2595724461,woman,Lucknow,Ops,"March 25, 2023",25.10.2021,"$130,846",1961.33,active,4,Headphones,414,50%
+EMP1618,Rajesh Das,,+91-92962-22927,m,Lucknow,HumanResources,08 Jul 2022,25-Sep-21, 75860 ,47382.94,Yes,?,Headphones,71,3%
+EMP7868,Meera Verma,meera.verma@yahoo.com,82251 20734,MALE,Hyderabad,SALES,28-Feb-20,2020-10-22,123837,(36264.87),yes,1,Mobile,244,26%
+EMP8925,Sneha Verma,sneha.verma@company.in,(304) 483-6085,man,Kolkata,marketing,"April 21, 2020",24.03.2021, 36961 ,20785.67,1,,Camera,277,none
+EMP1081,  Priya Kumar  ,priya.kumar@hotmail.com,(354) 378-8260,female,Pune,Marketing,25-05-2023,03/02/2023,N/A,46780.6,Yes,2,Speaker,294,55%
+EMP8904,Siddharth Gupta,siddharth.gupta@yahoo.com,87449 56213,F,Jaipur,marketing,01-02-2023,26-07-2023,63096%,$30212.15,yes,1,Speaker,267,38%
+EMP6618,Sneha Pandey,sneha.pandey@@hotmail.com,3393049366,F,Chennai,Finance,"November 02, 2020",,128490,,active,2,Smartwatch,9,37%
+EMP4389,Kiran Sharma,kiran.sharma@yahoo.com,,man,Ahmedabad,Finance,12-04-2022,2022-11-24,Rs.86277,34849.12,No,1,Tablet,296,5%
+EMP9011,Meera Joshi,meera.joshi@outlook.com,8441986652,male,Ahmedabad,operations,10-Mar-24,"January 08, 2023",Rs.96203,30976.01,active,2,Laptop,170,6%
+EMP2986,Rohit Gupta,rohit.gupta@outlook.com,+911856724380,MAN,Kolkata,ENGG,18-03-2020,2023/12/23,146699%,3877.74,Y,3,Tablet,311,18%
+EMP7776,Rajesh Reddy,rajesh.reddycompany.in,(971) 967-0683,male,N/A,sales,17-12-2021,08 May 2024,96331,2177.42,1,3,Speaker,337,43%
+EMP8905,Neha Joshi,neha.joshi@company.in,8263982146,FEMALE,Chennai,operations,17-Apr-23,03-Jul-22,169681,19171.9,INACTIVE,4,Speaker,0,51%
+EMP9877,  Divya Mehta  ,divya.mehta@@outlook.com,0220509386,FEMALE,Chennai,Ops,02.09.2021,06/02/2023, 99335 ,31490.26,,4,Tablet,279,24%
+EMP4892,Priya Pillai,priya.pillai@@gmail.com,+91-45054-44713,unknown,Pune,HumanResources,05/03/2022,2021-03-08,160397,41140.36,Yes,9,Laptop,449,53%
+EMP8311,"Chopra, Priya",chopra.priya@outlook.com,N/A,MAN,Lucknow,OPERATIONS,2022-07-18,16-05-2023,168482/-,31617.45,TRUE,3,,342,38%
+EMP6618,Sneha Pandey,sneha.pandey@@hotmail.com,3393049366,F,Chennai,Finance,"November 02, 2020",,128490,,active,2,Smartwatch,9,37%
+EMP4130,Deepa Joshi,deepa.joshi@yahoo.com,(642) 429-5633,MALE,Ahmedabad,HR,30.09.2022,15-Dec-21,"$69,688",41818.85,0,4,Smartwatch,359,35%
+EMP2475,Siddharth Malhotra,siddharth.malhotra@yahoo.com,(622) 517-9086,man,Delhi,ENGG,19 Feb 2023,28 Aug 2023,162428/-,4046.38,Active,4,Camera,177,1%
+EMP2215,Meera Mehta,meera.mehta@outlook.com,+910054119986,Female,Lucknow,Ops,20-Oct-21,06-May-20,115030,4674.29,ACTIVE,4,Tablet,470,26%
+EMP6025,Deepa Sharma,deepa.sharma@yahoo.com,9488218849,woman,Hyderabad,HR,25-07-2020,25.11.2020,197100,4571.96,True,4,Speaker,N/A,6%
+EMP5982,Suresh Joshi,suresh.joshi@company.in,(887) 719-0659,Male,Chennai,Finance,2024/04/11,27-Aug-23,72576,22076.31,NaN,3,Mobile,169,31%
+EMP9937,Rahul Das,rahul.das@outlook.com,+91-01679-30148,MALE,Lucknow,Operations,29-04-2024,2021/09/30,Rs.35132,28310.15,false,5,Mobile,309,N/A
+EMP7931,Rajesh,rajesh@gmail.com,0848729758,?,Bangalore,Operations,19-09-2023,2021/01/20,81416,₹30306.15,TRUE,9,Smartwatch,333,25%
+EMP9341,  Neha Chopra  ,NEHA.CHOPRA@GMAIL.COM,4471893953,Female,Kolkata,HumanResources,28-03-2024,"December 20, 2020",158469% ,,,2.0,Camera,458,54%
+EMP7352,"Bose, Arjun",bose.arjun@company.in,,woman,Delhi,sales,09-01-2021,10-05-2020,185362/-,11239.43,Y,5,Mobile,442,9%
+EMP1672,Sneha Verma,sneha.verma@gmail.com,+91-88421-63090,MALE,Bangalore,Eng,"June 20, 2023",25 Dec 2021,-,(38236.39),NaN,5,,293,17%
+EMP7729,Vikram Reddy,vikram.reddy@gmail.com,0243765456,FEMALE,Ahmedabad,OPERATIONS,2020/11/27,07-06-2022,"$77,026",(14602.54),yes,2,Monitor,137,31%
+EMP9598,RAHUL RAO,rahul.raohotmail.com,3588916,F,Jaipur,Finance,2020/01/24,19-Aug-22,44625,,y,4,Headphones,0,28%
+EMP4643,  Pooja Iyer  ,pooja.iyer@hotmail.com,90600 78068,female,Bangalore,S@les,22-03-2024,12 Apr 2022,102539/-,$49948.11,FALSE,10,Laptop,238,55%
+EMP1969,kiran iyer,KIRAN.IYER@OUTLOOK.COM,N/A,Female,Hyderabad,Engineering,22 Jul 2023,2021/07/21,Rs.59393 ,none,?,2.0,Laptop,389,5%
+EMP9818,Ananya Shah,ananya.shah@yahoo.com,(411) 659-7263,Woman,Ahmedabad,H.R.,na,"April 06, 2023",N/A,37960.14,ACTIVE,1,Speaker,75,34%
+EMP3855,Sneha Iyer,sneha.iyer@hotmail.com,+91-35952-05610,?,Hyderabad,Operations,2022-03-25,26-01-2023,126412,$24136.28,0,5,Tablet,490,12%
+EMP2821,"Rao, Divya",rao.divya@yahoo.com,+911775123959,Man,Kolkata,Operations,10-Apr-24,??,101734.00 INR,37038.22,NO,?,Camera,,
+EMP7059,Suresh Sharma,suresh.sharma@company.in,(452) 118-2379,MAN,Lucknow,Engineering,20-Apr-24,29.09.2021, 34570 ,28482.96,ACTIVE,5,Monitor,334,29%
+EMP2185,Deepa Mehta,deepa.mehtayahoo.com,6836759017,Woman,Chennai,hr,"September 03, 2020",2023/06/17,"$116,871",15550.25,Yes,4,Mobile,127,8%
+EMP3808,Suresh Malhotra,suresh.malhotragmail.com,(209) 702-3164,male,Pune,Finance,17.12.2020,2022-04-21,Rs.54030,21211.45,1,2,Monitor,295,37%
+EMP6751,Divya Kumar,divya.kumar@company.in,6071748113,female,Pune,Engg.,19-08-2022,05-Feb-23,"$132,638",34349.28,False,4,Tablet,357,51%
+EMP5807,"Iyer, Arjun",,0424624561,MAN,Chennai,Marketing,"February 23, 2020",12/28/2023,-,none,Yes,na,Tablet,299,14%
+EMP3988,Rohit Shah,rohit.shah@gmail.com,(486) 298-5797,m,Jaipur,Engineering,2022/11/21,na,175057,$48008.49,Inactive,4,Mobile,359,55%
+EMP6132,pooja kumar,pooja.kumar@hotmail.com,+91-57567-66708,female,Lucknow,H.R.,03.04.2023,"January 17, 2023",Rs.127933,33668.92,n,1,Smartwatch,333,38%
+EMP6241,"Iyer, Pooja",iyer.pooja@outlook,+91-95180-23806,FEMALE,Chennai,HR,na,"August 20, 2021",88591%,29788.7,0,10,Headphones,478,14%
+EMP1894,  Kiran Patel  ,kiran.patel@company.in,N/A,MALE,Delhi,Salez,27-Mar-20,08 Jan 2020,147299,12331.44,na,?,Tablet,4,4%
+EMP2023,pooja pandey,pooja.pandey@gmail.com,8627633283,woman,Bangalore,ENGG,04/14/2022,07/24/2023,167168,37627.11,Y,4,Mobile,,42%
+EMP5949,Sneha Rao,sneha.rao@hotmail.com,9639382761,woman,Kolkata,finance,20 Jan 2023,10/03/2023,175520,6158.98,true,Bad,Speaker,,38%
+EMP7161,Kiran Mishra,kiran.mishra@company.in,N/A,WOMAN,Hyderabad,Fin,01.11.2023,12/13/2023,132373,14880.21 USD,NO,5,Smartwatch,481,42%
+EMP5120,Ananya Patel,ananya.patel@hotmail,15398 39122,male,Hyderabad,OPERATIONS,2022/03/27,01/23/2024,104943,33236.08,INACTIVE,1,Mobile,0,57%
+EMP8253,deepa singh,deepa.singhyahoo.com,3899204573,m,Mumbai,finance,12-Mar-20,10-Apr-20,74135.00 INR,25142.79,F,2,Mobile,,6%
+EMP3808,Suresh Malhotra,suresh.malhotragmail.com,(209) 702-3164,male,Pune,Finance,17.12.2020,2022-04-21,Rs.54030,21211.45,1,2,Monitor,295,37%
+EMP1416,RAJESH MEHTA,rajesh.mehta@hotmail.com,37118 42547,,Jaipur,ENGG,12 Nov 2022,25 Oct 2023,77082,18019.86,y,5,Headphones,272,10%
+EMP6563,  Vikram Patel  ,vikram.patelcompany.in,(624) 467-0462,female,Mumbai,HumanResources,02/09/2024,08-04-2022,N/A,19507.52,inactive,1,Smartwatch,60,51%
+EMP8401,Deepa Das,deepa.das@gmail.com,7942007494,Man,Bangalore,Finence,30-07-2021,12/29/2022,128626,41609.66,NaN,5,Camera,485,16%
+EMP9185,Kiran Shah,kiran.shah@yahoo.com,+91-88574-48906,m,Ahmedabad,Operations,10.07.2022,"January 07, 2022",Rs.132940,43434.74,Active,5,Smartwatch,345,49%
+EMP9805,Siddharth Gupta,siddharth.gupta@outlook.com,2884318848,Female,na,finance,"May 09, 2021",10/31/2022,122774/-,(25621.22),false,5,Monitor,121,37%
+EMP8607,Siddharth Nair,,N/A,male,Pune,Operations,20.11.2022,2020-08-15,"$187,302",18638.43,n,7,Camera,59,47%
+EMP4741,Deepa Rao,deepa.rao@outlook.com,6022939469,OTHER,Chennai,Marketing,2022-05-01,23-Jan-21,27734,20075.69,active,1,Mobile,406,11%
+EMP9171,Vikram Nair,vikram.nair@outlook.com,1687339500,WOMAN,Hyderabad,Salez,"October 01, 2020",2024-04-13,"$130,010",none,YES,5,Mobile,50,50%
+EMP2158,  Divya Reddy  ,divya.reddy@gmail.com,0258963217,Man,Jaipur,engineering,2020-11-06,"April 10, 2022","$139,143",₹21748.71,INACTIVE,3,Headphones,496,51%
+EMP1821,SURESH DAS,suresh.das@hotmail.com,82081 21913,?,Lucknow,S@les,2020-06-16,03.03.2023,78545,16052.1 USD,active,3,Mobile,,13%
+EMP8548,Siddharth Mehta,siddharth.mehta@gmail.com,2967188,na,Ahmedabad,Engineering,"June 24, 2021",23 Dec 2021,78973,4219.65,active,4,Mobile,417,33%
+EMP4641,SNEHA SHARMA,sneha.sharma@yahoo.com,6519941013,M,Pune,Sales,02-08-2022,2023-03-21,128546%,19445.11,TRUE,4,Laptop,316,18%
+EMP3285,Rohit Nair,rohit.nairhotmail.com,1816125590,woman,Hyderabad,Salez,2023/05/17,2021-06-25,"$39,098",28297.1,True,2,Tablet,474,4%
+EMP4700,"Mishra, Rajesh",mishra.rajesh@yahoo.com,,female,Chennai,Human Resources,05/06/2022,"March 15, 2020",165536.00 INR,37483.69,F,N/A,Speaker,495,2%
+EMP5310,rahul malhotra,rahul.malhotra@yahoo.com,6121203843,OTHER,Pune,Oprns,2024-02-03,26-12-2022,116843,none,y,2,Headphones,450,51%
+EMP1152,  Kiran Mishra  ,kiran.mishragmail.com,1627136111,other,Delhi,Ops,20-05-2020,02-Dec-20,80851,7993.02,0,1,Mobile,197,27%
+EMP5919,Vikram Verma,vikram.verma@company.in,(136) 442-4936,Male,Chennai,MKTG,2023-02-20,16 Mar 2020,"$60,764",39588.66 USD,inactive,4.8,Laptop,,19%
+EMP6761,Ananya Das,ananya.das@company.in,N/A,male,Ahmedabad,Human Resources,2024-01-11,05/24/2021,37292,$41152.28,Active,1,Camera,61,1%
+EMP3701,"Iyer, Pooja",iyer.pooja@outlook.com,59611 11028,Prefer not to say,Delhi,Sales,2022/08/23,19.08.2021,118651,(4832.25),true,5,Laptop,421,50%
+EMP1369,Aditya Mishra,aditya.mishra@hotmail.com,23166 00767,?,Mumbai,HumanResources,30-Jul-21,01-07-2021,74301/-,$22675.46,Inactive,Excellent,Monitor,367,3%
+EMP6844,SIDDHARTH GUPTA,N/A,5592277641,m,Jaipur,HR,01.01.2021,01 Feb 2024,96063,46305.3 USD,N,5,Headphones,154,15%
+EMP4091,Ananya Joshi,ananya.joshi@@hotmail.com,N/A,Female,Kolkata,Mktg,21-Nov-23,??,38792,₹18384.67,Yes,1,Mobile,,15%
+EMP8768,Divya Reddy,divya.reddy@company.in,+91-29914-06884,m,Mumbai,engineering,2022/01/02,04/01/2022,45748%,10643.39,?,5,Speaker,385,52%
+EMP8499,Ananya Singh,ananya.singh@yahoo.com,8813770285,man,Pune,finance,2020/03/23,16.09.2021,"$152,382",7572.03,Yes,2,Monitor,-1,2%
+EMP4428,Meera Iyer,meera.iyer@hotmail.com,(300) 041-3211,unknown,Kolkata,Sls,"May 08, 2023",06 Feb 2022,-,24182.75,Y,4,Laptop,243,24%
+EMP7843,Arjun Gupta,arjun.gupta@yahoo.com,8052924075,man,Jaipur,Human Resources,17-04-2023,2020/03/06,N/A,40057.72,NO,2,Mobile,97,21%
+EMP4292,Sneha Malhotra,sneha.malhotra@@gmail.com,3467912141,Man,,MKTG,??,19-03-2024,"$35,973",$26355.56,F,4,Camera,173,56%
+EMP9746,Sneha Rao,sneha.rao@hotmail.com,0000000000,MALE,Jaipur,Human Resources,23-Apr-22,23-08-2021,85791,21451.29,,2,Camera,389,42%
+EMP3183,pooja sharma,pooja.sharma@outlook.com,20412 31905,MALE,Mumbai,Sales,19-Dec-23,"December 13, 2023",Rs.81384,18875.96,inactive,5,Smartwatch,325,9%
+EMP4368,Pooja Singh,pooja.singh@@yahoo.com,1094416423,MALE,Chennai,Sls,06-Feb-21,2022-08-20,149940,44767.63,ACTIVE,3,Tablet,24,56%
+EMP8215,Kavya Sharma,kavya.sharma@yahoo.com,5003342342,F,Delhi,HR,2020/02/12,15.08.2020,104972%,none,y,5,Mobile,452,50%
+EMP5635,arjun mishra,arjun.mishra@outlook,+91-18961-64236,F,Kolkata,HumanResources,2024/03/21,2022-10-02,106291,none,yes,4,Speaker,289,5%

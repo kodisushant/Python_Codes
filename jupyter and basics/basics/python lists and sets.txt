@@ -1,0 +1,481 @@
+''' 1.Student Result Analysis System
+Write a python program where A class teacher wants to prepare a result summary report. The system should calculate total marks, count students, find highest and lowest marks, and calculate average.
+
+Sample Input
+
+4
+75
+82
+90
+60
+
+Sample Output
+
+Total Marks: 307
+Number of Students: 4
+Highest Mark: 90
+Lowest Mark: 60
+Average: 76.75
+'''
+n=int(input())
+marks = []
+for i in range(n):
+    marks.append(int(input()))
+# print(marks)
+total = sum(marks)
+max_marks = max(marks)
+min_marks = min(marks)
+avg=total/n
+
+print("Total Marks:",total)
+print("Number of Students:",n)
+print("Highest Mark:",max_marks)
+print("Lowest Mark:",min_marks)
+print("Average:",avg)
+''' Write a python program where HR department wants to create a backup of employee list before adding new employees.
+1.Create employee list.
+2.Make a copy using copy().
+3.Add new employee using append().
+4.Display type of list.
+
+Sample Input
+2
+Ram
+Sita
+Ravi
+
+Sample Output
+Original List: ['Ram', 'Sita', 'Ravi']
+Backup List: ['Ram', 'Sita']
+Data Type: <class 'list'>
+
+'''
+n=int(input())
+orig_emp=[]
+for i in range(n):
+    orig_emp.append(input())
+
+backup_emp=orig_emp.copy()
+orig_emp.append(input())
+
+
+print("Original List:",orig_emp)
+print("Backup List:",backup_emp)
+print("Data Type:",type(orig_emp))
+
+''' Write a python program for A school has two sections of Class  — Section A and Section B.
+The school administration wants to create a simple program that:
+1.Stores student names of Section A
+2.Stores student names of Section B
+3.Combines both lists into one final list
+4.Displays the merged list
+
+
+Sample Input:
+
+2
+Ram
+Sita
+2
+John
+Meena
+
+Sample Output:
+
+Section A List: ['Ram', 'Sita']
+Section B List: ['John', 'Meena']
+Combined List: ['Ram', 'Sita', 'John', 'Meena']
+Total Students After Merge: 4
+'''
+
+n_a = int(input())
+sec_a=[]
+for i in range(n_a):
+    sec_a.append(input())
+n_b = int(input())
+sec_b=[]
+for i in range(n_b):
+    sec_b.append(input())
+ 
+comb=sec_a+sec_b
+comb_len = len(comb)
+print("Section A List:",sec_a)
+print("Section B List:",sec_b)
+print("Combined List:",comb)
+print("Total Students After Merge:",comb_len)
+'''
+Write a python program  A school wants to reward the top 3 highest scoring students in a class test.
+The teacher enters marks of all students, and the system should automatically identify the top 3 scores.
+
+1.Ask the user to enter number of students.
+2.Accept marks one by one using append().
+3.Sort the marks in descending order using sort(reverse=True).
+4.Use slicing to extract top 3 marks.
+5.Display the top 3 scores.
+
+Sample Input:
+
+5
+50
+95
+70
+88
+60
+
+Sample Output:
+
+Top 3 Scores: [95, 88, 70]
+'''
+n=int(input())
+marks = []
+for i in range(n):
+    marks.append(int(input()))
+marks.sort(reverse=True)
+# print(marks)
+top_3=marks[0:3]
+print("Top 3 Scores:",top_3)
+
+''' Write a python program for A sports academy wants to calculate the fair score by removing the lowest and highest scores before calculating total.
+1.Store numbers in list.
+2.Remove lowest value using min().
+3.Remove highest value using max().
+4.Calculate remaining total using sum().
+
+Sample Input:
+
+5
+10
+20
+30
+40
+50
+
+Sample Output:
+
+Sum after removing min and max: 90
+'''
+n = int(input())
+score = []
+for i in range(n):
+    score.append(int(input()))
+score.remove(min(score))
+score.remove(max(score))
+total = sum(score)
+
+print("Sum after removing min and max:",total)
+
+'''
+Write a python program for An online store wants to display products from highest price to lowest price.
+1.Store product prices.
+2.Sort in descending order.
+3.Display sorted list.
+
+Sample Input:
+
+4
+200
+500
+150
+300
+
+Sample Output:
+
+Prices (Descending): [500, 300, 200, 150]
+'''
+n=int(input())
+price = []
+for i in range(n):
+    price.append(int(input()))
+price.sort(reverse=True)
+print("Prices (Descending):",price)
+
+''' Write a python program for A teacher wants to analyze student roll numbers and display different portions of the list.
+
+Write a program to store roll numbers and perform slicing operations.
+a) Display first 3 roll numbers
+b) Display last 2 roll numbers
+c) Display middle roll numbers (excluding first and last)
+
+Sample Input:
+
+6
+101
+102
+103
+104
+105
+106
+
+Sample Output:
+
+First 3: [101, 102, 103]
+Last 2: [105, 106]
+Middle: [102, 103, 104, 105]
+
+'''
+n=int(input())
+roll = []
+for i in range(n):
+    roll.append(int(input()))
+
+print("First 3:",roll[0:3])
+print("Last 2:",roll[n-2:n])
+print("Middle:",roll[1:n-1])
+
+''' Write a python program for A system needs to generate reverse and stepped reports.
+Store numbers and perform advanced slicing.
+a) Reverse the list
+b) Display every 3rd element
+c) Display last 3 elements in reverse order
+
+Sample Input:
+
+7
+10
+20
+30
+40
+50
+60
+70
+
+Sample Output:
+
+Reversed: [70, 60, 50, 40, 30, 20, 10]
+Every 3rd: [10, 40, 70]
+Last 3 reversed: [70, 60, 50]
+'''
+n=int(input())
+num=[]
+for i in range(n):
+    num.append(int(input()))
+print("Reversed:",num[::-1])
+
+print("Every 3rd:",num[0:n:3])
+print("Last 3 reversed:",num[-1:-4:-1])
+
+''' 
+Write a Python program that:
+
+Takes student names enrolled in:
+1. Python
+2. Data Science
+3. Cyber Security
+
+Perform the following operations:
+
+a) Students enrolled in all three courses
+b) Students enrolled in only Python
+c) Students enrolled in Python and Data Science but NOT Cyber Security
+d) Students enrolled in exactly two courses
+e) Students enrolled in at least one course
+f) Students enrolled in only one course
+g) Students NOT enrolled in any course
+(Assume total students in class are given separately)
+
+
+
+# Given Data
+python_course = {"Arun", "Bala", "Charan", "David"}
+data_science = {"Bala", "Charan", "Eshan", "Farhan"}
+cyber_security = {"Charan", "George", "Arun"}
+
+total_students = {"Arun", "Bala", "Charan", "David", 
+                  "Eshan", "Farhan", "George", "Hari"}
+   
+OUTPUT:
+
+
+Students in all three courses: {'Charan'}
+Students only in Python: {'David'}
+Python and Data Science but not Cyber Security: {'Bala'}
+Students in exactly two courses: {'Arun', 'Bala'}
+Students in at least one course: {'Arun', 'Bala', 'Charan', 'David', 'Eshan', 'Farhan', 'George'}
+Students in only one course: {'David', 'Eshan', 'Farhan', 'George'}
+Students not enrolled in any course: {'Hari'}
+
+
+'''
+p= {"Arun", "Bala", "Charan", "David"}
+d= {"Bala", "Charan", "Eshan", "Farhan"}
+c= {"Charan", "George", "Arun"}
+
+t= {"Arun", "Bala", "Charan", "David", 
+                  "Eshan", "Farhan", "George", "Hari"}
+                  
+print("Students in all three courses:",c.intersection(d).intersection(p))
+print("Students only in Python:",p-c.intersection(d).intersection(p)-c.intersection(d)-p.intersection(d)-c.intersection(p))
+print("Python and Data Science but not Cyber Security:",p.intersection(d)-c)
+print("Students in exactly two courses:",c.intersection(d).union(p.intersection(d)).union(c.intersection(p))-c.intersection(d).intersection(p)-c.intersection(d))
+print("Students in at least one course:",t-(t-p-c-d))
+print("Students in only one course:",c.union(d).union(p)-c.intersection(d).intersection(p)-c.intersection(d)-p.intersection(d)-c.intersection(p))
+print("Students not enrolled in any course:",t-p-c-d)
+
+''' Write a Python program where a supermarket wants to generate a daily bill summary.
+
+The program should:
+Store item prices in a list.
+Display total number of items.
+Calculate total bill amount.
+Find the cheapest item price.
+Find the costliest item price.
+
+Note: Do not use built-in functions like sum(), min(), max() use for loop to Calculate total, cheapest and costliest
+
+
+Sample Input
+
+5
+120
+80
+200
+150
+50
+
+Sample Output
+
+Total Items: 5
+Total Bill: 600
+Cheapest Item: 50
+Costliest Item: 200
+'''
+n=int(input())
+price =[]
+for i in range(n):
+    price.append(int(input()))
+maxx=price[0]
+minn=price[0]
+summ=0
+for j in range(n):
+    if price[j] > maxx:
+        maxx=price[j]
+    if price[j]<minn:
+        minn=price[j]
+    summ+=price[j]
+print("Total Items:",n)
+print("Total Bill:",summ)
+print("Cheapest Item:",minn)
+print("Costliest Item:",maxx)
+
+''' 
+10. Write a Python program that:
+Accepts the number of days.
+Stores the attendance count for each day in a list.
+Uses slicing operations to generate specific attendance reports.
+
+a) Display the attendance of the first 5 days.
+If the total number of days is less than 5, display all available days.
+
+b) Display the attendance of the last 2 days.
+If less than 2 days are available, display all available records.
+
+c) Display attendance of alternate days.
+This means display attendance for Day 1, Day 3, Day 5, and so on.
+
+Sample Input:
+
+7
+45
+48
+50
+47
+49
+46
+44
+
+
+Sample Output:
+
+First 5 Days Attendance: [45, 48, 50, 47, 49]
+Last 2 Days Attendance: [46, 44]
+Alternate Days Attendance: [45, 50, 49, 44]
+
+'''
+days = int(input())
+att = []
+for i in range(days):
+    att.append(int(input()))
+print("First 5 Days Attendance:",att[0:5])
+print("Last 2 Days Attendance:",att[days-2:days])
+print("Alternate Days Attendance:",att[0:days:2])
+
+''' A librarian wants to:
+Maintain a list of books in the library (ordered)
+Add a new book to the end
+Insert a book at a specific position
+Remove a book if damaged
+Convert the book list to a set (to remove duplicates)
+Update the book set with newly arrived books
+
+Question:
+
+Write a Python program to:
+1.Add a new book
+2.Insert a book at a position
+3.Remove a book
+4.Convert list to set
+5.Update set with new books
+
+
+# Initial book list
+books = ["Algorithms", "DataStructures", "Python"]
+
+
+
+
+SAMPLE INPUT/OUTPUT
+
+1. Add a New Book
+Sample Input
+Enter book to add: Python101
+Output
+Book List after add: ['Algorithms', 'DataStructures', 'Python', 'Python101']
+
+2. Insert a Book at a Specific Position
+Sample Input
+Enter position to insert: 2
+Enter book to insert: DataScienceBasics
+Output
+Book List after insert: ['Algorithms', 'DataStructures', 'DataScienceBasics', 'Python']
+
+
+(Assuming initial list: ['Algorithms', 'DataStructures', 'Python'])
+
+3. Remove a Book
+Sample Input
+Enter book to remove: Algorithms
+Output
+Book List after remove: ['DataStructures', 'Python']
+
+4. Convert List to Set (Remove Duplicates)
+Example List
+['DataStructures', 'Python', 'Python']
+Output
+Set after removing duplicates: {'Python', 'DataStructures'}
+
+5. Update Set with New Books
+Sample Input
+Enter new books separated by space: MachineLearning AIforEveryone
+Output
+Final Updated Book Set: {'Python', 'DataStructures', 'MachineLearning', 'AIforEveryone'}
+
+
+
+'''
+
+books = ["Algorithms", "DataStructures", "Python"]
+
+books.append(input("Enter book to add:"))
+print("Books after add:",books)
+n=int(input("Enter position to insert:"))
+nb=input("Enter book to insert:")
+books.insert(n,nb)
+print("Book List after insert:",books)
+rem = input("Enter a book to remove:")
+books.remove(rem)
+print("Book List after remove:",books)
+print("Set after removing duplicates:",set(books))
+a,b = map(str,input("Enter new books separated by space:").split())
+books.append(a)
+books.append(b)
+print("Final Updated Book Set:",books)

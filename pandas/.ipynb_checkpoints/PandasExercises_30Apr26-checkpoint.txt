@@ -1,0 +1,711 @@
+Pandas — Write the Code Questions
+Topic 1: Series and DataFrame Basics | Topic 2: Reading and Writing Files
+
+TOPIC 1 — Series and DataFrame Basics
+
+Q1. Create a Series from a list
+
+Ravi, Priya, Arjun, Meena, and Kiran scored the following marks in Python exam: 72, 88, 65, 91, 79.
+
+Write code to:
+
+a) Create a Series called python_marks with student names as the index and marks as values.
+
+b) Print the Series.
+
+c) Print only Arjun's mark by using his name as the label.
+
+d) Print only the marks of Priya and Meena together in one statement.
+
+Expected output:
+
+Ravi     72
+Priya    88
+Arjun    65
+Meena    91
+Kiran    79
+dtype: int64
+
+65
+
+Priya    88
+Meena    91
+dtype: int64
+
+
+---
+
+Q2. Series from a dictionary and basic operations
+
+A dictionary stores the number of assignments submitted by each student:
+
+{'Ravi': 8, 'Priya': 10, 'Arjun': 6, 'Meena': 10, 'Kiran': 7}
+
+
+Write code to:
+
+a) Create a Series submissions from this dictionary.
+
+b) Print the student who submitted the most assignments using idxmax().
+
+c) Print how many students submitted fewer than 8 assignments.
+
+d) Add 1 bonus submission to everyone and print the updated Series.
+
+Expected output:
+
+Priya
+
+2
+
+Ravi      9
+Priya    11
+Arjun     7
+Meena    11
+Kiran     8
+dtype: int64
+
+
+---
+
+Q3. Series attributes
+
+Given the Series:
+python
+attendance = pd.Series([85.5, 92.0, 78.3, 95.1, 88.6],
+                       index=['Ravi', 'Priya', 'Arjun', 'Meena', 'Kiran'])
+
+
+Write code to print each of the following on a separate line:
+
+a) The data type of the Series.
+
+b) The shape of the Series.
+
+c) The total number of elements.
+
+d) All the index labels.
+
+e) All the values as a NumPy array.
+
+Expected output:
+
+float64
+(5,)
+5
+Index(['Ravi', 'Priya', 'Arjun', 'Meena', 'Kiran'], dtype='object')
+[85.5 92.  78.3 95.1 88.6]
+
+
+---
+
+Q4. Series statistical methods
+
+The internal assessment marks of 5 students are: 34, 28, 40, 22, 36.
+Index is: Ravi, Priya, Arjun, Meena, Kiran.
+
+Write code to:
+
+a) Create the Series ia_marks.
+b) Print the mean, median, minimum, maximum, and standard deviation (rounded to 2 decimal places).
+c) Print the full statistical summary using a single method.
+
+Expected output:
+
+Mean   : 32.0
+Median : 34.0
+Min    : 22
+Max    : 40
+Std    : 6.93
+
+count     5.000000
+mean     32.000000
+std       6.928203
+min      22.000000
+25%      28.000000
+50%      34.000000
+75%      36.000000
+max      40.000000
+dtype: float64
+
+
+---
+Q5. Create a DataFrame from a dictionary
+
+Write code to create a DataFrame df with the following data and print it:
+
+
+Name     RollNo   Maths   Physics   City
+Ravi       101      85       76     Hyderabad
+Priya      102      92       88     Chennai
+Arjun      103      78       82     Bangalore
+Meena      104      95       90     Hyderabad
+Kiran      105      88       79     Pune
+
+
+After creating the DataFrame:
+
+a) Print only the first 3 rows.
+
+b) Print the shape, column names, and data types.
+
+Expected output:
+
+    Name  RollNo  Maths  Physics       City
+0   Ravi     101     85       76  Hyderabad
+1  Priya     102     92       88    Chennai
+2  Arjun     103     78       82  Bangalore
+3  Meena     104     95       90  Hyderabad
+4  Kiran     105     88       79       Pune
+
+    Name  RollNo  Maths  Physics       City
+0   Ravi     101     85       76  Hyderabad
+1  Priya     102     92       88    Chennai
+2  Arjun     103     78       82  Bangalore
+
+(5, 5)
+Index(['Name', 'RollNo', 'Maths', 'Physics', 'City'], dtype='object')
+Name       object
+RollNo      int64
+Maths       int64
+Physics     int64
+City       object
+dtype: object
+
+
+---
+
+Q6. Add, compute, and drop columns
+
+Using the same student DataFrame from Q5:
+
+a) Add a new column Total which is the sum of Maths and Physics.
+
+b) Add a new column Average which is Total divided by 2.
+
+c) Add a new column Grade where Average >= 90 gets 'O', Average >= 80 gets 'A', and the rest get 'B'. Use pd.cut or np.select.
+
+d) Drop the Total column.
+
+e) Print the final DataFrame.
+
+Expected output:
+
+    Name  RollNo  Maths  Physics  Average Grade
+0   Ravi     101     85       76     80.5     A
+1  Priya     102     92       88     90.0     O
+2  Arjun     103     78       82     80.0     A
+3  Meena     104     95       90     92.5     O
+4  Kiran     105     88       79     83.5     A
+
+
+---
+
+Q7. Accessing rows and columns
+
+Using the same student DataFrame from Q5:
+
+a) Print only the Maths column as a Series.
+
+b) Print both Maths and Physics columns as a DataFrame.
+
+c) Print the second row (index 1) using iloc.
+
+d) Print the last 2 rows using tail().
+
+e) Print a random sample of 2 rows using sample() with random_state=42 so results are reproducible.
+
+Expected output:
+
+0    85
+1    92
+2    78
+3    95
+4    88
+Name: Maths, dtype: int64
+
+   Maths  Physics
+0     85       76
+1     92       88
+2     78       82
+3     95       90
+4     88       79
+
+Name        Priya
+RollNo        102
+Maths          92
+Physics        88
+City      Chennai
+Name: 1, dtype: object
+
+    Name  RollNo  Maths  Physics    City
+3  Meena     104     95       90  Hyderabad
+4  Kiran     105     88       79      Pune
+
+
+---
+
+Q8. Create a DataFrame from a list of dictionaries
+
+Write code to create a DataFrame from the following list of student records and print it:
+
+python
+records = [
+    {'Name': 'Ravi',  'Subject': 'Maths',   'Marks': 85, 'Semester': 1},
+    {'Name': 'Priya', 'Subject': 'Maths',   'Marks': 92, 'Semester': 1},
+    {'Name': 'Ravi',  'Subject': 'Physics', 'Marks': 76, 'Semester': 1},
+    {'Name': 'Priya', 'Subject': 'Physics', 'Marks': 88, 'Semester': 1},
+    {'Name': 'Arjun', 'Subject': 'Maths',   'Marks': 78, 'Semester': 2},
+    {'Name': 'Meena', 'Subject': 'Physics', 'Marks': 90, 'Semester': 2},
+]
+
+
+After creating it:
+
+a) Print the number of rows and columns.
+
+b) Print all unique student names using a single method.
+
+c) Print all unique subjects.
+
+Expected output:
+
+    Name  Subject  Marks  Semester
+0   Ravi    Maths     85         1
+1  Priya    Maths     92         1
+2   Ravi  Physics     76         1
+3  Priya  Physics     88         1
+4  Arjun    Maths     78         2
+5  Meena  Physics     90         2
+
+(6, 4)
+
+['Ravi' 'Priya' 'Arjun' 'Meena']
+
+['Maths' 'Physics']
+
+
+---
+ Q9. Set and reset index
+
+Using the student DataFrame from Q5:
+
+a) Set the RollNo column as the row index and print the result.
+
+b) Now access Meena's row using .loc with her RollNo.
+
+c) Reset the index back to default integers and print the first 2 rows.
+
+Expected output:
+
+        Name  Maths  Physics       City
+RollNo
+101     Ravi     85       76  Hyderabad
+102    Priya     92       88    Chennai
+103    Arjun     78       82  Bangalore
+104    Meena     95       90  Hyderabad
+105    Kiran     88       79       Pune
+
+Name        Meena
+Maths          95
+Physics        90
+City    Hyderabad
+Name: 104, dtype: object
+
+   RollNo   Name  Maths  Physics       City
+0     101   Ravi     85       76  Hyderabad
+1     102  Priya     92       88    Chennai
+
+
+---
+
+Q10. Combining Series operations with DataFrame
+
+Write code to do all of the following in sequence:
+
+a) Create the student DataFrame from Q5 (Name, RollNo, Maths, Physics, City).
+
+b) Add a Total column (Maths + Physics).
+
+c) Create a standalone Series called rank with values [3, 1, 5, 1, 4] indexed by the student names (Ravi, Priya, Arjun, Meena, Kiran). Note Priya and Meena are both rank 1.
+
+d) Add this rank Series as a new column ClassRank to the DataFrame. Use the Name column or set Name as index first to align correctly.
+
+e) Print the final DataFrame sorted by Total in descending order.
+
+Expected output:
+
+    Name  RollNo  Maths  Physics  Total  ClassRank
+3  Meena     104     95       90    185          1
+1  Priya     102     92       88    180          1
+4  Kiran     105     88       79    167          4
+0   Ravi     101     85       76    161          3
+2  Arjun     103     78       82    160          5
+
+
+---
+
+
+ TOPIC 2 — Reading and Writing Files (CSV and Excel)
+
+---
+
+ Q11. Read a CSV and inspect it
+
+Assume a file called students.csv exists with the following content:
+
+Name,RollNo,Maths,Physics,City
+Ravi,101,85,76,Hyderabad
+Priya,102,92,88,Chennai
+Arjun,103,78,82,Bangalore
+Meena,104,95,90,Hyderabad
+Kiran,105,88,79,Pune
+
+
+Write code to:
+
+a) Read the file into a DataFrame called df.
+
+b) Print the shape.
+
+c) Print the column names.
+
+d) Print the data types of each column.
+
+e) Print the first 3 rows.
+
+Expected output:
+
+(5, 5)
+
+Index(['Name', 'RollNo', 'Maths', 'Physics', 'City'], dtype='object')
+
+Name       object
+RollNo      int64
+Maths       int64
+Physics     int64
+City       object
+dtype: object
+
+    Name  RollNo  Maths  Physics       City
+0   Ravi     101     85       76  Hyderabad
+1  Priya     102     92       88    Chennai
+2  Arjun     103     78       82  Bangalore
+
+
+---
+
+Q12. Read CSV with index column
+
+Using the same students.csv:
+
+a) Read the file again but this time set RollNo as the index column directly in read_csv.
+
+b) Print the DataFrame.
+
+c) Access and print only Priya's row using .loc with her RollNo.
+
+Expected output:
+
+        Name  Maths  Physics       City
+RollNo
+101     Ravi     85       76  Hyderabad
+102    Priya     92       88    Chennai
+103    Arjun     78       82  Bangalore
+104    Meena     95       90  Hyderabad
+105    Kiran     88       79       Pune
+
+Name      Priya
+Maths        92
+Physics      88
+City    Chennai
+Name: 102, dtype: object
+
+
+---
+
+Q13. Read only selected columns
+
+Using students.csv:
+
+a) Read only the Name, Maths, and Physics columns using the usecols parameter.
+
+b) Add a Total column.
+
+c) Print the final DataFrame.
+
+Expected output:
+
+    Name  Maths  Physics  Total
+0   Ravi     85       76    161
+1  Priya     92       88    180
+2  Arjun     78       82    160
+3  Meena     95       90    185
+4  Kiran     88       79    167
+
+
+---
+
+Q14. Read a CSV with missing values
+
+Assume a file students_missing.csv with the following content:
+
+Name,RollNo,Maths,Physics,City
+Ravi,101,85,76,Hyderabad
+Priya,102,-,88,Chennai
+Arjun,103,78,-,Bangalore
+Meena,104,95,90,Hyderabad
+Kiran,105,88,79,-
+
+
+Write code to:
+
+a) Read the file treating - as NaN using the na_values parameter.
+
+b) Print how many missing values exist in each column.
+
+c) Print the total number of missing values across the entire DataFrame.
+
+Expected output:
+
+Name       0
+RollNo     0
+Maths      1
+Physics    1
+City       1
+dtype: int64
+
+3
+
+
+---
+
+Q15. Read only first N rows and skip rows
+
+Using students.csv:
+
+a) Read only the first 3 rows using nrows.
+
+b) Print the result.
+
+c) Now write a second read_csv call that skips the first data row (not the header) using skiprows. Print that result.
+
+Expected output for part a:
+
+    Name  RollNo  Maths  Physics       City
+0   Ravi     101     85       76  Hyderabad
+1  Priya     102     92       88    Chennai
+2  Arjun     103     78       82  Bangalore
+
+
+Expected output for part c (first row Ravi skipped):
+
+    Name  RollNo  Maths  Physics       City
+0  Priya     102     92       88    Chennai
+1  Arjun     103     78       82  Bangalore
+2  Meena     104     95       90  Hyderabad
+3  Kiran     105     88       79       Pune
+
+
+---
+
+Q16. Write a DataFrame to CSV
+
+Write code to:
+
+a) Create the student DataFrame (Name, RollNo, Maths, Physics, City) from Q5.
+
+b) Add a Total column (Maths + Physics).
+
+c) Save it to a file called results.csv without the row index.
+
+d) Read results.csv back in and print it to verify it was saved correctly.
+
+e) Now save it again to results_with_index.csv with the row index included, read it back, and print it to show the difference.
+
+Expected output when reading results.csv:
+
+    Name  RollNo  Maths  Physics       City  Total
+0   Ravi     101     85       76  Hyderabad    161
+1  Priya     102     92       88    Chennai    180
+2  Arjun     103     78       82  Bangalore    160
+3  Meena     104     95       90  Hyderabad    185
+4  Kiran     105     88       79       Pune    167
+
+
+Expected output when reading results_with_index.csv:
+
+   Unnamed: 0   Name  RollNo  Maths  Physics       City  Total
+0           0   Ravi     101     85       76  Hyderabad    161
+1           1  Priya     102     92       88    Chennai    180
+...
+
+
+---
+
+Q17. Quick inspection habit after reading
+
+Using students.csv, write a complete file-reading inspection block that prints:
+
+a) The shape of the DataFrame.
+
+b) The data types.
+
+c) The first 5 rows.
+
+d) The count of missing values per column.
+
+e) Basic statistics for numeric columns using a single method.
+
+Write all five steps as a sequence with a print label before each output so it is clear what is being shown.
+
+Expected output:
+
+--- Shape ---
+(5, 5)
+
+--- Data Types ---
+Name       object
+RollNo      int64
+Maths       int64
+Physics     int64
+City       object
+dtype: object
+
+--- First 5 Rows ---
+    Name  RollNo  Maths  Physics       City
+0   Ravi     101     85       76  Hyderabad
+1  Priya     102     92       88    Chennai
+2  Arjun     103     78       82  Bangalore
+3  Meena     104     95       90  Hyderabad
+4  Kiran     105     88       79       Pune
+
+--- Missing Values ---
+Name       0
+RollNo     0
+Maths      0
+Physics    0
+City       0
+dtype: int64
+
+--- Statistics ---
+       RollNo  Maths    Physics
+count     5.0   5.00       5.00
+mean    103.0  87.60      83.00
+std       1.58   6.58       5.83
+min     101.0  78.00      76.00
+25%     102.0  85.00      79.00
+50%     103.0  88.00      82.00
+75%     104.0  92.00      88.00
+max     105.0  95.00      90.00
+
+
+---
+
+Q18. Read an Excel file and write to CSV
+
+Assume marks.xlsx has a sheet called Semester1 with this data:
+
+Name    Maths   Physics   Chemistry
+Ravi      85       76         80
+Priya     92       88         91
+Arjun     78       82         74
+Meena     95       90         93
+Kiran     88       79         85
+
+
+Write code to:
+
+a) Read the Excel file from Semester1 sheet.
+
+b) Print the DataFrame.
+
+c) Add a Total column (sum of all three subjects).
+
+d) Save the result as semester1_results.csv without index.
+
+e) Print a confirmation message: "File saved as semester1_results.csv".
+
+Expected output:
+
+    Name  Maths  Physics  Chemistry
+0   Ravi     85       76         80
+1  Priya     92       88         91
+2  Arjun     78       82         74
+3  Meena     95       90         93
+4  Kiran     88       79         85
+
+File saved as semester1_results.csv
+
+
+---
+
+Q19. Write multiple DataFrames to separate Excel sheets
+
+You have marks for two semesters:
+
+Semester 1 — Ravi:85, Priya:92, Arjun:78, Meena:95, Kiran:88 (Maths)
+Semester 2 — Ravi:90, Priya:88, Arjun:84, Meena:97, Kiran:91 (Maths)
+
+Write code to:
+
+a) Create two DataFrames sem1 and sem2, each with columns Name and Maths.
+
+b) Write both to a single Excel file called all_semesters.xlsx with sheet names Semester1 and Semester2 using ExcelWriter.
+
+c) Read both sheets back in and print them to verify.
+
+Expected output after reading back:
+
+--- Semester 1 ---
+    Name  Maths
+0   Ravi     85
+1  Priya     92
+2  Arjun     78
+3  Meena     95
+4  Kiran     88
+
+--- Semester 2 ---
+    Name  Maths
+0   Ravi     90
+1  Priya     88
+2  Arjun     84
+3  Meena     97
+4  Kiran     91
+
+
+---
+
+Q20. End-to-end pipeline — read, process, save
+
+Write a complete program that does the following in sequence:
+
+a) Read students.csv (Name, RollNo, Maths, Physics, City).
+
+b) Add a Total column (Maths + Physics).
+
+c) Add an Average column (Total / 2, rounded to 1 decimal place).
+
+d) Add a Result column: if Average >= 80 then Pass, else Fail.
+
+e) Save the full processed DataFrame to processed_results.csv without index.
+
+f) From the saved file, read back only the students who Passed and print them.
+
+g) Print how many students Passed and how many Failed.
+
+Expected output:
+
+# Passing students read back from file:
+    Name  RollNo  Maths  Physics  Total  Average Result
+0   Ravi     101     85       76    161     80.5   Pass
+1  Priya     102     92       88    180     90.0   Pass
+3  Meena     104     95       90    185     92.5   Pass
+4  Kiran     105     88       79    167     83.5   Pass
+
+Pass     4
+Fail     1
+Name: Result, dtype: int64
+
+
+---

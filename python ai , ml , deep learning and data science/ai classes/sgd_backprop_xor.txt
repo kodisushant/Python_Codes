@@ -1,0 +1,158 @@
+'''
+Title:
+Implement a Simple Neural Network Using Stochastic Gradient Descent (SGD) From Scratch
+
+Objective:
+You must implement a two-layer neural network from scratch (no libraries like NumPy, PyTorch, TensorFlow). Your network must learn the XOR binary classification problem using the Stochastic Gradient Descent (SGD) training algorithm.
+
+What You Need to Build:
+	Network Structure
+		- Input layer: 2 inputs
+		- Hidden layer: user-defined number of neurons
+		- Output layer: 2 neurons (binary class with one-hot encoding)
+
+	Functions to Implement
+		- Initialize network with random weights
+		- Forward propagation using the sigmoid activation
+		- Backpropagation for computing deltas
+		- Stochastic Gradient Descent (SGD):
+			* Update weights after every single training example
+			* Predict function (choose output neuron with max value)
+
+Dataset
+Use the XOR dataset:
+[0,0 → 0]
+[0,1 → 1]
+[1,0 → 1]
+[1,1 → 0]
+
+Expected Output
+During training, show the loss/error occasionally
+After training, print predictions for all XOR inputs
+
+Goal
+-----
+Understand how basic neural networks learn with SGD,
+see the effect of high update frequency,
+and observe how the model eventually learns XOR.
+
+Actual Output:
+epoch=0 error=2.5211
+epoch=1000 error=1.9109
+epoch=2000 error=1.3863
+epoch=3000 error=1.3675
+epoch=4000 error=0.0387
+
+Predictions after training (SGD):
+[0, 0, 0] -> 0
+[0, 1, 1] -> 1
+[1, 0, 1] -> 1
+[1, 1, 0] -> 0
+
+'''
+# sgd_backprop_xor.py
+from math import exp
+from random import random, seed
+
+# ----- Network helpers -----
+
+def initialize_network(n_inputs, n_hidden, n_outputs):
+    network = []
+    hidden_layer = [{'weights': [random() for _ in range(n_inputs + 1)]}
+                    for _ in range(n_hidden)]
+    network.append(hidden_layer)
+    output_layer = [{'weights': [random() for _ in range(n_hidden + 1)]}
+                    for _ in range(n_outputs)]
+    network.append(output_layer)
+    return network
+
+def activate(weights, inputs):
+    activation = weights[-1]  # bias
+    for i in range(len(weights) - 1):
+        activation += weights[i] * inputs[i]
+    return activation
+
+def transfer(activation):
+    return 1.0 / (1.0 + exp(-activation))  # sigmoid
+
+def forward_propagate(network, row):
+    inputs = row
+    for layer in network:
+        new_inputs = []
+        for neuron in layer:
+            activation = activate(neuron['weights'], inputs)
+            neuron['output'] = transfer(activation)
+            new_inputs.append(neuron['output'])
+        inputs = new_inputs
+    return inputs
+
+def transfer_derivative(output):
+    return output * (1.0 - output)
+
+def backward_propagate_error(network, expected):
+    # iterate layers in reverse order
+    for i in reversed(range(len(network))):
+        layer = network[i]
+        errors = []
+        if i != len(network) - 1:  # hidden layer
+            for j in range(len(layer)):
+                error = 0.0
+                for neuron in network[i + 1]:
+                    error += neuron['weights'][j] * neuron['delta']
+                errors.append(error)
+        else:  # output layer
+            for j, neuron in enumerate(layer):
+                errors.append(neuron['output'] - expected[j])
+
+        for j, neuron in enumerate(layer):
+            neuron['delta'] = errors[j] * transfer_derivative(neuron['output'])
+
+def update_weights(network, row, l_rate):
+    for i, layer in enumerate(network):
+        inputs = row[:-1] if i == 0 else [neuron['output'] for neuron in network[i - 1]]
+        for neuron in layer:
+            for j in range(len(inputs)):
+                neuron['weights'][j] -= l_rate * neuron['delta'] * inputs[j]
+            neuron['weights'][-1] -= l_rate * neuron['delta']  # bias
+
+def train_network_sgd(network, train, l_rate, n_epoch, n_outputs):
+    for epoch in range(n_epoch):
+        sum_error = 0.0
+        for row in train:
+            inputs = row[:-1]
+            outputs = forward_propagate(network, inputs)
+            expected = [0 for _ in range(n_outputs)]
+            expected[int(row[-1])] = 1
+            sum_error += sum((expected[i] - outputs[i]) ** 2 for i in range(n_outputs))
+            backward_propagate_error(network, expected)
+            update_weights(network, row, l_rate)
+        if epoch % 1000 == 0:
+            print(f"epoch={epoch} error={sum_error:.4f}")
+
+def predict(network, row):
+    outputs = forward_propagate(network, row)
+    return outputs.index(max(outputs))
+
+# ----- Demo on XOR -----
+
+if __name__ == "__main__":
+    seed(1)
+
+    # XOR dataset: [x1, x2, label]
+    dataset = [
+        [0, 0, 0],
+        [0, 1, 1],
+        [1, 0, 1],
+        [1, 1, 0],
+    ]
+
+    n_inputs = 2
+    n_hidden = 2
+    n_outputs = 2
+
+    network = initialize_network(n_inputs, n_hidden, n_outputs)
+    train_network_sgd(network, dataset, l_rate=0.5, n_epoch=5000, n_outputs=n_outputs)
+
+    print("\nPredictions after training (SGD):")
+    for row in dataset:
+        print(row, "->", predict(network, row[:-1]))

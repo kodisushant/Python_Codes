@@ -1,0 +1,104 @@
+ID,Customer_Name,Order_ID,Order_Date,Product,Category,Quantity,Price,Payment_Method,Status
+100,,ORD-41285,11/22/2024,Blender,,3,38,Cash on Delivery,Shipped
+101,,ORD-35783,7/5/2025,Smartphone,,2,abd,PayPal,Processing
+102,,ORD-84355,12/23/2024,Tennis Racket,,1,389.05,PayPal,Delivered
+103,,ORD-57811,3/19/2025,Science,,5,233.92,PayPal,Processing
+104,,ORD-93614,10/20/2025,Biography,,1,552.51,Cash on Delivery,Processing
+105,,ORD-22442,11/20/2024,Tennis Racket,,3,122.06,Cash on Delivery,Cancelled
+106,,ORD-25885,2/2/2025,Blender,,,978.63,Bank Transfer,Processing
+107,,ORD-89122,1/3/2025,Biography,,5,587.68,PayPal,Returned
+108,,ORD-64400,10/23/2025,Science,,1,600.29,Cash on Delivery,Processing
+109,,ORD-18512,5/3/2025,Tennis Racket,,5,168.34,Credit Card,Shipped
+110,,ORD-61020,9/26/2025,Basketball,,5,four hundred,Cash on Delivery,Cancelled
+111,,ORD-72349,10/22/2025,Comics,,2,865.77,Credit Card,Returned
+112,,ORD-80867,3/2/2025,Shoes,,4,752.13,Bank Transfer,Delivered
+113,,ORD-23994,7/24/2025,Fiction,,1,411.81,Credit Card,Processing
+114,,ORD-77417,Jan 5 2023,Smartphone,,2,413.13,Cash on Delivery,Shipped
+115,,ORD-72778,1/10/2025,Fiction,,2,796.84,Cash on Delivery,Returned
+116,,ORD-63660,10/30/2025,Microwave,,4,,Cash on Delivery,Processing
+117,,ORD-72751,2/12/2025,Blender,,-2,10000,Cash on Delivery,Processing
+118,,ORD-96061,5/31/2025,Science,,5,247.82,PayPal,Processing
+119,,ORD-76016,12/19/2024,Basketball,,4,438.19,Cash on Delivery,Processing
+120,,ORD-14659,6/13/2025,Yoga Mat,,5,300$,Credit Card,Cancelled
+121,,ORD-80067,10/11/2025,Basketball,,4,523.01,Credit Card,Delivered
+122,,ORD-21443,5/16/2025,Microwave,,2,556.93,PayPal,Shipped
+123,,ORD-11314,10/6/2025,Vacuum,,3,615.91,Cash on Delivery,Cancelled
+124,,ORD-46136,5/31/2025,Comics,,5,,PayPal,Cancelled
+125,,ORD-23202,2/9/2025,Comics,,4,765.69,PayPal,Shipped
+126,,ORD-11261,5/18/2025,Shoes,,4,836.8,Bank Transfer,Cancelled
+127,,ORD-65482,5/12/2025,Blender,,5,336.02,Bank Transfer,Returned
+128,,ORD-12270,11/10/2024,Lamp,,3,898.69,Bank Transfer,Delivered
+129,,ORD-48863,6/22/2025,Science,,4,736.71,Bank Transfer,Returned
+130,,ORD-34007,8/15/2025,Tennis Racket,,2,,Bank Transfer,Processing
+131,,ORD-91396,6/11/2025,Lamp,,5,616.63,PayPal,Shipped
+132,,ORD-40186,4/2/2025,Yoga Mat,,1,266.7,PayPal,Delivered
+133,,ORD-68182,12/5/2024,Biography,,5,343.24,Credit Card,Shipped
+134,,ORD-16585,10/4/2025,T-shirt,,-5,591.53,PayPal,Shipped
+135,,ORD-33656,2/9/2025,Smartwatch,,4,446.19,Cash on Delivery,Cancelled
+136,,ORD-20985,6/12/2025,Headphones,,1,696.71,Credit Card,Delivered
+137,,ORD-91254,2/23/2025,Vacuum,,3,-100,Cash on Delivery,Delivered
+138,,ORD-34319,8/9/2025,Lamp,,1,531.06,PayPal,Processing
+139,,ORD-38418,2/9/2025,Smartphone,,2,681.38,Credit Card,Cancelled
+140,,ORD-67096,2/26/2025,Fiction,,4,588.98,Credit Card,Returned
+141,,ORD-45059,2/13/2025,Fiction,,3,546.04,Cash on Delivery,Returned
+142,,ORD-69018,10/30/2025,Shoes,,5,645.26,Credit Card,Shipped
+143,,ORD-14329,7/11/2025,T-shirt,,5,826.77,Bank Transfer,Cancelled
+144,,ORD-89452,1/27/2025,Football,,5,849.07,Bank Transfer,Processing
+145,,ORD-75314,5/1/2023,Laptop,,2,860.99,Bank Transfer,Returned
+146,,ORD-32755,7/9/2025,Basketball,,2,705.42,Bank Transfer,Processing
+147,,ORD-80707,5/1/2025,Jacket,,4,596.15,Cash on Delivery,Shipped
+148,,ORD-38423,3/13/2025,Tennis Racket,,1,660.98,Cash on Delivery,Returned
+149,,ORD-95911,6/29/2025,Comics,,5,896.38,Bank Transfer,Cancelled
+150,,ORD-76902,11/27/2024,Yoga Mat,,1,206.19,Credit Card,Returned
+151,,ORD-56552,7/1/2025,Comics,,2,457.16,PayPal,Processing
+152,,ORD-72869,9/22/2025,Lamp,,3,233.11,PayPal,Returned
+153,,ORD-29721,7/16/2025,Yoga Mat,,4,278.9,Cash on Delivery,Processing
+154,,ORD-95990,2/21/2025,Blender,,5,789.64,Cash on Delivery,Cancelled
+155,,ORD-20182,5/1/2025,shoes,,1,40.95,PayPal,Returned
+156,,ORD-34679,11/28/2024,Jeans,,2,,Bank Transfer,Shipped
+157,,ORD-34407,11/6/2025,Jacket,,4,275.1,Bank Transfer,Processing
+158,,ORD-35817,4/5/2025,Smartwatch,,1,933.58,Cash on Delivery,Shipped
+159,,ORD-98162,7/28/2025,Microwave,,3,163.16,PayPal,Shipped
+160,,ORD-96037,1/3/2025,Science,,5,242.52,Cash on Delivery,Returned
+161,,ORD-27653,12/15/2024,Science,,4,209.32,Bank Transfer,Shipped
+162,,ORD-27743,5/19/2025,Blender,,2,155.76,Credit Card,Returned
+163,,ORD-24378,1/5/2023,Smartwatch,,3,235.26,Cash on Delivery,Shipped
+164,,ORD-23010,2/9/2025,Tennis Racket,,,587.64,Credit Card,Returned
+165,,ORD-55695,11/8/2024,Shoes,,2,443.13,Credit Card,Delivered
+166,,ORD-97756,7/3/2025,T-shirt,,2,569.38,Cash on Delivery,Shipped
+167,,ORD-30329,8/7/2025,Basketball,,,593.93,Cash on Delivery,Processing
+168,,ORD-53430,11/4/2025,Biography,,2,141.49,PayPal,Cancelled
+169,,ORD-75539,8/12/2025,Basketball,,1,582.13,Credit Card,Returned
+170,,ORD-21530,10/3/2025,Jeans,,5,741.63,Bank Transfer,Processing
+171,,ORD-99790,12/6/2024,Shoes,,3,688.68,PayPal,Processing
+172,,ORD-48008,11/18/2024,Comics,,2,942.76,Bank Transfer,Returned
+173,,ORD-42171,10/11/2025,Lamp,,5,351.89,Credit Card,Shipped
+174,,ORD-16766,9/20/2025,Microwave,,4,187.48,Credit Card,Returned
+175,,ORD-56651,2/24/2025,Headphones,,1,111.36,Credit Card,Processing
+176,,ORD-95794,7/22/2025,Comics,,5,530.52,Cash on Delivery,Shipped
+177,,ORD-64136,7/28/2025,Laptop,,1,69.48,Bank Transfer,Returned
+178,,ORD-89906,9/18/2025,Tennis Racket,,3,472.14,PayPal,Returned
+179,,ORD-99328,9/3/2025,Yoga Mat,,3,868.67,PayPal,Delivered
+180,,ORD-86629,3/26/2025,Laptop,,2,418.38,Credit Card,Processing
+181,,ORD-54481,12/29/2024,Smartphone,,1,266.48,Cash on Delivery,Cancelled
+182,,ORD-79672,8/3/2025,Shoes,,4,538.35,PayPal,Processing
+183,,ORD-20916,3/10/2025,Shoes,,5,,Cash on Delivery,Returned
+184,,ORD-67799,2/15/2025,Jeans,,4,101.19,Bank Transfer,Processing
+185,,ORD-57123,8/14/2025,Football,,2,730.92,Cash on Delivery,Cancelled
+186,,ORD-90569,10/6/2025,Laptop,,1,365.34,Bank Transfer,Delivered
+187,,ORD-41292,11/19/2024,Smartphone,,3,882.96,Bank Transfer,Returned
+188,,ORD-58590,11/19/2024,Microwave,,5,504.05,Cash on Delivery,Shipped
+189,,ORD-30627,8/14/2025,Lamp,,1,814.68,Cash on Delivery,Returned
+190,,ORD-38469,6/29/2025,Vacuum,,1,920.37,Bank Transfer,Processing
+191,,ORD-41810,7/18/2025,Fiction,,2,881.02,Cash on Delivery,Returned
+192,,ORD-35144,abc,Jacket,,4a,203.63,Credit Card,Returned
+193,,ORD-42475,6/6/2025,Basketball,,,522.02,PayPal,Shipped
+194,,ORD-69764,2/10/2025,Lamp,,5,944.54,Cash on Delivery,Returned
+195,,ORD-82876,6/19/2025,Biography,,5,817.46,Cash on Delivery,Returned
+196,,ORD-78384,12/23/2024,Vacuum,,,abd,PayPal,Delivered
+197,,ORD-79139,6/23/2025,Blender,,1,160.16,PayPal,Cancelled
+198,,ORD-14608,7/27/2025,Vacuum,,2,497.01,Cash on Delivery,Shipped
+199,,ORD-82922,1/22/2025,Blender,,5,372.28,Credit Card,Shipped
+175,,ORD-56651,2/24/2025,Headphones,,1,111.36,Credit Card,Processing
+142,,ORD-69018,10/30/2025,Shoes,,5,645.26,Credit Card,Shipped
+146,,ORD-32755,7/9/2025,Basketball,,2,705.42,Bank Transfer,Processing

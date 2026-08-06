@@ -1,0 +1,6 @@
+r = float(input(" enter the radius of circle "))
+# ar = m.pi*m.pow(r,2)
+# print(ar)
+# print(round(ar,1))
+# print(m.ceil(ar))
+# print(m.floor(ar))
