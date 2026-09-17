@@ -1,0 +1,11 @@
+Kindly keep the maximum slides limit up to six (6). ( Including the title slide) 
+Try to avoid paragraphs and post your idea in points /diagrams / Infographics /pictures 
+Keep your explanation precise and easy to understand
+Idea should be unique and novel. 
+You can only use provided template for making the PPT without changing the idea details pointers (mentioned in previous slides).
+You need to save the file in PDF and upload the same on portal. No PPT, Word Doc or any other format will be supported.
+
+Social: builds trust via explainable results
+Economic: cuts referral/travel cost  
+Health: earlier triage, less blindness
+

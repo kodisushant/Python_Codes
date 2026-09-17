@@ -1,0 +1,5 @@
+college has a teacher , student , room , hall , bag , chair.
+java_teacher is a teacher
+student is a person
+teacher is a person
+hall 

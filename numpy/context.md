@@ -1,0 +1,1374 @@
+**# StudyOS — AI-Powered Student Study Platform**
+
+
+
+**You are my senior full-stack engineer, AI engineer, and coding mentor.**
+
+
+
+**I want to build a production-quality full-stack web application called \*\*StudyOS\*\* from scratch.**
+
+
+
+**## Important context about me**
+
+
+
+**I am a beginner with APIs, databases, authentication, backend development, and full-stack architecture.**
+
+
+
+**I know basic programming and Python, Java, HTML, CSS, and JavaScript, but I have NOT previously worked deeply with:**
+
+
+
+**\* React**
+
+**\* Vite**
+
+**\* Tailwind CSS**
+
+**\* Framer Motion**
+
+**\* FastAPI**
+
+**\* PostgreSQL**
+
+**\* Supabase**
+
+**\* REST APIs**
+
+**\* Authentication**
+
+**\* Hugging Face APIs**
+
+
+
+**Therefore, I want you to \*\*teach me while building the application\*\*.**
+
+
+
+**Do NOT assume I understand something just because you generated it.**
+
+
+
+**---**
+
+
+
+**# 1. Product**
+
+
+
+**Build \*\*StudyOS\*\*, an AI-powered student study platform.**
+
+
+
+**The application should allow students to:**
+
+
+
+**\* Register and log in**
+
+**\* Create subjects**
+
+**\* Add study material**
+
+**\* Read and manage their study material**
+
+**\* Ask an AI tutor questions**
+
+**\* Generate AI summaries**
+
+**\* Generate AI quizzes**
+
+**\* Take quizzes**
+
+**\* Generate and study flashcards**
+
+**\* Track quiz scores**
+
+**\* View study analytics**
+
+**\* View their learning progress from a dashboard**
+
+
+
+**The application should eventually feel like a polished SaaS product rather than a basic college project.**
+
+
+
+**---**
+
+
+
+**# 2. Technology Stack**
+
+
+
+**Use this stack unless there is a strong technical reason to change something:**
+
+
+
+**### Frontend**
+
+
+
+**\* React**
+
+**\* Vite**
+
+**\* Tailwind CSS**
+
+**\* Framer Motion**
+
+**\* Recharts**
+
+**\* Lucide React**
+
+
+
+**### Backend**
+
+
+
+**\* Python**
+
+**\* FastAPI**
+
+**\* Uvicorn**
+
+
+
+**### Database / Authentication**
+
+
+
+**\* Supabase**
+
+**\* PostgreSQL**
+
+**\* Supabase Authentication**
+
+**\* Supabase Storage where appropriate**
+
+
+
+**### AI**
+
+
+
+**\* Hugging Face models/API**
+
+
+
+**The Hugging Face API must be accessed through the backend.**
+
+
+
+**NEVER expose Hugging Face API keys or other secrets in the React frontend.**
+
+
+
+**### Architecture**
+
+
+
+**Use:**
+
+
+
+**React → FastAPI → Supabase/PostgreSQL**
+
+
+
+**and:**
+
+
+
+**React → FastAPI → Hugging Face → FastAPI → React**
+
+
+
+**---**
+
+
+
+**# 3. Very Important: Set Everything Up From Zero**
+
+
+
+**First inspect my development environment.**
+
+
+
+**Check whether I already have:**
+
+
+
+**\* Node.js**
+
+**\* npm**
+
+**\* Python**
+
+**\* pip**
+
+**\* Git**
+
+**\* GitHub**
+
+
+
+**Do NOT assume they are installed.**
+
+
+
+**If something essential is missing, tell me exactly what is missing and how to install it.**
+
+
+
+**Do not silently continue if a required dependency is unavailable.**
+
+
+
+**For libraries such as React, Vite, Tailwind, Framer Motion, FastAPI, etc., install/configure them as part of the project setup rather than assuming that I already have them.**
+
+
+
+**---**
+
+
+
+**# 4. Build Incrementally**
+
+
+
+**Do NOT generate the entire application in one shot.**
+
+
+
+**Build the application in phases.**
+
+
+
+**Follow this order:**
+
+
+
+**## *Phase 0 — Environment***
+
+
+
+**\* Inspect my machine**
+
+**\* Check Node.js**
+
+**\* Check Python**
+
+**\* Check npm**
+
+**\* Check Git**
+
+**\* Check GitHub configuration**
+
+**\* Identify anything missing**
+
+
+
+**Explain what each requirement is used for.**
+
+
+
+**---**
+
+
+
+**## Phase 1 — Project Architecture**
+
+
+
+**Create the project structure.**
+
+
+
+**Use a clean structure similar to:**
+
+
+
+**study-os/**
+
+
+
+**```**
+
+**frontend/**
+
+
+
+**backend/**
+
+
+
+**README.md**
+
+**```**
+
+
+
+**Inside the frontend and backend, use sensible production-style structures.**
+
+
+
+**Before writing lots of code, explain:**
+
+
+
+**\* What frontend means**
+
+**\* What backend means**
+
+**\* What an API is**
+
+**\* How React communicates with FastAPI**
+
+**\* What the database does**
+
+**\* Where AI fits into the architecture**
+
+
+
+**Create a simple architecture diagram in the README.**
+
+
+
+**---**
+
+
+
+**# 5. Frontend**
+
+
+
+**Create a beautiful modern UI.**
+
+
+
+**Design direction:**
+
+
+
+**\* Dark modern SaaS interface**
+
+**\* Clean typography**
+
+**\* Glassmorphism used tastefully**
+
+**\* Smooth animations**
+
+**\* Responsive design**
+
+**\* Interactive cards**
+
+**\* Animated dashboard statistics**
+
+**\* Sidebar navigation**
+
+**\* Beautiful buttons**
+
+**\* Empty states**
+
+**\* Loading states**
+
+**\* Error states**
+
+**\* Toast notifications**
+
+**\* Mobile responsive layout**
+
+
+
+**Pages should eventually include:**
+
+
+
+**1. Landing page**
+
+**2. Login**
+
+**3. Register**
+
+**4. Dashboard**
+
+**5. Subjects**
+
+**6. Subject details**
+
+**7. Study material**
+
+**8. AI Tutor**
+
+**9. Quiz Generator**
+
+**10. Quiz interface**
+
+**11. Flashcards**
+
+**12. Analytics**
+
+**13. Settings**
+
+
+
+**Do NOT make every page look like a template.**
+
+
+
+**Give the application a consistent visual identity.**
+
+
+
+**---**
+
+
+
+**# 6. Backend**
+
+
+
+**Create a FastAPI backend.**
+
+
+
+**Eventually create endpoints for things such as:**
+
+
+
+**POST /auth/register**
+
+
+
+**POST /auth/login**
+
+
+
+**GET /subjects**
+
+
+
+**POST /subjects**
+
+
+
+**GET /subjects/{id}**
+
+
+
+**POST /materials**
+
+
+
+**GET /materials**
+
+
+
+**POST /ai/summarize**
+
+
+
+**POST /ai/chat**
+
+
+
+**POST /ai/generate-quiz**
+
+
+
+**POST /ai/generate-flashcards**
+
+
+
+**POST /quizzes**
+
+
+
+**GET /analytics**
+
+
+
+**These are examples, not strict requirements.**
+
+
+
+**Design the API properly.**
+
+
+
+**Explain every endpoint before or immediately after implementing it.**
+
+
+
+**For each API explain:**
+
+
+
+**\* HTTP method**
+
+**\* URL**
+
+**\* Request data**
+
+**\* Response data**
+
+**\* Why the endpoint exists**
+
+
+
+**---**
+
+
+
+**# 7. Database**
+
+
+
+**Use Supabase PostgreSQL.**
+
+
+
+**Eventually create appropriate relational tables for things such as:**
+
+
+
+**users**
+
+
+
+**subjects**
+
+
+
+**study\_materials**
+
+
+
+**quizzes**
+
+
+
+**quiz\_questions**
+
+
+
+**quiz\_attempts**
+
+
+
+**flashcards**
+
+
+
+**study\_sessions**
+
+
+
+**analytics/progress**
+
+
+
+**Design proper relationships.**
+
+
+
+**Explain:**
+
+
+
+**\* Primary keys**
+
+**\* Foreign keys**
+
+**\* Relationships**
+
+**\* CRUD operations**
+
+**\* Why each table exists**
+
+
+
+**Do NOT create unnecessary tables.**
+
+
+
+**Do NOT use fake local arrays once the database is connected.**
+
+
+
+**---**
+
+
+
+**# 8. Authentication**
+
+
+
+**Use Supabase Authentication.**
+
+
+
+**Users should only be able to access their own:**
+
+
+
+**\* Subjects**
+
+**\* Study material**
+
+**\* Quizzes**
+
+**\* Flashcards**
+
+**\* Progress**
+
+
+
+**Explain authentication and authorization to me in simple terms.**
+
+
+
+**Use proper environment variables.**
+
+
+
+**Never hard-code:**
+
+
+
+**\* passwords**
+
+**\* API keys**
+
+**\* service-role keys**
+
+**\* Hugging Face tokens**
+
+**\* database secrets**
+
+
+
+**Create an appropriate `.env.example`.**
+
+
+
+**---**
+
+
+
+**# 9. AI**
+
+
+
+**Integrate Hugging Face.**
+
+
+
+**AI features should eventually include:**
+
+
+
+**### AI Tutor**
+
+
+
+**A chat interface where students can ask questions.**
+
+
+
+**### AI Summary**
+
+
+
+**Student provides study material and receives:**
+
+
+
+**\* Summary**
+
+**\* Key concepts**
+
+**\* Important points**
+
+**\* Exam-focused notes**
+
+
+
+**### AI Quiz Generator**
+
+
+
+**Generate multiple-choice questions from study material.**
+
+
+
+**Each question should contain:**
+
+
+
+**\* Question**
+
+**\* Four options**
+
+**\* Correct answer**
+
+**\* Explanation**
+
+
+
+**### AI Flashcards**
+
+
+
+**Generate:**
+
+
+
+**\* Question**
+
+**\* Answer**
+
+
+
+**from study material.**
+
+
+
+**Use the Hugging Face API through FastAPI.**
+
+
+
+**Keep AI logic modular so models can be changed later.**
+
+
+
+**---**
+
+
+
+**# 10. Data Flow**
+
+
+
+**Make sure I understand the complete flow.**
+
+
+
+**For example:**
+
+
+
+**User clicks "Generate Quiz"**
+
+
+
+**↓**
+
+
+
+**React sends HTTP request**
+
+
+
+**↓**
+
+
+
+**FastAPI receives request**
+
+
+
+**↓**
+
+
+
+**FastAPI validates input**
+
+
+
+**↓**
+
+
+
+**FastAPI sends request to Hugging Face**
+
+
+
+**↓**
+
+
+
+**Hugging Face returns AI-generated content**
+
+
+
+**↓**
+
+
+
+**FastAPI processes the response**
+
+
+
+**↓**
+
+
+
+**FastAPI sends JSON response**
+
+
+
+**↓**
+
+
+
+**React displays the quiz**
+
+
+
+**↓**
+
+
+
+**Quiz result is saved to Supabase**
+
+
+
+**Explain this flow whenever we implement it.**
+
+
+
+**---**
+
+
+
+**# 11. No Fake Functionality**
+
+
+
+**During early UI development, temporary mock data is acceptable.**
+
+
+
+**However, clearly label mock data.**
+
+
+
+**Once a real backend/database feature exists:**
+
+
+
+**REMOVE the mock implementation.**
+
+
+
+**I want the final application to actually work.**
+
+
+
+**Do not create buttons that appear functional but do nothing.**
+
+
+
+**Every implemented button should either:**
+
+
+
+**\* perform its intended action**
+
+**\* show a proper loading state**
+
+**\* show an appropriate error**
+
+**\* or clearly state that the feature is not implemented yet**
+
+
+
+**---**
+
+
+
+**# 12. Error Handling**
+
+
+
+**Implement proper error handling.**
+
+
+
+**Handle:**
+
+
+
+**\* Network failures**
+
+**\* Invalid input**
+
+**\* Authentication failures**
+
+**\* Database failures**
+
+**\* AI API failures**
+
+**\* Empty responses**
+
+**\* Loading states**
+
+**\* Rate limits**
+
+**\* Invalid AI responses**
+
+
+
+**The UI should never just silently fail.**
+
+
+
+**---**
+
+
+
+**# 13. Security**
+
+
+
+**Follow reasonable security practices.**
+
+
+
+**Especially:**
+
+
+
+**\* Environment variables**
+
+**\* Never expose secrets**
+
+**\* Validate API inputs**
+
+**\* Authentication checks**
+
+**\* Authorization checks**
+
+**\* Database security**
+
+**\* Avoid trusting client-side user IDs**
+
+**\* Never put Hugging Face secrets in frontend code**
+
+
+
+**If something is insecure, tell me.**
+
+
+
+**---**
+
+
+
+**# 14. Teaching Mode**
+
+
+
+**This is extremely important.**
+
+
+
+**I want to learn while building.**
+
+
+
+**Whenever you introduce something new, explain it briefly.**
+
+
+
+**For example, if you create:**
+
+
+
+**```javascript**
+
+**fetch("/api/subjects")**
+
+**```**
+
+
+
+**explain:**
+
+
+
+**\* What fetch does**
+
+**\* What an HTTP request is**
+
+**\* What `/api/subjects` represents**
+
+**\* What the backend does with the request**
+
+**\* What JSON is**
+
+
+
+**Do not give me huge textbook explanations.**
+
+
+
+**Give me the practical explanation I need to understand the code.**
+
+
+
+**---**
+
+
+
+**# 15. Antigravity Workflow**
+
+
+
+**Work with me interactively.**
+
+
+
+**After completing each meaningful phase:**
+
+
+
+**1. Tell me what was built.**
+
+**2. Explain the important concepts.**
+
+**3. Tell me exactly how to run/test it.**
+
+**4. Tell me what I should look at in the code.**
+
+**5. Ask me to verify that it works.**
+
+**6. ONLY then continue to the next phase.**
+
+
+
+**Do not blindly continue through the entire project.**
+
+
+
+**If something fails, debug it with me.**
+
+
+
+**Before modifying large parts of the project, explain what you intend to change.**
+
+
+
+**---**
+
+
+
+**# 16. Git**
+
+
+
+**Use Git properly.**
+
+
+
+**Create logical commits such as:**
+
+
+
+**\* initial project setup**
+
+**\* frontend setup**
+
+**\* backend setup**
+
+**\* dashboard UI**
+
+**\* authentication**
+
+**\* database integration**
+
+**\* AI tutor**
+
+**\* quiz generation**
+
+**\* analytics**
+
+
+
+**Teach me what each commit represents.**
+
+
+
+**Do not make meaningless commits for every tiny change.**
+
+
+
+**---**
+
+
+
+**# 17. Documentation**
+
+
+
+**Maintain a useful README containing:**
+
+
+
+**\* Project description**
+
+**\* Features**
+
+**\* Tech stack**
+
+**\* Architecture**
+
+**\* Installation**
+
+**\* Environment variables**
+
+**\* Running frontend**
+
+**\* Running backend**
+
+**\* Database setup**
+
+**\* Hugging Face setup**
+
+**\* API documentation**
+
+**\* Deployment instructions**
+
+
+
+**Keep the README updated as the project evolves.**
+
+
+
+**---**
+
+
+
+**# 18. First Task — DO NOT BUILD THE WHOLE APP YET**
+
+
+
+**For your FIRST response:**
+
+
+
+**### Step 1**
+
+
+
+**Inspect my environment.**
+
+
+
+**Check:**
+
+
+
+**\* Node**
+
+**\* npm**
+
+**\* Python**
+
+**\* pip**
+
+**\* Git**
+
+
+
+**### Step 2**
+
+
+
+**Tell me exactly what is installed and what is missing.**
+
+
+
+**### Step 3**
+
+
+
+**Explain the architecture we are going to build.**
+
+
+
+**### Step 4**
+
+
+
+**Propose the final folder structure.**
+
+
+
+**### Step 5**
+
+
+
+**Give me the exact setup commands you intend to run.**
+
+
+
+**### Step 6**
+
+
+
+**Wait for my confirmation before proceeding with the next major phase.**
+
+
+
+**Do NOT generate the entire application now.**
+
+
+
+**Do NOT skip directly to the finished website.**
+
+
+
+**We are going to build StudyOS step-by-step and I want to understand what is happening.**
+
+
+
+**study-os/**
+
+**├── .gitignore**
+
+**├── README.md**
+
+**├── frontend/**
+
+**│   ├── index.html**
+
+**│   ├── package.json**
+
+**│   ├── vite.config.js**
+
+**│   ├── tailwind.config.js**
+
+**│   ├── postcss.config.js**
+
+**│   ├── .env.example**
+
+**│   ├── public/**
+
+**│   └── src/**
+
+**│       ├── assets/**
+
+**│       ├── components/**
+
+**│       │   ├── common/           # Button, Input, Modal, GlassCard, LoadingSpinner, EmptyState**
+
+**│       │   ├── layout/           # Sidebar, Navbar, PageContainer**
+
+**│       │   ├── dashboard/        # StatCard, ProgressChart, RecentActivity**
+
+**│       │   ├── subjects/         # SubjectCard, AddSubjectModal**
+
+**│       │   ├── materials/        # MaterialViewer, MaterialUploader**
+
+**│       │   ├── tutor/            # ChatInterface, MessageBubble, PromptSuggestions**
+
+**│       │   ├── quiz/             # QuizCard, ActiveQuiz, QuestionTimer, ScoreSummary**
+
+**│       │   ├── flashcards/       # FlashcardDeck, FlipCard, StudyMode**
+
+**│       │   └── analytics/        # MasteryScore, StudyTimeHeatmap, QuizPerformance**
+
+**│       ├── context/              # AuthContext, ThemeContext, ToastContext**
+
+**│       ├── hooks/                # useAuth, useApi, useQuizTimer, useFlashcards**
+
+**│       ├── pages/                # Landing, Login, Register, Dashboard, Subjects, SubjectDetail, Material, Tutor, Quiz, Flashcards, Analytics, Settings**
+
+**│       ├── services/             # api.js, authService.js, aiService.js**
+
+**│       ├── types/ or utils/      # constants.js, helpers.js**
+
+**│       ├── App.jsx**
+
+**│       ├── main.jsx**
+
+**│       └── index.css**
+
+**└── backend/**
+
+&#x20;   **├── requirements.txt**
+
+&#x20;   **├── .env.example**
+
+&#x20;   **├── app/**
+
+&#x20;   **│   ├── \_\_init\_\_.py**
+
+&#x20;   **│   ├── main.py               # FastAPI app initialization, CORS, middleware**
+
+&#x20;   **│   ├── core/**
+
+&#x20;   **│   │   ├── \_\_init\_\_.py**
+
+&#x20;   **│   │   ├── config.py         # App settings \& environment variables**
+
+&#x20;   **│   │   ├── security.py       # Auth verification \& token handling**
+
+&#x20;   **│   │   └── database.py       # Supabase client initialization**
+
+&#x20;   **│   ├── models/               # Pydantic schema validation**
+
+&#x20;   **│   │   ├── \_\_init\_\_.py**
+
+&#x20;   **│   │   ├── auth.py**
+
+&#x20;   **│   │   ├── subject.py**
+
+&#x20;   **│   │   ├── material.py**
+
+&#x20;   **│   │   ├── quiz.py**
+
+&#x20;   **│   │   ├── flashcard.py**
+
+&#x20;   **│   │   └── analytics.py**
+
+&#x20;   **│   ├── routers/              # API route controllers**
+
+&#x20;   **│   │   ├── \_\_init\_\_.py**
+
+&#x20;   **│   │   ├── auth.py           # /auth/\***
+
+&#x20;   **│   │   ├── subjects.py       # /subjects/\***
+
+&#x20;   **│   │   ├── materials.py      # /materials/\***
+
+&#x20;   **│   │   ├── ai.py             # /ai/chat, /ai/summarize, /ai/quiz, /ai/flashcards**
+
+&#x20;   **│   │   ├── quizzes.py        # /quizzes/\***
+
+&#x20;   **│   │   ├── flashcards.py     # /flashcards/\***
+
+&#x20;   **│   │   └── analytics.py      # /analytics/\***
+
+&#x20;   **│   └── services/             # Business logic \& external clients**
+
+&#x20;   **│       ├── \_\_init\_\_.py**
+
+&#x20;   **│       ├── hf\_client.py      # Hugging Face API client \& prompt templates**
+
+&#x20;   **│       ├── supabase\_client.py**
+
+&#x20;   **│       └── analytics\_engine.py**
+
+**it gave me an implementation plan**
+
